@@ -1,0 +1,104 @@
+.. include:: ../include/html-entities.txt
+
+Thank You
+=========
+
+**Thank You** to all who have signed the `Petition <http://www.thepetitionsite.com/1/support-petition-to-withdraw-lasik-approval>`_! The petition will remain open to new signatures. 
+
+On August 17th, a 42\ |ndash|\ page PDF document containg the first 505 signatures, together with their comments, was sent by certified mail to the following FDA officials:
+
+1. Margaret A. Hamburg, M.D., Commissioner Food and Drug Administration
+2. Gregory O'Connell, U.S. Food & Drug Administration Division of Postmarket Surveillance 
+3. Doug Wood, Acting Director, U.S. Food & Drug Administration Division of Postmarket Surveillance 
+4. Steven Silverman, U.S. Food & Drug Administration Center for Devices and Radiological Health Office of Compliance
+5. David Buckles, Ombudsman, Center for Devices and Radiological Health Food and Drug Administration
+6. Jeffrey Shuren, M.D., J.D., U.S. Food & Drug Administration Center for Devices and Radiological Health, Office of the Center Director
+7. Director, U.S. Food & Drug Administration Center for Devices and Radiological Health Office of Device Evaluation, Division of Ophthalmic, Neurological, and ENT Devices 
+
+Below are return receipts confirming delivery.
+
+Delivery Confirmations
+----------------------
+
+1. FDA Commissioner, Dr. Margaret Hamburg, M.D.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: images/commissioner-hamburg-confirmation-blackened.jpg
+   :height: 589 px
+   :width: 934 px
+   :scale: 100 %
+   :align: center
+   :alt: alternate text
+   :figclass: custom-figure
+
+   Margaret A. Hamburg, M.D., Commissioner 
+   U.S. Food and Drug Administration 
+   Department of Health and Human Services, 
+   10903 New Hampshire Avenue,
+   WO 2200, 
+   Silver Spring, MD, 20993
+ 
+   Certified mail return receipt confirming delivery
+
+2. Doug Wood, Acting Director, FDA, Division of Postmarket Surveillance.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: images/doug-wood-confirmation-blackened.jpg
+   :height: 589 px
+   :width: 934 px
+   :scale: 100 %
+   :align: center
+   :alt: alternate text
+   :figclass: custom-figure
+
+   Doug Wood, Acting Director,
+   U.S. Food and Drug Administration 
+   Department of Health and Human Services, 
+   Divison of Postmarket Surveillance,
+   10903 New Hampshire Avenue, 
+   WO 66-3219, 
+   Silver Spring, MD, 20993
+ 
+   Certified mail return receipt confirming delivery
+
+3. Director, FDA, Center for Devices and Radiological Health, Division of Opthalmic, Neurological and ENT Devices
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: images/director-cdrh-opthalmic-etc-devices-blackened.jpg
+   :height: 589 px
+   :width: 934 px
+   :scale: 100 %
+   :align: center
+   :alt: alternate text
+   :figclass: custom-figure
+
+   Director
+   U.S. Food and Drug Administration 
+   Department of Health and Human Services,
+   Center for Devices and Radiological Health, Division of Opthalmic, Neurological and ENT Devices
+   10903 New Hampshire Avenue, 
+   WO 66-1521, 
+   Silver Spring, MD, 20993
+ 
+   Certified mail return receipt confirming delivery
+
+4. Steven Silverman, Director, Center for Devices and Radiological Health, Office of Compliance 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: images/steven-silverman-confirmation-blackened.jpg
+   :height: 589 px
+   :width: 934 px
+   :scale: 100 %
+   :align: center
+   :alt: alternate text
+   :figclass: custom-figure
+
+   Steven Silverman, Director
+   U.S. Food and Drug Administration 
+   Department of Health and Human Services,
+   Center for Devices and Radiological Health, Office of Compliance,
+   10903 New Hampshire Avenue, 
+   WO 66-3521, 
+   Silver Spring, MD, 20993
+ 
+   Certified mail return receipt confirming delivery

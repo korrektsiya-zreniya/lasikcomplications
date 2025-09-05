@@ -1,0 +1,320 @@
+body {
+ margin:20px;
+ background: #7b88b3;
+ height:900px;
+ scrollbar-3dlight-color: #E1D7BB;
+ scrollbar-arrow-color: #73573E;
+ scrollbar-darkshadow-color: #A9A498;
+ scrollbar-face-color: #cbc6b7;
+ scrollbar-highlight-color: #D3CAB0;
+ scrollbar-shadow-color: #BFBAAC;
+ scrollbar-track-color: #cbc6b7
+ height:auto;
+}
+
+div#banner p {
+margin:0px;
+}
+
+
+#container {
+width: 760px;
+margin: 0px auto;
+background:#F2EEDE;
+color: #333;
+border: 1px solid #000;
+line-height: 110%;
+}
+
+#leftnav {
+float: left;
+width: 300px;
+margin: 5px;
+}
+
+#content {
+margin-left: 320px;
+margin-right: 0px;
+padding:10px;
+max-width: 36em;
+border-left:1px solid gray;
+}
+
+#colorborder {
+ width:770px;
+ height:510px;
+ border: 1px solid #000;
+ background:#444;
+ padding:5px;
+ height:auto;
+}
+
+#banner {
+ height:60px;
+ width:760px;
+ background-image:url('images/banner4.jpg');
+ border-bottom:1px solid #000;
+ margin-bottom:0px;
+}
+
+#switcher {
+ float:right;
+ border:1px solid black;
+ padding:3px;
+ margin:3px;
+ background:#FBF1D5;
+}
+
+#switcher a {
+ font-family:Arial;
+ text-decoration:none;
+ color:red;
+}
+
+#switcher a:hover {
+ color:yellow;
+}
+
+/* PAGE INTRO CSS :::::::::::::::::::::::::::::::::::::::::::: */
+
+#description {
+ width:760px;
+ margin-top:-5px;
+ display:inline;
+ height:18px;
+ background:#E0DDCA;
+ border-bottom:6px double #000;
+ margin-bottom:10px;
+}
+
+H1 {
+ font-family:Arial;
+ font-size:24px;
+ text-align:center;
+ color:#2B2A23;
+ margin-top:5px;
+}
+
+#decription img {
+ border:1px solid black;
+ margin: 8px;
+ float:left;
+}
+
+#description p {
+ font-family:Arial,Verdana;
+ font-size:15px;
+ color:black;
+ text-decoration:none;
+ text-align:left;
+ padding:2px;
+ padding-left:4px;
+}
+
+/* HORIZONTAL MENU CSS :::::::::::::::::::::::::::::::::::::::::::: */
+
+#menu {
+ width:760px;
+ margin:0px;
+ margin-bottom:5px;
+ float:left;
+ border-top:0px;
+ border-bottom:1px solid black;
+ background:#BAB4A2;
+ display:inline;
+ height:54px;
+ overflow:'hidden';
+ text-align:left;
+}
+
+#menu a {
+ font-family:Arial,Verdana;
+ font-size:15px;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding-right:24px;
+ padding-left:24px;
+ margin:0px;
+ border-right:1px solid #7F7A6B;
+ border-bottom:1px solid #7F7A6B;
+ height:18px;
+ display:inline;
+}
+
+#menu a:hover {
+ background:#FEF7E6;
+ color:#000;
+}
+
+#active {
+ background: #EADB88;
+}
+
+/* VERTICAL MENU--FIXED WIDTH CSS ::::::::::::::::::::::::::::::::::::::::::::*/
+
+#verticalmenu {
+ float:left;
+ border-left:1px solid #242C34;
+ border-right:1px solid #242C34;
+ border-bottom:1px solid #242C34;
+ background:#F4DBAC;
+ margin:5px;
+}
+
+#verticalmenu a {
+ background:#ECE7D4;
+ font-family:Arial,Verdana;
+ font-size:17px;
+ color:#4A6372;
+ text-decoration:none;
+ text-align:left;
+ padding:2px;
+ padding-left:4px;
+ width:100%;
+ display:block;
+}
+
+#verticalmenu a:hover {
+ background:#FBF6D1;
+ color:#000;
+}
+
+.vertheading {
+ border-top:1px solid black;
+ border-bottom:1px solid black;
+ background:#CAC5B8;
+ color:black;
+ font-family:Arial;
+ font-size:17px;
+ margin-bottom:0px;
+ margin-top:0px;
+ text-align:center;
+}
+
+/* COLUMN WIDTH CSS ::::::::::::::::::::::::::::::::::::::::::::*/
+
+.fullwidth {
+ width:96%;
+ margin-bottom:5px;
+ font-family:Arial;
+ font-size:17px;
+ text-align:left;
+ border:1px solid #BAB298;
+}
+
+.fullwidthheader {
+ width:100%;
+ font-size:17px;
+ font-weight:700;
+ text-align:center;
+ margin:0px;
+ display:inline;
+ background:#E6E3DA;
+}
+
+.halfwidth {
+ width:48%;
+ margin:5px;
+ font-family:Arial;
+ font-size:17px;
+ text-align:left;
+ border:1px solid #BAB298;
+ float:left;
+ 
+}
+
+.halfwidthheader {
+ width:100%;
+ font-size:17px;
+ font-weight:700;
+ text-align:center;
+ margin:0px;
+ display:inline;
+ background:#E6E3DA;
+}
+
+.thirdwidth {
+ width:31%;
+ margin-bottom:20px;
+ font-family:Arial;
+ font-size:17px;
+ height:100px;
+ display:inline;
+ margin:5px;
+ padding:5px;
+ text-align:left;
+ float:left;
+}
+
+.thirdwidthheader {
+ width:100%;
+ font-size:17px;
+ font-weight:700;
+ text-align:center;
+ margin:0px;
+ display:inline;
+ background:#EFE5C1;
+ border:1px solid #B9AE95;
+}
+
+/* LEFT IMAGE CSS ::::::::::::::::::::::::::::::::::::::::::::*/
+
+.himage {
+ float:left;
+ border:1px solid #000;
+ margin-right:5px;
+}
+
+/* EMBEDDED LINK CSS ::::::::::::::::::::::::::::::::::::::::::::*/
+
+.link {
+ font-family:Arial;
+ padding:2px;
+ padding-left:4px;
+ padding-right:4px;
+ background:#ECE7D4;
+ border:1px solid #7D949D;
+ height:20px;
+ text-decoration:none;
+ margin:5px;
+ color:#427694;
+}
+
+.link:hover{
+  background:#FBBE77;
+  color:black;
+}
+
+/* GENERIC TAG CSS ::::::::::::::::::::::::::::::::::::::::::::*/
+
+p {
+ font-family:Arial,Verdana;
+ font-size:17px;
+ color:black;
+ text-decoration:none;
+ text-align:left;
+ padding:2px;
+ padding-left:4px;
+}
+
+.boxheading {
+ border-top:1px solid black;
+ border-bottom:1px solid black;
+ background:#D8D4C4;
+ color:black;
+ font-family:Arial;
+ font-size:17px;
+ margin-bottom:0px;
+ margin-top:0px;
+ text-align:center;
+}
+
+.rightfocusbox {
+ float:right;
+ width:200px;
+ padding:5px;
+ background:#CDCAB5;
+ margin:5px;
+ border:1px solid #A3A08B;
+}

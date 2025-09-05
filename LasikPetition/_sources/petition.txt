@@ -1,0 +1,26 @@
+Citizen Petition to withdraw LASIK approval
+===========================================
+
+About
+-----
+
+.. toctree::
+   
+   about/msnbc-interview
+   about/how-you-can-help
+   about/thank-you
+
+Waxler Regulatory Consultancy LLC Citizen Petition
+--------------------------------------------------
+
+.. toctree::
+   
+   petition/introductory-letter
+   petition/introduction
+   petition/action-requested
+   petition/factual-grounds
+   petition/public-warning
+   petition/environmental-impact
+   petition/economic-impact
+   petition/certification
+   petition/appendix

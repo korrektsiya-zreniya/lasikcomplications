@@ -1,0 +1,133 @@
+@import url( http://news.scotsman.com/css/feedLinks.css );
+.menu {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+A.menu333333 {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A.menu333333:hover {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A.menu888888 {
+	COLOR: #888888; TEXT-DECORATION: none
+}
+A.menu888888:hover {
+	COLOR: #888888; TEXT-DECORATION: none
+}
+A.menu999999 {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+A.menu999999:hover {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+A.menuaaaaaa {
+	COLOR: #aaaaaa; TEXT-DECORATION: none
+}
+A.menuaaaaaa:hover {
+	COLOR: #aaaaaa; TEXT-DECORATION: none
+}
+A.menubbbbbb {
+	COLOR: #bbbbbb; TEXT-DECORATION: none
+}
+A.menubbbbbb:hover {
+	COLOR: #bbbbbb; TEXT-DECORATION: none
+}
+A.menucccccc {
+	COLOR: #cccccc; TEXT-DECORATION: none
+}
+A.menucccccc:hover {
+	COLOR: #cccccc; TEXT-DECORATION: none
+}
+A.menudddddd {
+	COLOR: #dddddd; TEXT-DECORATION: none
+}
+A.menudddddd:hover {
+	COLOR: #dddddd; TEXT-DECORATION: none
+}
+A.menueeeeee {
+	COLOR: #eeeeee; TEXT-DECORATION: none
+}
+A.menueeeeee:hover {
+	COLOR: #eeeeee; TEXT-DECORATION: none
+}
+A.menuffffff {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menuffffff:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menuffffff {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menuffffff:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu000000 {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.menu000000:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+TABLE.navigation A {
+	DISPLAY: block; WIDTH: 100%
+}
+A.ticker {
+	FONT-SIZE: 9pt; COLOR: #888888; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.ticker:hover {
+	COLOR: #999999; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.abstract {
+	FONT-SIZE: 8pt; COLOR: #333333; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.abstractheadline {
+	FONT-WEIGHT: bold; COLOR: #333366; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.abstractheadline:hover {
+	FONT-WEIGHT: bold; COLOR: #888888; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.abstractheadlinebig {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #333366; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.abstractheadlinebig:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #888888; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.abstractheadlineunbold {
+	FONT-WEIGHT: normal; COLOR: #333366; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.abstractheadlineunbold:hover {
+	FONT-WEIGHT: normal; COLOR: #888888; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.article {
+	FONT-SIZE: 8pt; COLOR: #333333; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.articleheadline {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #333333; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.articlesubheadline {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.articlecaption {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #888888; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.articlequote {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #333333; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.darkest {
+	COLOR: #333333; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.darkest:hover {
+	COLOR: #999999; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.printeremail {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #888888; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.printeremail:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #aaaaaa; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.printeremailffffff {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.printeremailffffff:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #cccccc; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}

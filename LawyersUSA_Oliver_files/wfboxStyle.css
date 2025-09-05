@@ -1,0 +1,18 @@
+.BorderUp {
+	POSITION: relative; BACKGROUND-COLOR: #ffffcc; TEXT-DECORATION: none
+}
+.BorderDown {
+	POSITION: relative; BACKGROUND-COLOR: #ffff99; TEXT-DECORATION: none
+}
+.webfaxBody {
+	FONT: 11px Arial,sans-serif; COLOR: black
+}
+.webfaxBody A {
+	FONT: 11px Arial,sans-serif; COLOR: black
+}
+.webfaxBody A:visited {
+	FONT: 11px Arial,sans-serif; COLOR: black
+}
+.webfaxBody {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}

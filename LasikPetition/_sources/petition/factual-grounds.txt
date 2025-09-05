@@ -1,0 +1,875 @@
+.. include:: ../include/html-entities.txt
+
+.. role:: small-text
+
+.. The line below .. _Factual Grounds provides a reference that can be linked to using :ref:`Factual Grounds`
+
+.. _factual-grounds:
+
+II. Factual Grounds
+===================
+
+Manufacturers and their collaborators (including but not limited to clinics, refractive surgeons, and
+agents) withheld and distorted safety and effectiveness data (Section A) submitted to the Food and Drug
+Administration (FDA) so that LASIK devices would appear to have:
+
+* A FDA\ |ndash|\ acceptable adverse event rate of ≤1%, rather than the true rate of at least 20% 
+* Only temporary adverse effects when, in fact, some persist for 6 months to many years 
+* >90% effectiveness when the true rate is approximately 57% [cit6]_
+
+Starting during my tenure, FDA decision--making on LASIK devices was dominated by LASIK
+surgeons working hand--in--glove with LASIK manufacturers. Data recently brought to light exposes
+this partnership for what it was: a classic example of the fox guarding the henhouse, wherein the
+primary arbiters of safety and effectiveness of LASIK devices were the device manufacturers and its
+collaborators. Surgeons used LASIK devices in violation of required manufacturing quality controls
+(21 CFR 820), patient protections (including but not limited to 21 CFR 50; 54; 56; and 812), and
+reports of adverse events (including but not limited to 21 CFR 803; 812; and 820) when they
+manufactured and distributed LASIK devices in interstate commerce within the United State as:
+
+* Homemade lasers (“black boxes”)
+* Imported investigational lasers (“grey boxes”)
+* Illegal key cards (“Bermuda cards”) and
+* “Off--label” photorefractive keratectomy (PRK) lasers
+
+As a consequence the FDA was deprived of knowledge of the full extent of LASIK injuries prior to and
+during FDA reviews of documents submitted in support of the safety and effectiveness of LASIK devices
+under 21 CFR 812 and 21 CFR 814. In addition, LASIK manufacturers and their collaborators withheld
+safety and effectiveness information from their investigational device exemption (IDE) reports to the
+FDA. In addition, they hid LASIK injuries from FDA within the context of out--of--court settlement of
+innumerable lawsuits. Clinic--sponsored IDE studies cherry--picked, withheld, and hid data from FDA that
+clearly showed LASIK with excessive adverse event rates (greater than 1%). These activities were an
+industry--wide effort, organized wholly or in part by the manufacturers and their collaborators in order to
+circumvent FDA law and regulation. I will submit CONFIDENTIAL information on these matters
+separately to FDA’s Office of Criminal Investigation.
+
+Published scientific data shows LASIK devices induce an average adverse event rate of about 22% that
+persists beyond six months to five or more years. Moreover, the published data (Section B) shows that
+LASIK devices transform healthy corneas into sick corneas that:
+
+* Never completely heal
+* Are permanently weakened, vulnerable to trauma and inflammation
+* Cause neuropathic dry eyes
+* Have pathology that progresses annually
+* Are vulnerable to blinding corneal bulging (keratectasia)
+* Compromises night vision
+* Have unstable vision corrections that regress
+* Require eye care that otherwise would not be needed
+
+A. PMA Applicants Withheld and Distorted Safety Data In Submissions to FDA
+--------------------------------------------------------------------------
+
+Figure 1 is a LASIK industry graph [#f1]_ falsely showing that dry eyes, night vision, glare, and halos do not
+occur six months after LASIK. FDA reproduces the manufacturer’s graph on its website without
+attribution or identification of the evidence upon which it is based [#f2]_. Visitors to the LASIK
+manufacturer’s website [#f3]_ are sent to FDA’s LASIK website to view the graph as if it was FDA’s.
+Manufacturers knew (and know) that these adverse events occur with a frequency much higher than 1% at
+6 months post--LASIK.
+
+Figure 1 is an example of untruthful and inaccurate information submitted to the FDA by manufacturers
+and their collaborators in support of premarket applications (PMA) for LASIK devices (P970005,
+P990010, P970053, P970043, P900016, P980008, P930016, P020050, P030008, P930008, P060004).
+These manufacturers and their collaborators have been engaged in, and still are engaged in, a pattern of
+falsifying, misrepresenting, manipulating, and withholding safety and effectiveness data from FDA to
+make their LASIK devices appear safer than they are.
+
+.. figure:: images/figure-1.jpg
+   :alt: LASIK Industry Graph Showing False Data
+   :align: center 
+   :scale: 100 %
+   :figclass: custom-figure
+
+   **Figure 1. LASIK Industry Graph Showing False Data.** From: http://www.agingeye.net/lasik/lasik.php
+
+1. Falsified and Misrepresented Data in Submissions to FDA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+LASIK manufacturers and their collaborators made and are making false statements to FDA when they
+report and label their devices with an adverse event rate of less than 1%. Figures 2--7 show that the
+manufacturers knew (know) that the adverse event rates are much higher than 5% and persist for at least
+12 months. The vertical axis on each of these figures is percent post--LASIK vision changes compared to
+pre--operative values. The horizontal axis on each figure is the follow--up (FU) month post--LASIK at
+which data was collected. These data are taken from manufacturers documents submitted to FDA and
+identified in Table 1 [cit7]_.
+
+.. figure:: images/figure-2.jpg
+   :alt: LASIK Induced Adverse Events
+   :align: center
+   :scale: 80 %
+   :figclass: custom-figure
+
+   Figure 2 – LASIK Induced Adverse Events.
+
+   The vertical axis is percent post--LASIK vision changes compared to pre--operative values. The horizontal axis
+   is the follow--up (FU) month post--LASIK at which data was collected.
+
+.. figure:: images/figure-3.jpg
+   :alt: LASIK Induced Adverse Events
+   :align: center
+   :scale: 80 %
+   :figclass: custom-figure
+
+   **Figure 3 -- LASIK Induced Adverse Events**
+
+   **The vertical axis is percent post--LASIK vision changes compared to pre--operative values. The horizontal axis is the follow--up (FU) month
+   post--LASIK at which data was collected** 
+
+.. figure:: images/figure-4.jpg
+   :alt: LASIK Induced Adverse Events
+   :align: center
+   :scale: 80 %
+   :figclass: custom-figure
+
+   **Figure 4 -- LASIK Induced Adverse Events**
+
+   The vertical axis is percent post--LASIK vision changes compared to pre--operative values. The horizontal axis is the follow--up (FU) month post--
+   LASIK at which data was collected.
+
+.. figure:: images/figure-5.jpg
+   :alt: LASIK Induced Adverse Events
+   :align: center
+   :scale: 80 %
+   :figclass: custom-figure
+
+   **Figure 5 -- LASIK Induced Adverse Events**
+
+   The vertical axis is percent post--LASIK vision changes compared to pre--operative values. The horizontal axis is the follow--up (FU) month post--
+   LASIK at which data was collected.
+
+.. figure:: images/figure-6.jpg
+   :alt: LASIK Induced Adverse Events
+   :align: center
+   :scale: 80 %
+   :figclass: custom-figure
+
+   **Figure 6 -- LASIK Induced Adverse Events**
+
+   The vertical axis is percent post--LASIK vision changes compared to pre--operative values. The horizontal axis is the follow--up (FU) month post--
+   LASIK at which data was collected.
+
+.. figure:: images/figure-7.jpg
+   :alt: LASIK Induced Adverse Events
+   :align: center
+   :scale: 80 %
+   :figclass: custom-figure
+
+   **Figure 7 -- LASIK Induced Adverse Events**
+
+   The vertical axis is percent post--LASIK vision changes compared to pre--operative values. The horizontal axis is the follow--up (FU) month post--
+   LASIK at which data was collected.
+
+The data shown in Figure 2--7 clearly show substantial adverse effects beyond six months post--LASIK.
+The following section shows that manufacturers and their collaborators pressured FDA to not count these
+adverse effects in the “adverse event rate”.
+
+.. _manufacturers-pressured:
+
+2. Manufacturers Pressured FDA to Not Count Certain Adverse Events.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+FDA originally counted glare, halos, dry eye, night driving difficulties, and similar problems after
+excimer laser refractive surgery as adverse events, e.g. page 16 of the Patient Information Brochure
+for P970053c says “…adverse events beyond the first few months: night vision difficulty (48.1% at
+six months)…glare (34.4% at 6 months)…” LASIK manufacturers and their collaborators
+successfully pressured FDA to classify these problems as mere “symptoms” so that manufacturers
+could claim that the adverse event rate is less than one percent. FDA required an adverse event rate
+of less than one percent of eyes [#f4]_. In 2009 FDA publicly acknowledged that “…halos, glare, night
+vision problems, and dry eye from LASIK should be reported to FDA..,” [#f5]_, in other words that these
+problems are “reportable events” and thus adverse unless proven unrelated to LASIK. The result is
+that the true adverse event for LASIK devices is much higher than 1% [cit8]_.
+
+In addition to falsifying and misrepresenting these adverse events the manufacturers and their
+collaborators withheld significant adverse event data from FDA.
+
+3. Manufacturers Withheld Safety Data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Table 1 shows that LASIK manufacturers withheld an average of about 30% of the follow--up data on
+adverse events, including but not limited to dry eyes, night vision problems, glare, and halos (see Table
+1A in the Appendix for sources of the data). Manufacturers asserted that the missing data was not
+submitted because vision outcomes were so good that subjects would not come back for post--operative
+visits [#f6]_. They repeatedly made this claim in meetings with FDA.
+
+.. comment I didn't this table as raw html because I did not see a way to get right alignmenI didn't this table as raw html because I did not see a way to get right alignment   
+
+.. raw:: html
+
+   <table class="general-table-style bold-caption"> 
+   <caption>Table 1 – Percent Adverse Events Data Withheld by Manufacturers</caption> 
+   <thead>
+   <tr><th>Manufacturer</th><th>Follow-Up (months)</th><th class="head">% Data Withheld</th></tr> 
+   </thead> 
+   <tbody> 
+   <tr><td>Kremer LASIK</td> <td class="right">12</td> <td class="right">79.9</td> </tr> 
+   <tr><td>Kremer LASIK</td> <td class="right">12</td> <td class="right">39.7</td> </tr> 
+   <tr><td>VISX LASIK</td> <td class="right">3</td> <td class="right">62.1</td> </tr> 
+   <tr><td>Nidek EC&ndash;5000</td> <td class="right">12</td> <td class="right">41.5</td> </tr> 
+   <tr><td>LADARVision</td> <td class="right">6</td> <td class="right">57.9</td> </tr> 
+   <tr><td>VISX Star S2, S3</td> <td class="right">6</td> <td class="right">29.4</td> </tr> 
+   <tr><td>LaserSight</td> <td class="right">6</td> <td class="right">88.2</td> </tr> 
+   <tr><td>LaserSight</td> <td class="right">6</td> <td class="right">73</td> </tr> 
+   <tr><td>VISX</td> <td class="right">6</td> <td class="right">4.3</td> </tr> 
+   <tr><td>LADARVision 4000</td> <td class="right">6</td> <td class="right">68.1</td> </tr> 
+   <tr><td>VISX Star S4</td> <td class="right">6</td> <td class="right">22.3</td> </tr>
+   <tr><td>Allegretto Wave</td> <td class="right">3</td> <td class="right">7.6</td> </tr>
+   <tr><td>Allegretto Wave</td> <td class="right">6</td> <td class="right">10.3</td> </tr>
+   <tr><td>LADARVision 4000</td> <td class="right">3</td> <td class="right">29.9</td> </tr> 
+   <tr><td>VISX Star S4</td> <td class="right">6</td> <td class="right">1.1</td> </tr> 
+   <tr><td>VISX WaveScan</td> <td class="right">6</td> <td class="right">7</td> </tr>
+   <tr><td>VISX Star S4</td> <td class="right">6</td> <td class="right">41.8</td> </tr>
+   <tr><td>Allegretto Wave</td> <td class="right">6</td> <td class="right">12.3</td> </tr>
+   <tr><td>LADARVision 4000</td> <td class="right">6</td> <td class="right">20.2</td> </tr> 
+   <tr><td>LADARVision 4000 &amp; 600</td> <td class="right">6</td><td class="right">0</td></tr> 
+   <tr><td>Allegretto Wave</td><td class="right">3</td> <td class="right">4.2</td></tr>
+   <tr><td>Allegretto Wave</td><td class="right">3</td><td class="right">6.4</td></tr>
+   <tr><td>MEL&ndash;80</td> <td class="right">6</td><td class="right">2.2</td></tr>
+   <tr><td>Nidek EC&ndash;5000</td> <td class="right">12</td> <td class="right">5.2</td></tr> 
+   <tr><td>VISX Star Wave</td> <td class="right">12</td> <td class="right">9.4</td></tr> 
+   <tr><td colspan="3" class="right">Sum = 724</td></tr>
+   <tr><td colspan="3" class="right">N = 25</td></tr>
+   <tr><td colspan="3" class="right">Mean = 29.7</td></tr>
+   </tbody> 
+   </table>
+
+Manufacturers and their collaborators withheld more than 10% of the adverse event data from 13 of the
+25 studies, more than 20% from 12 studies, and more than 40% from seven studies. In addition, they
+withheld information from FDA about LASIK injuries that resulted in lawsuits and out--of--court
+
+settlement that occurred during investigational studies and during FDA review of the PMAs.
+Manufacturers and their collaborators did not report these adverse events to FDA during my tenure at
+FDA [#f7]_.
+
+The “true” adverse event rate is more than 1% at 6 months post--LASIK (Figures 2--7) [cit9]_. For example, the
+manufacturers reported to FDA that dry eyes occur at ~21% (Figure 7, Table 3A), night vision problems
+at ~11% (Figure 6, Table 3A), glare at ~12% (Figure 6, Table 3A), and halos at ~14% (Figure 7).
+However, the published literature shows that these four adverse event rates are approximately 22%, 16%,
+20%, and 19% respectively (Table 2). Thus the “true” adverse event rate six months or more post--LASIK
+is at least 20 times the FDA approvable rate of 1%.
+
+.. table:: **Table 2. Adverse Event (AE) Rates at >6 Months After LASIK**
+   :class: general-table-style bold-caption td-text-align-center td-vertical-align-middle table-width-95
+
+   +---------------+-------------------------------------------------------------+---------------------------+
+   |               |                                                             |                           |
+   | Adverse Event | Published Adverse Event Rates                               | Adverse Event Rate (%)    |
+   |               +-----------------------------------------------+-------------+ Reported by Manufacturers |
+   |               | Reported %                                    |  Mean %     | to FDA                    |
+   +===============+===============================================+=============+===========================+
+   |               | 46.0 [#f8]_                                   |             |                           |
+   |               +-----------------------------------------------+             |                           |
+   |               | 9.0 [#f9]_                                    |             |                           |
+   |               +-----------------------------------------------+             |                           |
+   |               | 35.3 [#f10]_                                  |             |                           |
+   |               +-----------------------------------------------+             |                           |
+   | Dry Eyes      | 12.5 [#f11]_                                  | ~22         | ~20.6                     |
+   |               +-----------------------------------------------+             |                           |
+   |               | 20.8 [#f12]_                                  |             |                           |
+   |               +-----------------------------------------------+             |                           |
+   |               | 27.0 [#f13]_                                  |             |                           |
+   |               +-----------------------------------------------+             |                           |
+   |               | 4.0 [#f14]_ :small-text:`5 years post LASIK`  |             |                           |
+   +---------------+-----------------------------------------------+-------------+---------------------------+
+   |               | >6.19 [#f15]_                                 |             |                           |
+   |               +-----------------------------------------------+             |                           |
+   |               | 5.15 [#f16]_                                  |             |                           |
+   |               +-----------------------------------------------+             |                           |
+   |               | 10.3 [#f17]_                                  |             |                           |
+   |               +-----------------------------------------------+             |                           |
+   |               | 7.1 [#f18]_                                   | ~16         | ~10.9                     |
+   |               +-----------------------------------------------+             |                           |
+   | Night Vision  | 4.7 [#f19]_                                   |             |                           |
+   | Problems      +-----------------------------------------------+             |                           |
+   |               | 29.5 [#f20]_                                  |             |                           |
+   |               +-----------------------------------------------+             |                           |
+   |               | 29.0 [#f21]_                                  |             |                           |
+   |               +-----------------------------------------------+             |                           |
+   |               | 11.7 [#f22]_                                  |             |                           |
+   |               +-----------------------------------------------+             |                           |
+   |               | 33.8 [#f23]_                                  |             |                           |
+   |               +-----------------------------------------------+             |                           |
+   |               | 24.0 [#f24]_ :small-text:`5 years post LASIK` |             |                           |
+   +---------------+-----------------------------------------------+-------------+---------------------------+
+   |               | 12.0 [#f25]_                                  |             |                           |
+   | Glare         +-----------------------------------------------+             |                           |
+   |               | 16.3 [#f26]_                                  |             |                           |  
+   |               +-----------------------------------------------+ ~20         | ~11.6                     |                
+   |               | 27.2 [#f27]_                                  |             |                           |                     
+   |               +-----------------------------------------------+             |                           |                    
+   |               | 24.5 [#f28]_ :small-text:`5 years post LASIK` |             |                           |
+   +---------------+-----------------------------------------------+-------------+---------------------------+
+   |               | 24.7 [#f29]_                                  |             |                           |
+   | Hallos        +-----------------------------------------------+  ~19        | ~14.1                     |
+   |               | 30.0 [#f30]_                                  |             |                           |
+   |               +-----------------------------------------------+             |                           |
+   |               | 3.0 [#f31]_ :small-text:`5 years post LASIK`  |             |                           |
+   +---------------+-----------------------------------------------+-------------+---------------------------+
+
+LASIK manufacturers and their collaborators emphasized “patient satisfaction” to divert FDA attention
+from continuing LASIK-patient complaints about glare, halos, dry eye and night driving problems.
+Reports by refractive surgeons that most patients are satisfied [#f32]_ with LASIK even as they report dry eyes
+and night vision impairment are suspect. Perhaps patients did not have these adverse events when they
+were asked if they were satisfied. Or, perhaps it was because post-LASIK complications surfaced months
+or years after LASIK surgery. Or the patient may report high satisfaction because of a need to justify to
+have LASIK in the first place.
+
+LASIK manufacturers continue to falsely label their LASIK devices as having an adverse event rate of
+≤1% (see manufacturers’ patient brochures [#f33]_). To this moment they and their collaborators have been
+successfully engaged in a pattern of falsifying, misrepresenting, manipulating, and withholding safety and
+effectiveness data from FDA to make their LASIK devices appear safer than they are.
+
+4. Manufacturers Distorted Effectiveness of LASIK Device
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Table 3 shows manufacturers knew that about 43% of LASIK patients’ visual acuity could be improved
+by wearing spectacles 6--12 months after surgery. The manufacturers and their collaborators distorted this
+evidence.
+
+.. comment I didn't this table as raw html because I did not see a way to get right alignmenI didn't this table as raw html because I did not see a way to get right alignment   
+
+.. raw:: html
+
+   <table class="general-table-style blue-header bold-caption">
+   <caption>Table 3 &mdash; Percent Patients That May Need Spectacles 6&ndash;12 Months After LASIK</caption>
+   <thead>
+   <tr><th>Manufacturer</th><th> FU (mos)</th><th> Spectacles May be Needed</th></tr>
+   </thead>
+   <tbody>
+   <tr><td>Kremer LASIK</td><td class="right">12</td><td class="right">32.7</td></tr>
+   <tr><td>Kremer LASIK</td><td class="right">12</td><td class="right">39.9</td></tr>
+   <tr><td>VISX Star S2</td><td class="right">6</td><td class="right">54.1</td></tr>
+   <tr><td>Nidek EC&ndash;5000</td><td class="right">12</td><td class="right">48.9</td></tr>
+   <tr><td>LADARVision</td><td class="right">9</td><td class="right">67.3</td></tr>
+   <tr><td>LADARVision</td><td class="right">9</td><td class="right">43.4</td></tr>
+   <tr><td>VISX Star S2, S3</td><td class="right">6</td><td class="right">48.1</td></tr>
+   <tr><td>LaserSight</td><td class="right">12</td><td class="right">51.8</td></tr>
+   <tr><td>VISX Star S2,S3</td><td class="right">6</td><td class="right">61.8</td></tr>
+   <tr><td>LADARVision 4000</td><td class="right">6</td><td class="right">17.3</td></tr>
+   <tr><td>VISX Star S4</td><td class="right">12</td><td class="right">27.9</td></tr>
+   <tr><td>Allegretto Wave</td><td class="right">12</td><td class="right">87.4</td></tr>
+   <tr><td>Allegretto Wave</td><td class="right">12</td><td class="right">67.5</td></tr>
+   <tr><td>LADARVision 4000</td><td class="right">6</td><td class="right">22.9</td></tr>
+   <tr><td>VISX Star S4</td><td class="right">6</td><td class="right">61.8</td></tr>
+   <tr><td>VISX Star WaveScan</td><td class="right">12</td><td class="right">27</td></tr>
+   <tr><td>VISX Star WaveScan</td><td class="right">12</td><td class="right">28.1</td></tr>
+   <tr><td>Allegretto Wave</td><td class="right">6</td><td class="right">69.4</td></tr>
+   <tr><td>LADARVision 4000</td><td class="right">9</td><td class="right">9.4</td></tr>
+   <tr><td>LADARVision 4000 &amp; 6000</td><td class="right">9</td><td class="right">20.4</td></tr>
+   <tr><td>Alllegretto Wave</td><td class="right">6</td><td class="right">40.3</td></tr>
+   <tr><td>Alllegretto Wave</td><td class="right">6</td><td class="right">42.9</td></tr>
+   <tr><td>MEL-80</td><td class="right">6</td><td class="right">33.4</td></tr>
+   <tr><td>Nidek EC-5000</td><td class="right">12</td><td class="right">1.1</td></tr>
+   <tr><td>MEL-80</td><td class="right">6</td><td class="right">92.7</td></tr>
+   <tr><td>VISX Star Wave</td><td class="right">12</td><td class="right">12.7</td></tr>
+   <tr><td class="right" colspan=3>Sum = 1110.2</td></tr>
+   <tr><td class="right" colspan=3>N = 26</td></tr>
+   <tr><td class="right" colspan=3>Mean = 42.7</td></tr>
+   </tbody>
+   </table>
+
+Initially, one of the FDA effectiveness measures used in the approval of excimer laser refractive surgery
+was the percent of post--LASIK patients that would not need spectacles or contact lenses (e.g.,
+P930016S10 Patient Brochure). However, the manufacturers and their collaborators successfully lobbied
+FDA to eliminate labeling that would indicate the number of patients who might need corrective lenses
+post--LASIK, instead using percent uncorrected visual acuity less than or equal to 20/40. Candidates for
+LASIK are not informed that they have only about a 57% chance of getting rid of their spectacles or
+contact lenses but instead are told that there is a 95% chance that they will see better than 20/40. The
+manufacturers own data (Table 3) also showed that about 43% of patients’ vision could be improved with
+spectacles at 6 – 12 months after surgery.
+
+Published evidence confirms a persistent double--digit adverse event rate for LASIK, and there has been
+no significant trend for improvement in night vision problems and dry eyes with changes in laser
+technology. The evidence from the PMAs show that the LASIK adverse event rate is at least twenty
+times the 1% rate acceptable to FDA and probably would be much worse if the manufacturers and their
+agents had not withheld and distorted the safety data. It is highly unlikely, if not impossible, that the
+FDA would have approved PMAs with a 20% adverse event rate and an effectiveness rate of 57%. Now
+let us turn to scientific evidence showing that LASIK devices transform healthy corneas into unhealthy
+ones (Section B).
+
+Initially, one of the FDA effectiveness measures used in the approval of excimer laser refractive surgery
+was the percent of post--LASIK patients that would not need spectacles or contact lenses (e.g.,
+P930016S10 Patient Brochure). However, the manufacturers and their collaborators successfully lobbied
+FDA to eliminate labeling that would indicate the number of patients who might need corrective lenses
+post--LASIK, instead using percent uncorrected visual acuity less than or equal to 20/40. Candidates for
+LASIK are not informed that they have only about a 57% chance of getting rid of their spectacles or
+contact lenses but instead are told that there is a 95% chance that they will see better than 20/40. The
+manufacturers own data (Table 3) also showed that about 43% of patients’ vision could be improved with
+spectacles at 6 – 12 months after surgery.
+
+Published evidence confirms a persistent double--digit adverse event rate for LASIK, and there has been
+no significant trend for improvement in night vision problems and dry eyes with changes in laser
+technology. The evidence from the PMAs show that the LASIK adverse event rate is at least twenty
+times the 1% rate acceptable to FDA and probably would be much worse if the manufacturers and their
+agents had not withheld and distorted the safety data. It is highly unlikely, if not impossible, that the
+FDA would have approved PMAs with a 20% adverse event rate and an effectiveness rate of 57%. Now
+let us turn to scientific evidence showing that LASIK devices transform healthy corneas into unhealthy
+ones (Section B).
+
+B. LASIK Creates Sick Corneas From Normal Ones
+----------------------------------------------
+
+Published scientific reports demonstrate that LASIK devices make normal corneas sick: the corneal
+interface never heals completely; is permanently weakened and vulnerable to thinning and bulging
+(keratectasia), which may require hard contact lenses and corneal transplant. After LASIK a drier often
+painful and distorted corneal surface compromises night driving.
+
+1. LASIK flap never completely heals
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+LASIK patients have permanently weak and sick corneas. It is shown that all post--mortem LASIK
+corneas examined have “permanent pathological changes” [#f34]_. Since the LASIK flap never heals
+completely [#f35]_ it is at a lifetime risk of dislocation. This fragile flap is vulnerable to traumatic eye injury
+and infection for the remainder of the patient’s life, and numerous reports of dislodged and amputated
+flaps exist in the literature, [#f36]_ even after minor trauma [#f37]_. Diffuse inflammation under the flap (called
+diffuse lamellar keratitis) is reported to occur as late as 12 years postoperatively [#f38]_. The average incidence
+of this surgically induced and sight--threatening inflammation is as high with the newer technology of
+femtosecond laser flap maker as it is with the older mechanical microkeratome [#f39]_.
+
+2. LASIK permanently weakens the cornea
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The post--LASIK cornea has a mechanical strength of only ~2% of normal cornea: "Corneal stromal
+LASIK wounds were found to heal weaker than normal because these structures were not regenerated
+during the healing response. Moreover, the central and paracentral stromal LASIK wounds were found to
+heal by producing a hypocellular primitive stromal scar that is very weak in tensile strength, averaging
+2.4% of normal, and displays no evidence of remodeling over time in specimens out to 6.5 years after
+surgery." [#f40]_
+
+3. LASIK severs corneal nerves, causing neuropathic dry eyes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The nerves destroyed by LASIK devices are needed for tear production. These nerves never fully
+recover, often leading to permanent dry eye disease [#f41]_. Post--LASIK dry eye is a neuropathic
+epitheliopathy, [#f42]_ a medical device induced epidemic. Dry eye is the most common complication of
+LASIK surgery [#f43]_, [#f44]_. Figure 8 shows how LASIK causes neuropathic dry eye [#f45]_.
+
+Patients are not adequately informed of the seriousness and chronic nature of post--LASIK dry eye
+disease. Moderate chronic dry eye produces a pain level comparable to moderate angina to those who
+experience it [#f46]_. Six months after LASIK patients with dry eyes (48%) experience soreness of the eye to
+the touch (6.7%), sharp pains (8.0%), and eyelid sticking to the eyeball (5.6%) [#f47]_.
+
+LASIK induces dry eye in 46% of cases performed with mechanical microkeratomes and 9% with the
+femtosecond laser flap--maker; no subjects had dry eye symptoms preoperatively [#f48]_. Corneal nerves
+severed and ablated by LASIK never return to their pre--surgical densities and patterns [#f49]_. The LASIKinduced
+incidence of dry eyes at six months is reported at 12.5% in eyes with nasal hinges and 35.3% in
+eyes with superior--hinges [#f50]_.
+
+Dry eyes can occur due to contact lens wear but this dry eye is not due to neuropathy. Moreover,
+removing the contact lenses and treatment with eye drops, are likely to restore the cornea surface to
+normality. In contrast, LASIK severs corneal nerves in otherwise healthy eyes causing corneal dryness
+that is essentially permanent since these nerves never completely regenerate.
+
+.. figure:: images/figure-8.jpg
+   :alt: LASIK Industry Graph Showing False Data
+   :align: center
+   :scale: 135 %
+   :figclass: custom-figure
+
+   Figure 8 – LASIK Cuts Corneal Nerves, Causing a Dry and Irritated Cornea
+
+   Based mostly on: Abelson MB. A Different Animal: Post--LASIK Dry Eye.
+   Rev. Ophthalmology, Vol. No: 9:08 Issue: 8/15/02
+   (The statement that “50% LASIK Patients Suffer for More Than Six Months” is based on published data cited in Table 2.)
+
+4. LASIK Devices Induce Progressive Pathology in the Cornea
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+LASIK devices do more damage than cutting corneal nerves; they also cause progressive loss of
+important corneal cells called keratocytes. LASIK devices change the biomechanical, anatomical, and
+molecular dynamics of the eye [#f51]_. The cornea is deformed with a rapid rise and fall of intraocular
+pressure; the flap is cut and brushed back onto a hinge. Then the laser craters the stroma and the flap
+floated to cover the void.
+
+One of the most striking long--term pathological changes in the post--LASIK cornea is the 5--year
+progressive decline in the density of corneal stromal keratocytes [#f52]_. Figure 9 shows this decline and
+Table 4 shows the annual rate of keratocyte loss. Keratocyte density declines in LASIK--induced
+thinning and bulging of the cornea (keratectasia) but NOT in keratoconic corneas [#f53]_. The density of
+keratocytes is probably related to corneal stiffness [#f54]_, however, it not yet known if it is linked to
+keratectasia or some other disease process.
+
+.. figure:: images/figure-9.jpg
+   :alt: LASIK Industry Graph Showing False Data
+   :align: center
+   :scale: 75 %
+   :figclass: custom-figure legend-justify
+
+   Figure 9 – LASIK Causes Progressive Loss of Keratocytes
+
+   From: Erie JC, McLaren JW, Hodge DO, Bourne WM. Long--term corneal keratoctye deficits after photorefractive keratectomy
+   and laser in situ keratomileusis. Trans Am Ophthalmol Soc. 2005;103:56--66; discussion 67--8. 39: “FIGURE 5 Keratocyte
+   density before and after LASIK. In the anterior and posterior stromal flap and the anterior retroablation zone (RAZ), keratocyte
+   density was decreased at all post--LASIK visits from density before LASIK. Cell densities in all remaining stromal layers were
+   first decreased at 5 years after LASIK. \*P < .005 and P < .05, when compared with densities before LASIK.”
+
+.. table:: Table 4. CHANGE IN KERATOCYTE DENSITY BETWEEN 6 MONTHS AND 5 YEARS AFTER LASIK [#f55]_
+   :class: general-table-style blue-header table-width-60 td-text-align-center td-vertical-align-middle top-margin-2em bold-caption
+
+   +------------------------------+--------------------------------+
+   |                              |                                |
+   | Stromal Layer                | Rate of Change (% Per Year)    |
+   +==============================+================================+
+   | Anterior flap                |  –4.3 ± 3.2                    | 
+   +------------------------------+--------------------------------+
+   | Posterior flap               |  –7.2 ± 4.3                    | 
+   +------------------------------+--------------------------------+
+   | Anterior RAZ (0 to 50 μm)    |  –8.4 ± 3.7                    | 
+   +------------------------------+--------------------------------+
+   | Posterior RAZ (51 to 100 μm) |  –2.6 ± 4.1                    | 
+   +------------------------------+--------------------------------+
+   | Posterior 66% to 90%         |  –3.5 ± 3.4                    | 
+   +------------------------------+--------------------------------+
+   | Posterior 91% to 100%        |  –3.1 ± 2.2                    | 
+   +------------------------------+--------------------------------+
+
+5. LASIK Causes Keratectasia, a Sight-Threatening Disorder
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The post--LASIK cornea may become thin and bulge weeks, months, or years later to become the
+potentially blinding condition of keratectasia [#f56]_ Table 5 summarizes some of the reports of
+keratectasia [#f57]_ The absence of keratectasia findings in LASIK is likely due to the failure of long--term
+follow up [#f58]_ an interpretation that is consistent with the failure to report adverse events and to followup
+on patients for an extended period of time. Patients may also choose to see a surgeon or eye care
+practitioner other than the one who performed LASIK and caused the problem they are experiencing.
+
+In a personal communication Dr. Edward Boshnick says that he has at least 75 patients with LASIKinduced
+keratectasia [#f59]_ strongly suggesting a much higher percentage of LASIK--induced bulging of
+the cornea than is reported by refractive surgery businesses (user facilities) in the professional
+journals they control. A worst--case approach would be to select 0.9% as the keratectasia rate. It
+seems likely that there is a large degree of under reporting of keratectasia so that it is likely that
+keratectasia rate is at least 0.66%
+
+.. raw:: html
+
+   <table class="table5-style">
+   <caption><p class="first-part">Table 5 &mdash; Incidence of LASIK Induced Corneal Bulging</p>
+     <p class="second-part">Binder PS. Analysis of ectasia after laser in situkeratomileusis: Risk factors</p></caption>
+   <colgroup>
+   <col width="45%">
+   <col width="35%">
+   <col width="20%">
+   </colgroup>
+   <!--
+   <caption><strong>Table 1.</strong> Reported incidence of post-LASIK ectasia.</caption>
+   -->
+   <tr><td colspan=3 class="heading" ><strong>Table 1.</strong> Reported incidence of post-LASIK ectasia.</td></tr>
+   <tr class="border-top-bot">
+    <td scope="col" class="left">Source</td>
+    <td scope="col" class="center" >Number</td>
+    <td scope="col" class="center">(%)</td>
+   </tr>
+   <tr class="more-padding-top">
+       <td>Reinstein<sup>3,*</sup></td><td class="center"> 6/5212</td><td class="center"> (0.12)</td></tr>
+   <tr>
+        <td>Pallakaris<sup>4</sup></td><td class="center"> 19/2873</td><td class="center"> (0.66)</td>
+   </tr>
+   <tr>
+        <td>Rad<sup>5</sup></td><td class="center"> &mdash;</td><td class="center"> (0.2)</td>
+   </tr>
+   <tr>
+        <td>Condon<sup>6</sup></td><td class="center"> 3/140</td><td class="center"> (0.8)</td>
+   </tr>
+   <tr>
+        <td>Current<sup>&dagger;</sup></td><td class="center"> 3/9283</td><td class="center"> (0.01)</td>
+   </tr>
+   <tr>
+        <td>Kansky<sup>&Dagger;</sup>  </td><td class="center">&mdash;</td><td class="center"> (0.9)</td>
+   </tr>
+   <tr>
+        <td>Sergey <sup>&Dagger;</sup>  </td><td class="center"> 13/23990</td><td class="center"> (0.05)</td>
+   </tr>
+   <tr>
+        <td>Oliviera <sup>&Dagger;</sup></td><td class="center"> 6/2500</td><td class="center"> (0.24)</td>
+   </tr>
+   <tr>
+        <td>Stulting<sup>&sect;</sup>  </td><td class="center"> R1:5000</td><td class="center">&mdash;</td>
+   </tr>
+   <tr class="border-bot">
+        <td>ESCRS registry of ectasia cases (9/2006)</td><td class="center"> 72</td><td class="center">&mdash;</td>
+   </tr>
+   <tr class="more-padding-top">
+        <td colspan=3><sup>*</sup>Projection</td>
+   </tr>
+   <tr>
+        <td colspan=3><sup>&dagger;</sup>Myopic errors</td>
+   </tr>
+   <tr>
+       <td colspan=3><sup>&Dagger;</sup>Data presented at the XXIV Congress of the European Society of Cataract &amp; Refractive Surgeons, London, England, September 2006</td>
+   </tr>
+   <tr class="more-padding-bot">
+       <td colspan=3><sup>&sect;</sup>Data presented at the annual meeting of the American Academy of Ophthalmology, Las Vegas, Nevada, USA, November 2006; projection based on literature reports</td>
+   </tr>
+   </table>
+
+6. LASIK Induces Corneal Distortions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In the attempt to correct defocus (sphere) and astigmatism (cylinder) LASIK devices induce distortions
+that degrade vision. LASIK devices make corneas more pancake--like [#f60]_, often de--centered, warped,
+chaotic, and rough with stromal microfolds [#f61]_.
+
+Several issues must be resolved in order to prevent double--digit rate of the adverse effects of blur, haloes,
+glare and night vision losses [#f62]_,  [#f63]_. These unresolved safety issues include, but are not limited to, laser
+beam characteristics, alignment issues, corneal tissue thickness, spatial ablation efficiency, [#f64]_ large
+variability in flap thickness, tissue biomechanics and healing response [#f65]_ on the alteration of the intended
+surface structure prescribed for a given treatment [#f66]_.
+
+Dr. Leo Maguire forewarned of the public health threat of LASIK in an editorial published in the March,
+1994 edition of American Journal of Ophthalmology: [#f67]_
+
+    “I hope the reader will now understand how a patient may have clinically acceptable 20/20 visual
+    acuity in the daytime and still suffer from clinically dangerous visual aberration at night if that
+    patient’s visual system must cope with an altered refractive error, increased glare, poorer contrast
+    discrimination, and preferentially degraded peripheral vision. People die at night in motor vehicle
+    accidents four times as frequently as they do during the day, and these figures are adjusted for miles
+    driven. Night driving presents a hazardous visual experience to adults without aberrations. When
+    we discuss aberration at night we are considering a possible morbid effect of refractive surgery.”
+
+In a normal eye LASIK can only increase corneal aberrations. LASIK--induced aberrations are significant
+in magnitude, adverse consequences, and frequency. Even the newer wavefront--guided LASIK, that is,
+LASIK guided by aberration measurements of the client’s healthy cornea, increases higher order
+aberrations with commensurate losses in contrast sensitivity in myopic eyes greater than or equal to --6D [#f68]_.
+LASIK increases both corneal and total aberrations with changes in the anterior and posterior corneal
+surfaces contributing to the rise in higher order aberrations [#f69]_, [#f70]_. LASIK may correct distortions such as
+defocus but it induces other distortions. Figure 10 shows the LASIK--induced increase in higher order
+aberrations. [#f71]_
+
+According to published studies, higher order distortions induced by LASIK are significantly correlated
+with loss of quality of vision, [#f72]_ such as loss of contrast sensitivity, [#f73]_ and increases in halos and night
+vision problems [#f74]_, [#f75]_. In addition, LASIK--induced higher order aberrations are more troublesome in
+binocular than in monocular viewing [#f76]_. Moreover, binocular vision worsens during post--LASIK recovery
+because the interocular differences in higher order aberrations increases as each cornea re--models itself to
+the specific pattern of injuries introduced into each eye.
+
+.. figure:: images/figure-10.jpg
+   :alt: LASIK Industry Graph Showing False Data
+   :align: center
+   :scale: 100 %
+   :figclass: custom-figure legend-justify
+
+   Figure 10 – LASIK--Induced Distortions
+
+   From: Moreno--Barriuso E, Lloves JM, Marcos S, et al. Ocular aberrations before and after myopic corneal refractive surgery: LASIKinduced
+   changes measured with laser ray tracing. Invest Ophthalmol Vis Sci 2001; 42:1396--1403: “FIGURE 8.  Average MTF (radial profile) before
+   and after LASIK, computed from the wave aberration, and for a 6.5-­‐mm pupil diameter and 543 nm.  The solid lines are the average across
+   22 eyes, and the bars are the SE for selected frequencies.  The diffraction-­‐limited MTF is included for comparison purposes.” 
+
+Some LASIK manufacturers and allied clinics report waveguided--LASIK devices do not increase higher
+order aberrations [#f77]_ or cause fewer halos and night vision problems than conventional LASIK
+devices. [#f78]_, [#f79]_, [#f80]_ Still others report waveguided--LASIK does increase higher order aberrations [#f81]_ or increase
+aberrations more for one LASIK device than another [#f82]_. Other studies report no significant improvement
+of waveguide--LASIK compared to conventional LASIK. [#f83]_.
+
+7. Persistent post--LASIK Loss of Contrast Sensitivity in Dim Light
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There is considerable evidence that LASIK induces corneal aberrations that are linked to losses in
+contrast sensitivity and critical losses of vision [#f84]_. Most of the decrease in post--LASIK contrast sensitivity
+found can be explained and computed directly from the physical measurement of the wave aberration [#f85]_.
+LASIK increases higher order aberrations and decreases contrast sensitivity at 6 and 12 months. There
+are no data after 12 months but it can be assumed from the high percentage of contrast sensitivity loss and
+night vision disturbances that have been reported remain as long as the cornea is unstable, which appears
+to be many years.
+
+LASIK manufacturers and their collaborators successfully lobbied FDA to use a 6 mm pupil diameter for
+measuring safety and effectiveness instead of a larger one. Also, they successfully lobbied FDA not to
+require LASIK manufacturers to measure contrast sensitivity in dim light before and after LASIK [#f86]_.
+Since the induction of visual aberrations are directly related to pupil size, this practice effectively "clip
+off" aberrations outside the 6 mm central zone and ignore the aberrations that patients see in dim light
+through a large pupil. The consequences of these decisions are seen below.
+
+Table 6 shows contrast sensitivity losses for the VISX LASIK device. At 6 months LASIK reduces low
+contrast visual acuity one to two diopters for 20.2% of the subjects while 2.2% of patients lose more than
+2 diopters. Also, predictably contrast sensitivity losses in dim light are worse (9.1%) than losses in bright
+light (3.8%). Contrast sensitivity in dim light with a glare source is worse (16.4%) than in dim light
+without glare (14.2%) which in turn is worse than in bright light without glare (6.3%). These losses in
+contrast sensitivity persist 12 months after LASIK.
+
+LASIK induces dim light contrast sensitivity losses by light scatter (haze) at high spatial frequencies and
+by defocus (optical aberrations) at medium and high spatial frequencies [#f87]_. Also, LASIK causes loss of
+sensitivity in the midperipheral visual field correlated with refractive error, flap thickness, and optical
+zone diameter [#f88]_.
+
+REMOVE START It is use to generate the citations:  [cit10]_ ,   [cit11]_   [cit12]_   [cit13]_   [cit14]_   [cit15]_  [cit16]_  [cit17]_   [cit18]_  [cit19]_  [cit20]_ REMOVE END
+
+.. raw:: html
+   :file: table6.raw.html
+
+8. LASIK is Unstable and Regresses
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Multiple studies have determined that the effects of LASIK are unstable and regress. Seven years after
+LASIK fifty--five percent are unhappy with their vision and the number of eyes that lost 2 or more lines of
+visual acuity has doubled [#f89]_. Another study found similar results at 8 years with only 39% of highly
+myopic [cit21]_ eyes with a visual acuity of 20/20 uncorrected, along with a significant increase in higher
+order aberrations, and decrease in contrast sensitivity; deterioration in vision occurred even after
+wavefront--guided LASIK [#f90]_. Similar vision deterioration over time has been found after corneal surgery
+with other LASIK devices [#f91]_, [#f92]_.
+
+9. LASIK Creates the Need for Additional Eye Care
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A catalogue of the additional medical care that LASIK patients require is beyond the scope of this
+petition. However, this care is considerable, costly, and often accompanied by additional risk. LASIK
+patients often need treatment for LASIK--induced adverse events including but not limited to dry eyes,
+night vision impairment, diffuse lamellar keratitis, and keratectasia. Two additional problems are
+particularly thorny.
+
+a. LASIK Increases Risk of Undiagnosed Glaucoma
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Having LASIK increases the lifetime risk of undiagnosed glaucoma because the post--LASIK cornea
+produces falsely low intraocular pressure (IOP) readings. IOP measurements are performed during
+routine eye exams to screen for glaucoma. Therefore, vision--threatening glaucoma may go undiagnosed
+and untreated in patients who have had LASIK surgery [#f93]_. Glaucoma is a leading cause of blindness.
+
+b. LASIK Increases risk of Poor Outcome Following Cataract Surgery
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Also, because LASIK devices change corneal shape, the risk of a poor outcome from cataract surgery is
+increased [#f94]_. Most people who have LASIK will require cataract surgery later in life and the surgeon’s
+measurements of post--LASIK corneas to calculate the appropriate intraocular lens (IOL) power will likely
+be inaccurate.
+
+10. Newer LASIK Devices Cause the Same Permanent Corneal Damage as Older Models.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Newer technologies have not resolved problems inherent in the LASIK procedure, such as induction of
+aberrations that impair night vision and nerve damage that causes post--LASIK dry eye [#f95]_. In fact, studies
+show that wavefront--guided and wavefront--optimized LASIK actually increase, not decrease, higher
+order aberrations, reducing visual quality in previously untreated eyes [#f96]_. This study demonstrates that
+wavefront guided LASIK induces a 1.9 fold increase in total aberrations at 6 months, a 5--fold increase in
+vertical distortions and a large increase in spherical aberrations [#f97]_. A review of the literature on
+wavefront--guided LASIK concludes that evidence does not support claims that wavefront out performs
+conventional LASIK [#f98]_. Femtosecond laser flap creation does not reduce the incidence of most
+complications [#f99]_. Furthermore, femtosecond--created laser flaps are more difficult to lift than flaps created
+with a blade, which may result in a higher incidence of torn flaps. The femtosecond laser keratome
+currently requires longer suction on the eye than blade microkeratomes to create the LASIK flap. The
+incidence of suction ring--induced posterior vitreous detachment with blade microkeratomes is high at
+13% overall, and 24% for patients with high myopia in one study [#f100]_. A search of peer--reviewed literature
+reveals problems associated with the femtosecond laser such as slipped flaps, interface inflammation, flap
+folds, infectious keratitis, corneal stromal inflammation, delayed wound healing, macular hemorrhage,
+and gas bubbles in the anterior chamber after surgery [#f101]_.
+
+
+------------ 
+
+.. rubric:: Citations
+
+.. [cit6] Table 1
+.. [cit7] The source documents for these data are identified in Table 1A, Appendix.
+.. [cit8] I will submit CONFIDENTIAL information on these matters to FDA’s Office of Criminal Investigation.
+.. [cit9] See Table 3A, Appendix
+.. [cit10] Table 16 |ndash| 970043S10b
+.. [cit11] Table 19 |ndash| P970043S15b
+.. [cit12] Table 26 |ndash| S20b
+.. [cit13] Table 26 |ndash| S22b
+.. [cit14] Table 19 |ndash| P970043S10b
+.. [cit15] Table 21 |ndash| P970043S15b
+.. [cit16] Table 28 |ndash| S22b
+.. [cit17] Table 11 |ndash| S17b
+.. [cit18] Table 11 |ndash| S20b
+.. [cit19] Table 22 |ndash| S21b
+.. [cit20] Table 36 |ndash| S25b 
+.. [cit21] Highly myopic defined as equal to or greater than |ndash|\6 D. Table 36 |ndash| S25b 
+
+.. rubric:: Footnotes
+
+.. [#f1] http://www.agingeye.net/lasik/lasik.php
+.. [#f2] http://www.fda.gov/MedicalDevices/ProductsandMedicalProcedures/SurgeryandLifeSupport/LASIK/ucm061270.htm
+.. [#f3] http://www.bausch.com/en_US/consumer/surgical/consider.aspx;
+.. [#f4] CDRH, FDA October 10, 1996. Checklist of Information Usually Submitted in an Investigational Device Exemptions (IDE) Application for Refractive Surgery Lasers
+.. [#f5] http://www.lasiknewswire.com/2009/04/fda-update-on-lasik.html
+.. [#f6] FDA, OPHTHALMIC DEVICES PANEL Eighty--Seventh Meeting, Tuesday, January 14, 1997. Comments by Marc Odrich, MD (VISX Inc) pp. 89--92.
+.. [#f7] Confidential information to be submitted to FDA’s Office of Criminal Investigation
+.. [#f8] Salomao MQ, Ambrosio R Jr, Wilson SE. Dry eye associated with laser in situ keratomileusis: mechanical microkeratome versus femtosecond laser. J Cataract Refract Surg 2009; 35:1756–1760
+.. [#f9] Schmidt GW, Yoon M, McGwin G, Lee PP, McLeod SD. Evaluation of the Relationship Between Ablation Diameter, Pupil Size, and Visual Function With Vision--Specific Quality--of--Life Measures After Laser In Situ Keratomileusis. Arch Ophthalmol. 2007;125(8):1037--1042
+.. [#f10] De Paiva CS, Chen Z, Koch DD, Hamill MB, Manuel FK, Hassan SS, Wilhelmus KR, Pflugfelder SC. The incidence and risk factors for developing dry eye after myopic LASIK. Am J Ophthalmol. 2006 Mar; 141(3):438--45.
+.. [#f11] Salomao MQ, Ambrosio R Jr, Wilson SE. Dry eye associated with laser in situ keratomileusis: mechanical microkeratome versus femtosecond laser. J Cataract Refract Surg 2009; 35:1756–1760.
+.. [#f12] Schmidt GW, Yoon M, McGwin G, Lee PP, McLeod SD. Evaluation of the Relationship Between Ablation Diameter, Pupil Size, and Visual Function With Vision--Specific Quality--of--Life Measures After Laser In Situ Keratomileusis. Arch Ophthalmol. 2007;125(8):1037--1042 13 Miller AE, McCulley JP, Bowman RW, Cavanagh HD, Wang XH. Patient satisfaction after LASIK for myopia. CLAO J 2001;27:84–8.
+.. [#f13] Miller AE, McCulley JP, Bowman RW, Cavanagh HD, Wang XH. Patient satisfaction after LASIK for myopia. CLAO J 2001;27:84–8.
+.. [#f14] O'Doherty M, O'Keeffe M, Kelleher C. Five year follow up of laser in situ keratomileusis for all levels of myopia. Br J Ophthalmol. 2006 Jan;90(1):20--3.
+.. [#f15] Schmidt GW, Yoon M, McGwin G, Lee PP, McLeod SD. Evaluation of the Relationship Between Ablation Diameter, Pupil Size, and Visual Function With Vision--Specific Quality--of--Life Measures After Laser In Situ Keratomileusis. Arch Ophthalmol. 2007;125(8):1037--1042
+.. [#f16] Schmidt GW, Yoon M, McGwin G, Lee PP, McLeod SD. Evaluation of the Relationship Between Ablation Diameter, Pupil Size, and Visual Function With Vision--Specific Quality--of--Life Measures After Laser In Situ Keratomileusis. Arch Ophthalmol. 2007;125(8):1037--1042
+.. [#f17] De Paiva CS, Chen Z, Koch DD, Hamill MB, Manuel FK, Hassan SS, Wilhelmus KR, Pflugfelder SC. The incidence and risk factors for developing dry eye after myopic LASIK. Am J Ophthalmol. 2006 Mar; 141(3):438--45.
+.. [#f18] Pop M, Payette Y Risk Factors for Night Vision Complaints after LASIK for Myopia Ophthalmology 2004;111:3–10.
+.. [#f19] Pop M, Payette Y Risk Factors for Night Vision Complaints after LASIK for Myopia Ophthalmology 2004;111:3–10.
+.. [#f20] Schein OD, Vitale S, Cassard SD, Steinberg EP. Patient outcomes of refractive surgery: the Refractive Status and Vision Profile. J Cataract Refract Surg 2001;27:665--673.
+.. [#f21] Miller AE, McCulley JP, Bowman RW, Cavanagh HD, Wang XH. Patient satisfaction after LASIK for myopia. CLAO J 2001;27:84–8.
+.. [#f22] McGhee CN, Craig JP, Sachdev N, Weed KH, Brown AD. Functional, psychological, and satisfaction outcomes of laser in situ keratomileusis for high myopia. J Cataract Refract Surg 2000;26:497–509.  Waxler Regulatory Consultancy LLC 1/6/11 28 of 32
+.. [#f23] Tahzib NG, Bootsma SJ, Eggink FA, et al. Functional outcomes and patient satisfaction after laser in situ keratomileusis for correction of myopia. J Cataract Refract Surg 2005;31: 1943–51.
+.. [#f24] O'Doherty M, O'Keeffe M, Kelleher C. Five year follow up of laser in situ keratomileusis for all levels of myopia. Br J Ophthalmol. 2006 Jan;90(1):20--3.
+.. [#f25] Miller AE, McCulley JP, Bowman RW, Cavanagh HD, Wang XH. Patient satisfaction after LASIK for myopia. CLAO J 2001;27:84–8.
+.. [#f26] Schein OD, Vitale S, Cassard SD, Steinberg EP. Patient outcomes of refractive surgery: the Refractive Status and Vision Profile. J Cataract Refract Surg 2001;27:665--673.
+.. [#f27] Bailey MD, Mitchell G, Dhaliwal D, Wachler BSB, Zadnik K. Patient Satisfaction and Visual Symptoms after Laser in Situ Keratomileusis Ophthalmology Volume 110, Number 7, July 2003 pp 1371--1378.
+.. [#f28] Tahzib NG, Bootsma SJ, Eggink FA, et al. Functional outcomes and patient satisfaction after laser in situ keratomileusis for correction of myopia. J Cataract Refract Surg 2005;31: 1943–51.
+.. [#f29] McGhee CN, Craig JP, Sachdev N, Weed KH, Brown AD. Functional, psychological, and satisfaction outcomes of laser in situ keratomileusis for high myopia. J Cataract Refract Surg 2000;26:497–509.
+.. [#f30] Bailey MD, Mitchell G, Dhaliwal D, Wachler BSB, Zadnik K. Patient Satisfaction and Visual Symptoms after Laser in Situ Keratomileusis Ophthalmology Volume 110, Number 7, July 2003 pp 1371--1378.
+.. [#f31] O'Doherty M, O'Keeffe M, Kelleher C. Five year follow up of laser in situ keratomileusis for all levels of myopia. Br J Ophthalmol. 2006 Jan;90(1):20--3.
+.. [#f32] Solomon KD, Fernández de Castro LE, Sandoval HP, Biber JM, Groat B, Neff KD, Ying MS, French JW, Donnenfeld ED, Lindstrom RL. LASIK World Literature Review: Quality of Life and Patient Satisfaction.  Ophthalmology 2009;116: 691–701.
+.. [#f33] http://www.fda.gov/MedicalDevices/ProductsandMedicalProcedures/SurgeryandLifeSupport/LASIK/ucm192109.htm
+.. [#f34] Ambrósio R, Tervo T, Wilson. LASIK--associated Dry Eye and Neurotrophic Epitheliopathy: Pathophysiology and Strategies for Prevention and Treatment. J Refract Surg. 2008;24:396--407; Philipp WE, Speicher L, Gottinger W, Histological and immunohistochemical findings after laser in situ keratomileusis in human corneas .J Cataract Refract Surg 2003; 29:808–820; Kramer TR, Chuckpaiwong V, Dawson DG, L'Hernault N, Grossniklaus HE, Edelhauser HF. Pathologic findings in postmortem corneas after successful laser in situ keratomileusis. Cornea. 2005 Jan;24(1):92--102; Priglinger SG, May CA, Alge CS, Wolf A, Neubauer AS, Haritoglou C, Kampik A, Welge--Lussen U. Immunohistochemical Findings After LASIK Confirm In Vitro LASIK Model. Cornea, 25(3), April 2006, pp 331--335; Schmack I, Dawson DG, McCarey BE, Waring GO 3rd, Grossniklaus HE, Edelhauser HF. Cohesive tensile strength of human LASIK wounds with histologic, ultrastructural, and clinical correlations. J Refract Surg. 2005 Sep--Oct;21(5):433--45: Patel SV, Erie JC, McLaren, JW, Bourne WM. Confocal Microscopy Changes in Epithelial and Stromal Thickness up to 7 Years After LASIK and Photorefractive Keratectomy for Myopia. J Refract Surg. 2007;23:385--392; Moilanen JAO, Holopainen JM, Vesaluoma MH, Tervo TMT. Corneal recovery after LASIK for high myopia: a 2--year prospective confocal microscopic study. Br J Ophthalmol 2008;92:1397–1402; Ursea R, Feng MT. Traumatic Flap Striae 6 Years After LASIK: Case Report and Literature Review J Refract Surg. 2010 Nov;26(11):899-- 905.
+.. [#f35] Kramer TR, Chuckpaiwong V, Dawson DG, L'Hernault N, Grossniklaus HE, Edelhauser HF.  Pathologic findings in postmortem corneas after successful laser in situ keratomileusis. Cornea. 2005 Jan;24(1):92--102; Nilforoushan MR, Speaker MG, Latkany R. Traumatic flap dislocation 4 years after laser in situ keratomileusis. J Cataract Refract Surg. 2005 Aug;31(8):1664--5; Ramírez M, Quiroz--Mercado H, Hernandez--Quintela E, Naranjo--Tackman R. Traumatic flap dislocation 4 years after LASIK due to air bag injury. J Refract Surg. 2007 Sep;23(7):729--30; Landau D, Levy J, Solomon A, Lifshitz T, Orucov F, Strassman E, Frucht--Pery J. Traumatic corneal flap dislocation one to six years after LASIK in nine eyes with a favorable outcome. J Refract Surg. 2006 Nov;22(9):884--9; O'Brart DP, Mellington F, Jones S, Marshall J. Laser epithelial keratomileusis for the correction of hyperopia using a 7.0--mm optical zone with the Schwind ESIRIS laser. J Refract Surg. 2007 Apr;23(4):343--54; Jin GJ, Merkley KH. Laceration and partial dislocation of LASIK flaps 7 and 4 years postoperatively with 20/20 visual acuity after repair. J Refract Surg. 2006 Nov;22(9):904--5; Cheng AC, Rao SK, Leung GY, Young AL, Lam DS. Late Traumatic Flap Dislocations After LASIK. J Refract Surg Vol 22, May 2006; Galal A, Artola A, Belda J, Rodriguez--Prats J, Claramonte P, Sánchez A, Ruiz--Moreno O, Merayo J, Alió J. Interface corneal edema secondary to steroid--induced elevation of intraocular pressure Waxler Regulatory Consultancy LLC 1/6/11 29 of 32 simulating diffuse lamellar keratitis. J Refract Surg. 2006 May;22(5):441--7; Priglinger SG, May CA, Alge CS, Wolf A, Neubauer AS, Haritoglou C, Kampik A, Welge--Lussen U. Immunohistochemical Findings After LASIK Confirm In Vitro LASIK Model. Cornea, 25(3), April 2006, pp 331--335.
+.. [#f36] Sridhar MS, Rapuano CJ, Cohen EJ. Accidental self--removal of a flap--a rare complication of laser in situ keratomileusis surgery. Am J Ophthalmol. 2001 Nov;132(5):780--2; Tetz M, Werner L, Müller M, Dietze U.  Late traumatic LASIK flap loss during contact sport. J Cataract Refract Surg. 2007 Jul;33(7):1332--5; Srinivasan M, Prasad S, Prajna NV. Late dislocation of LASIK flap following fingernail injury. Indian J Ophthalmol. 2004 Dec;52(4):327--8; Heickell AG, Vesaluoma MH, Tervo TM, Vannas A, Krootila K. Late traumatic dislocation of laser in situ keratomileusis flaps. J Cataract Refract Surg. 2004 Jan;30(1):253--6; Booth MA, Koch DD. Late laser in situ keratomileusis flap dislocation caused by a thrown football. J Cataract Refract Surg. 2003 Oct;29(10):2032--3; Srinivasan M, Prasad S, Prajna NV.Late dislocation of LASIK flap following fingernail injury. Indian J Ophthalmol. 2004 Dec;52(4):327--8.
+.. [#f37] MIFFLIN M, KIM M. Laser in Situ Keratomileusis Flap Dehiscence 3 Years Postoperatively. J CATARACT REFRACT SURG—VOL 28, MAY 2002
+.. [#f38] Kamiya K, Ikeda T, Daisuke Aizawa D, Shimizu K. A Case of Late--Onset Diffuse Lamellar Keratitis 12 Years After Laser In Situ Keratomileusis. Jpn J Ophthalmol 2010;54:163–175;
+.. [#f39] Kim JY, Kim MJ, Kim TI, Choi HJ, Pak JH, Tchah H. A femtosecond laser creates a stronger flap than a mechanical microkeratome. Invest Ophthalmol Vis Sci. 2006 Feb;47(2):599--604.
+.. [#f40] Schmack I, Dawson DG, McCarey BE, Waring GO 3rd, Grossniklaus HE, Edelhauser HF. Cohesive tensile strength of human LASIK wounds with histologic, ultrastructural, and clinical correlations. J Refract Surg. 2005 Sep--Oct;21(5):433--45.
+.. [#f41] Di Pascuale MA, MD, Liu TS, William Trattler W, Tseng SCG. Lipid tear deficiency in persistent dry eye after laser in situ keratomileusis and treatment results of new eye--warming device. J Cataract Refract Surg 2005; 31:1741–1749; Calvillo MP, McLaren JW, Hodge DO, Bourne WM. Corneal reinnervation after LASIK: prospective 3--year longitudinal study. Invest Ophthalmol Vis Sci. 2004 Nov; 45(11):3991--6; De Paiva CS, Chen Z, Koch DD, Hamill MB, Manuel FK, Hassan SS, Wilhelmus KR, Pflugfelder SC. The incidence and risk factors for developing dry eye after myopic LASIK. Am J Ophthalmol. 2006 Mar; 141(3):438--45;
+.. [#f42] Tuisku IS, Lindbohm N, Wilson SE, Tervo TM. Dry Eye and Corneal Sensitivity After High Myopic LASIK.  J Refract Surg. 2007;23:338--342.
+.. [#f43] Sugar A, Rapuano CJ, Culbertson WW, Huang D, Varley GA, MD, Agapitos PJ, . de Luise VP, Douglas D.  Koch DD. Laser In Situ Keratomileusis for Myopia and Astigmatism: Safety and Efficacy: A Report by the American Academy of Ophthalmology. Ophthalmology 2002;109:175–187.
+.. [#f44] Albietz JM, Lenton LM. Management of the Ocular Surface and Tear Film Before, During, and After Laser in situ Keratomileusis. Journal of Refractive Surgery Volume 20 January/February 2004
+.. [#f45] Abelson MB. A Different Animal: Post--LASIK Dry Eye. Rev. Ophthalmology, Vol. No: 9:08 Issue: 8/15/02
+.. [#f46] Quinto GG, Camacho W, Behrens A. Postrefractive surgery dry eye. Curr Opin Ophthalmol. 2008 Jul;19(4):335--41.
+.. [#f47] Hovanesian JA, Shah SS, Maloney RK. Symptoms of dry eye and recurrent erosion syndrome after refractive surgery. J Cataract Refract Surg. 2001 Apr;27(4):577--84
+.. [#f48] Salomao MQ, Ambrosio R Jr, Wilson SE. Dry eye associated with laser in situ keratomileusis: mechanical microkeratome versus femtosecond laser. J Cataract Refract Surg 2009; 35:1756–1760
+.. [#f49] ERIE JC, MCLAREN JW, HODGE DO, BOURNE WM. Recovery of Corneal Subbasal Nerve Density After PRK and LASIK. Am J Ophthalmol 2005;140:1059–1064.
+.. [#f50] De Paiva CS, Chen Z, Koch DD, Hamill MB, Manuel FK, Hassan SS, Wilhelmus KR, Pflugfelder SC. The incidence and risk factors for developing dry eye after myopic LASIK. Am J Ophthalmol. 2006 Mar; 141(3):438--45.
+.. [#f51] Vesaluoma M, Pérez--Santonja J, Petroll WM, Linna T, Alió J, Tervo T. Corneal stromal changes induced by myopic LASIK. Invest Ophthalmol Vis Sci. 2000 Feb;41(2):369--76.
+.. [#f52] Erie JC, Patel SV, McLaren JW, Hodge DO, Bourne WM. Corneal keratocyte deficits after photorefractive keratectomy and laser in situ keratomileusis. Am J Ophthalmol. 2006 May;141(5):799--809.
+.. [#f53] Ali Javadi M, Kanavi MR, Mahdavi M, Yaseri M, Rabiei HM, Javadi A, Sajjadi SH. Comparison of keratocyte density between keratoconus, post--laser in situ keratomileusis keratectasia, and uncomplicated postlaser in situ keratomileusis cases. A confocal scan study. Cornea. 2009 Aug;28(7):774--9.  Waxler Regulatory Consultancy LLC 1/6/11 30 of 32
+.. [#f54] Kim A, Lakshman N, Karamichos D, Petroll WM. Growth factor regulation of corneal keratocyte differentiation and migration in compressed collagen matrices. Invest Ophthalmol Vis Sci. 2010 Feb;51(2):864-- 75. Epub 2009 Oct 8.
+.. [#f55] Erie JC, McLaren JW, Hodge DO, Bourne WM. Long--term corneal keratoctye deficits after photorefractive keratectomy and laser in situ keratomileusis. Trans Am Ophthalmol Soc. 2005;103:56--66; discussion 67--8.
+.. [#f56] Klein SR, Epstein RJ, Randleman JB, Stulting RD. Corneal ectasia after laser in situ keratomileusis in patients without apparent preoperative risk factors. Cornea. 2006 May;25(4):388--403; Ambrósio R Jr, Dawson DG, Salomão M, Guerra FP, Caiado AL, Belin MW. Corneal Ectasia After LASIK Despite Low Preoperative Risk: Tomographic and Biomechanical Findings in the Unoperated, Stable, Fellow Eye. J Refract Surg. 2010 May 19:1--6; Miyata K, Tokunaga T, Nakahara M, Ohtani S, Nejima R, Kiuchi T, Kaji Y, Oshika T. Residual bed thickness and corneal forward shift after laser in situ keratomileusis. J Cataract Refract Surg. 2004 May;30(5):1067--72; Guirao A. Theoretical elastic response of the cornea to refractive surgery: risk factors for keratectasia. J Refract Surg. 2005 Mar--Apr;21(2):176--85; Tuli SS, Iyer S. Delayed ectasia following LASIK with no risk factors: is a 300--microm stromal bed enough? J Refract Surg. 2007 Jun;23(6):620--2; Tabbara KF, Kotb AA. Risk factors for corneal ectasia after LASIK. Ophthalmology. 2006 Sep;113(9):1618--22; Pallikaris IG, Kymionis GD, Astyrakakis NI. Corneal ectasia induced by laser in situ keratomileusis. J Cataract Refract Surg 2001; 27:1796–1802.
+.. [#f57] Binder PS. Analysis of ectasia after laser in situ keratomileusis: Risk factors. J Cataract Refract Surg 2007; 33:1530–1538
+.. [#f58] Condon PI, O'Keefe M, Binder PS. Long--term results of laser in situ keratomileusis for high myopia: risk for ectasia. J Cataract Refract Surg. 2007 Apr;33(4):583--90;
+.. [#f59] Personal communication Ed Boshnick, December 15, 2010 9:43:28 PM CST
+.. [#f60] Bühren J, Nagy L, Yoon G, MacRae S, Kohnen T, Huxlin KR.The effect of the asphericity of myopic laser ablation profiles on the induction of wavefront aberrations. Invest Ophthalmol Vis Sci. 2010 May;51(5):2805-- 12.
+.. [#f61] Ramírez M, Hernández--Quintela E, Sánchez--Huerta V, Naranjo--Tackman R. Confocal Microscopy of Corneal Flap Microfolds After LASIK. J Refract Surg. 2006;22: 155--158.
+.. [#f62] Liang J, Grimm B, Goelz S, Bille JF. Objective measurement of wave aberrations of the human eye with the use of a Hartmann--Shack wave--front sensor. J Opt Soc Am A Opt Image Sci Vis. 1994;11: 1949–1957; Prieto PM, Vargas--Martı´n F, Goelz S, Artal P. Analysis of the performance of the Hartmann--Shack sensor in the human eye. J Opt Soc Am A. 2000;17:1388–1398; Pop M, Payette Y. Risk factors for night vision complaints after LASIK for myopia. Ophthalmology. 2004;111:3–10.
+.. [#f63] Oshika T, Tokunaga T, Samejima T, Miyata K, Kawana K, Kaji Y. Influence of Pupil Diameter on the Relation between Ocular Higher--Order Aberration and Contrast Sensitivity after Laser In Situ Keratomileusis.  Invest Ophthalmol Vis Sci. 2006;47:1334–1338; Villa C, Gutiérrez R, Jiménez JR, González--Méijome JM.  Night vision disturbances after successful LASIK surgery. Br J Ophthalmol. 2007 Aug;91(8):1031--7.
+.. [#f64] Mrochen M, Seiler T. Influence of corneal curvature on calculation of ablation patterns used in photorefractive laser surgery. J Refract Surg. 2001;17:S584–S587; Bueeler M, Mrochen M, Seiler T. Maximum permissible lateral decentration in aberration--sensing and wavefront--guided corneal ablation. J Cataract Refract Surg. 2003;29:257–263; Bueeler M, Mrochen M, Seiler T. Maximum permissible torsional misalignment in aberration--sensing and wavefront--guided corneal ablation. J Cataract Refract Surg. 2004;30:17–25; Bueeler M, Mrochen M. Simulation of eye--tracker latency, spot size, and ablation pulse depth on the correction of higher order wavefront aberrations with scanning spot laser systems. J Refract Surg. 2005;21:28 –36.
+.. [#f65] Dupps WJ Jr, Roberts C. Effect of acute biomechanical changes on corneal curvature after photokeratectomy.  J Refract Surg. 2001;17:658–669; Reinstein DZ, Silverman RH, Sutton HF, Coleman DJ. Very high frequency ultrasound corneal analysis identifies anatomic correlates of optical complications of lamellar refractive surgery: anatomic diagnosis in lamellar surgery. Ophthalmology. 1999;106:474–482.
+.. [#f66] Tabernero J, Klyce SD, Sarver EJ, Artal P. Functional optical zone of the cornea. Invest Ophthalmol Vis Sci.  2007 Mar;48(3):1053--60.
+.. [#f67] Maguire LJ. Keratorefractive surgery, success, and the public health. Am J Ophthalmol. 1994 Mar 15;117(3):394--8.
+.. [#f68] SHIMIZU K. LASIK – current indications and contraindication. The 25th Annual APAO Congress--A Joint Meeting of APAO/AAO. September 16--20, 2010. Beijing, China Waxler Regulatory Consultancy LLC 1/6/11 31 of 32
+.. [#f69] Marcos S, Barbero S, Llorente L, Merayo--Lloves J. Optical response to LASIK surgery for myopia from total and corneal aberration measurements. Invest Ophthalmol Vis Sci. 2001 Dec; 42(13): 3349--56.
+.. [#f70] Bailey MD, Mitchell G, Dhaliwal D, Wachler BSB, Zadnik K. Patient Satisfaction and Visual Symptoms after Laser in Situ Keratomileusis Ophthalmology Volume 110, Number 7, July 2003 pp 1371--1378
+.. [#f71] Moreno--Barriuso E, Lloves JM, Marcos S, et al. Ocular aberrations before and after myopic corneal refractive surgery: LASIK--induced changes measured with laser ray tracing. Invest Ophthalmol Vis Sci 2001; 42:1396-- 1403.
+.. [#f72] WANG Yan, ZHAO Kan--xing, HE Ji--chang, JIN Ying and ZUO Tong Ocular higher--order aberrations features analysis after corneal refractive surgery. Chinese Medical Journal 2007;120 (4):269--273 269
+.. [#f73] Marcos S, Barbero S, Llorente L, Merayo--Lloves Optical response to LASIK surgery for myopia from total and corneal aberration measurements. J. Invest Ophthalmol Vis Sci. 2001 Dec;42(13):3349--56
+.. [#f74] Chalita MR, Chavala S, Krueger RR. Wavefront Analysis in Post--LASIK Eyes and Its Correlation with Visual Symptoms, Refraction, and Topography. Ophthalmology. 2004; 111:447--453.
+.. [#f75] Dupps WJ. Biomechanical Modeling of Corneal Ectasia. Journal of Refractive Surgery Volume 21 March/April 2005 186--190.
+.. [#f76] Jiménez JR, Villa C, Anera RG, Gutiérrez R, Barco LJ. Binocular Visual Performance After LASIK. Journal of Refractive Surgery Volume 22 September 2006: 679--688.
+.. [#f77] Jabbur NS, Kraff C, Wavefront--guided laser in situ keratomileusis using the WaveScan system for correction of low to moderate myopia with astigmatism: 6--month results in 277 eyes. J CATARACT REFRACTIVE SURG . 31: 1493--1501, AUGUST 2005
+.. [#f78] Cosar CB, Saltuk G, Sener B. Wavefront--guided Laser in situ Keratomileusis With the Bausch & Lomb Zyoptix System. J Refract Surg 2004;20:35--39.
+.. [#f79] Schallhorn SC, Farjo AA, MD, Huang D, Wachler BSB, Trattler WB, Tanzer DJ, Majmudar PA, Sugar A.  Wavefront--Guided LASIK for the Correction of Primary Myopia and Astigmatism: A Report by the American Academy of Ophthalmology. Ophthalmology 2008;115:1249 –1261.
+.. [#f80] Waring G, Dougherty PJ, A, Fischer J, Fant B, PharmD, Stevens G, Bains HS. TOPOGRAPHICALLY GUIDED LASIK FOR MYOPIA USING THE NIDEK CXII CUSTOMIZED ASPHERIC TREATMENT ZONE (CATZ)Trans Am Ophthalmol Soc 2007;105:240--248
+.. [#f81] Kohnen T, Bühren J, Kühne C, Mirshahi A. Wavefront--guided LASIK with the Zyoptix 3.1 system for the correction of myopia and compound myopic astigmatism with 1--year follow--up: clinical outcome and change in higher order aberrations. Ophthalmology 2004; 111: 2175--2185.
+.. [#f82] Brint SF. Higher order aberrations after LASIK for myopia with Alcon and Wavelight lasers: a prospective randomized trial. J Refract Surg. 2005 Nov--Dec; 21(6):S799--803.
+.. [#f83] Kim TI, Yang SJ, Tchah H. Bilateral comparison of wavefront--guided versus conventional laser in situ keratomileusis with Bausch and Lomb Zyoptix. J Refract Surg2004; 20: 432--438.
+.. [#f84] Yamane N, Miyata K, Samejima T, Hiraoka T, Kiuchi T, Okamoto F, et al. Ocular higher--order aberrations and contrast sensitivity after conventional laser in situ keratomileusis. Invest Ophthalmol Vis Sci 2004; 45: 3986--3990.
+.. [#f85] Marcos S, Barbero S, Llorente L, Merayo--Lloves J. Optical response to LASIK surgery for myopia from total and corneal aberration measurements. Invest Ophthalmol Vis Sci. 2001 Dec; 42(13): 3349--56.
+.. [#f86] Confidential information to be submitted to FDA’s Office of Criminal Investigation
+.. [#f87] Montés--Micó R, España E, Menezo JL.Mesopic Contrast Sensitivity Function After Laser in situ Keratomileusis J Refract Surg 2003;19:353--356.
+.. [#f88] Brown SM, Bradley JC, Xu KT, Chadwick AA, McCartney DL. Visual field changes after laser in situ keratomileusis. J Cataract Refract Surg 2005; 31:687–693.
+.. [#f89] Zalentein WN, Tervo TMT, Holopainen JM, MD. Seven--year Follow--up of LASIK for Myopia. J Refract Surg. 2009; 25:312--318;
+.. [#f90] SHIMIZU K. LASIK – current indications and contraindication. The 25th Annual APAO Congress--A Joint Meeting of APAO/AAO. September 16--20, 2010. Beijing, China;
+.. [#f91] Rosman M, Alió JL, Ortiz D, Pérez--Santonja JJ. Refractive Stability of LASIK with the VISX 20/20 Excimer Laser vs ZB5M Phakic IOL Implantation in Patients with High Myopia (>--10.00 D): A 10--Year Retrospective Study. J Refract Surg. 2010 Jul 23:1--8
+.. [#f92] Dirani M, Couper T, Yau J, Ang EK, Islam FM, Snibson GR, Vajpayee RB, Baird PN. Long--term refractive outcomes and stability after excimer laser surgery for myopia. J Cataract Refract Surg. 2010 Oct;36(10):1709-- 17.
+.. [#f93] Cronemberger S, Guimarães CS, Calixto N, Calixto JMF. Intraocular pressure and ocular rigidity after LASIK. Arq Bras Oftalmol. 2009;72(4):439--43.
+.. [#f94] Wang L, Booth MA, Koch DD. COMPARISON OF INTRAOCULAR LENS POWER CALCULATION METHODS IN EYES THAT HAVE UNDERGONE LASER--ASSISTED IN--SITU KERATOMILEUSIS Trans Am Ophthalmol Soc 2004;102:189--197.
+.. [#f95] Kohnen T, Buhren J, Kuhne C, Mirshahi A. Wavefront--guided LASIK with the Zyoptix 3.1 system for the correction of myopia and compound myopic astigmatism with 1--year follow--up: clinical outcome and change in higher order aberrations. Ophthalmology. 2004;111:2175--2185; Brint SF. Higher order aberrations after LASIK for myopia with Alcon and Wavelight lasers: a prospective randomized trial. J Refract Surg. 2005 Nov--Dec; 21(6):S799--803
+.. [#f96] Padmanabhan P, Basuthkar SS, Joseph R. Ocular aberrations after wavefront optimized LASIK for myopia.  Indian J Ophthalmol. 2010 Jul–Aug; 58(4): 307–312
+.. [#f97] Padmanabhan P, Basuthkar SS, Joseph R. Ocular aberrations after wavefront optimized LASIK for myopia.  Indian J Ophthalmol. 2010 Jul–Aug; 58(4): 307–312
+.. [#f98] Quinto GG, Camacho W, Behrens A. Postrefractive surgery dry eye. Curr Opin Ophthalmol. 2008 Jul;19(4):335--41. Review
+.. [#f99] Dupps WJ. Biomechanical Modeling of Corneal Ectasia. Journal of Refractive Surgery Volume 21 March/April 2005 186--190
+.. [#f100] Luna JD, Artal MN, Reviglio VE, Pelizzari M, Diaz H, Juarez CP. Vitreoretinal alterations following laser in situ keratomileusis: clinical and experimental studies. Graefes Arch Clin Exp Ophthalmol. 2001 Jul; 239(6):416--23.
+.. [#f101] Salomao MQ, Wilson SE. Femtosecond laser in laser in situ keratomileusis. J Cataract Refract Surg 2010; 36:1024–1032

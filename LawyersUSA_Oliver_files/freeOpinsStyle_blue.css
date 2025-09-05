@@ -1,0 +1,33 @@
+.opinBox {
+	BORDER-RIGHT: #395273 1px solid; BORDER-TOP: #395273 1px solid; BORDER-LEFT: #395273 1px solid; BORDER-BOTTOM: #395273 1px solid
+}
+.opinBody {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff
+}
+.opinSubHead {
+	BACKGROUND-COLOR: #ffffff
+}
+.opinHead {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; FONT: bold 14px arial, helvetica, sans-serif; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #395273 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.opinHeader {
+	FONT: 12px Arial,sans-serif; TEXT-TRANSFORM: uppercase
+}
+.opinLinks A {
+	FONT: 12px Arial,sans-serif; COLOR: black
+}
+.opinLinks A:link {
+	FONT: 12px Arial,sans-serif; COLOR: black
+}
+.opinLinks A:hover {
+	FONT: 12px Arial,sans-serif; COLOR: black
+}
+.opinLinks A:visited {
+	FONT: 12px Arial,sans-serif; COLOR: black
+}
+.opinLinks {
+	PADDING-BOTTOM: 10px; FONT: 12px Arial,sans-serif
+}
+.opinUpd {
+	FONT: italic 10px Arial,sans-serif
+}

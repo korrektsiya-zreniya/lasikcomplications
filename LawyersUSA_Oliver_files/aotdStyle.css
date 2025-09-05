@@ -1,0 +1,39 @@
+.aotdHeader {
+	FONT: 10px Arial,sans-serif; TEXT-TRANSFORM: uppercase; COLOR: #990000
+}
+.aotdHeadline {
+	FONT: bold 14px Arial,sans-serif
+}
+.aotdBody {
+	FONT: 12px Arial,sans-serif
+}
+.smallText {
+	FONT: 11px Arial,sans-serif
+}
+.smallTextNC {
+	FONT: 11px Arial,sans-serif
+}
+.smallText A {
+	FONT: 11px Arial,sans-serif; COLOR: black
+}
+.smallText A:link {
+	FONT: 11px Arial,sans-serif; COLOR: black
+}
+.smallText A:hover {
+	FONT: 11px Arial,sans-serif; COLOR: black
+}
+.smallText A:visited {
+	FONT: 11px Arial,sans-serif; COLOR: black
+}
+.smallTextNC A {
+	FONT: 11px Arial,sans-serif; COLOR: black
+}
+.smallTextNC A:link {
+	FONT: 11px Arial,sans-serif; COLOR: black
+}
+.smallTextNC A:hover {
+	FONT: 11px Arial,sans-serif; COLOR: black
+}
+.smallTextNC A:visited {
+	FONT: 11px Arial,sans-serif; COLOR: black
+}

@@ -1,0 +1,10 @@
+Help by Signing
+============================
+
+You can show your support by signing. Use either the widget below
+
+.. raw:: html
+   :file: sign-widget.raw.html
+
+or go to the online `petition in support <http://www.thepetitionsite.com/1/support-petition-to-withdraw-lasik-approval/>`_
+of the Waxler Regulatory Consultancy LLC Citizen Petition, where you chose to **hide your name** when signing.

@@ -1,0 +1,386 @@
+@font-face {
+    font-family: 'Bree';
+    src: url('fonts/breeserif-regular-webfont.woff2') format('woff2'),
+         url('fonts/breeserif-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html{
+}
+body {
+	background-color: #208ea0;
+	font:14px Helvetica, Arial, Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	
+}
+
+div#banner p {
+	margin:0px;
+}
+
+#container{
+    position:relative;    /* This fixes the IE7 overflow hidden bug */
+    clear:both;
+    float:left;
+    overflow:hidden;        /* This chops off any overhanging divs */
+    width:905px;
+    background: #fff;
+	border: 1px solid #e0e0e0;
+}
+
+#container form {
+	
+  	background: #4acce2 !important; 
+	padding-bottom: 20px; 
+   /*
+      Kurt: additions below:
+      1. make the search form itself centered with respect to its enclosing <div>, namely <div id="containter">,
+      2. aligns the text of the search form, and
+      3. sets the background color
+       */  
+/*     margin: auto; */
+     margin: 0 auto;
+     text-align: center;
+     background: #a5a3a3;
+}
+
+#SS {
+ background:#fff;
+}
+
+#leftnav {
+	width:380px;
+	height:auto;
+	float:left;
+	padding:10px 10px 15px 0;
+	background: #fff;
+}
+
+#content{
+	width:490px;
+	height:auto;
+	float:left;
+	padding:10px 0 0 10px;
+	background: #fff;
+	border-left: #000;
+	border-left-style: dotted;
+	border-left-width: thin;
+}
+
+#colorborder{
+	width:925px;
+	height:auto;
+	margin:auto;
+}
+
+#banner{
+	width:100%;
+	height:280px;
+	background:url(images2/banner15.jpg) no-repeat;
+}
+
+#banner p
+{
+	display:none;
+}
+
+#switcher {
+	float:right;
+	border:1px solid black;
+	padding:3px;
+	margin:3px;
+	background:#FBF1D5;
+}
+
+#switcher a {
+ font-family:Arial;
+ text-decoration:none;
+ color:red;
+}
+
+#switcher a:hover {
+ color:yellow;
+}
+
+/* PAGE INTRO CSS :::::::::::::::::::::::::::::::::::::::::::: */
+
+#description {
+	width:760px;
+	margin-top:-5px;
+	display:inline;
+	height:18px;
+	background:#E0DDCA;
+	border-bottom:6px double #000;
+	margin-bottom:10px;	
+}
+
+H1 {
+	font-size:24px;
+	text-align:center;
+	color:#2B2A23;
+	margin:15px;
+}
+h3 {
+	margin:10px;
+}
+
+#decription img {
+	border:1px solid black;
+	margin: 8px;
+	float:left;
+}
+
+#description p {
+	font-size:13px;
+	color:black;
+	text-decoration:none;
+	text-align:left;
+	padding:2px;
+	padding-left:4px;
+}
+
+/* HORIZONTAL MENU CSS :::::::::::::::::::::::::::::::::::::::::::: */
+#menu {
+    width 100%;
+    background: #4acce2;
+    width: 908px;
+    padding: 10 0 0 0;
+    height: 80px;
+    font-size: 25px;
+    font-family: Helvetica, Arial, Sans; 
+    letter-spacing: 2px; 
+   /* Kurt: 
+    1. center the menu within its enclosing <div> of <div id="menu"> 
+    2. center aligns the text of the menu items.
+    */
+    margin: auto;
+    text-align: center; 
+}
+
+#menu a {
+	position: relative;
+	display: inline;
+	color:#fff;
+	padding:0 0 0 10px;
+	font-size:20px;
+	line-height:1.1em;
+	text-decoration:none;
+	font-weight:bold;
+	text-transform: uppercase; 
+	letter-spacing: 2px; 
+}
+
+#menu a:hover {
+	color:black;
+}
+
+/* #active {
+	color: #black;
+} */
+
+/* VERTICAL MENU--FIXED WIDTH CSS ::::::::::::::::::::::::::::::::::::::::::::*/
+#verticalmenu {
+	float:left;
+	border:1px solid #242C34;
+	background:#CCCCCC;
+	margin:10px;
+	margin-top:0px;
+	min-width:220px;
+	padding:5px;
+}
+
+#verticalmenu a {
+	background:#fff;
+	font-size:13px;
+	text-decoration:none;
+	text-align:left;
+	padding:2px;
+	display:block;
+}
+
+#verticalmenu a:hover {
+	background:#960000;
+	color:#fff;
+}
+
+.vertheading {
+	border:1px solid black;
+	background:#eae9e7;
+	color:black;
+	font-size:13px;
+	margin-bottom:5px;
+	margin-top:5px;
+	text-align:center;
+}
+
+/* COLUMN WIDTH CSS ::::::::::::::::::::::::::::::::::::::::::::*/
+.fullwidth {
+	width:880px;
+	font-size:13px;
+	text-align:left;
+	border:1px solid #BAB298;
+	margin:10px;
+	clear:both;
+}
+
+.fullwidthheader {
+	font-size:13px;
+	font-weight:700;
+	text-align:center;
+	margin:0px;
+	background:#960000;
+	clear:both;
+	color:#fff;
+	display:block;
+}
+
+.fullwidth ul{
+	width:850px;
+	padding:5px;
+	padding-left:20px;
+}
+
+.fullwidth div{
+	padding:5px;
+	padding-bottom:10px;
+}
+.halfwidth {
+	width:440px;
+	margin:5px;
+	font-family:Arial;
+	font-size:13px;
+	text-align:left;
+	border:1px solid #BAB298;
+	float:left; 
+}
+
+.halfwidthheader {
+	font-size:13px;
+	font-weight:700;
+	text-align:center;
+	margin:0px;
+	background:#960000;
+	clear:both;
+	color:#fff;
+	display:block;
+}
+
+.thirdwidth {
+	width:290px;
+	margin-bottom:20px;
+	font-size:13px;
+	height:100px;
+	margin:5px;
+	padding:5px;
+	text-align:left;
+	float:left;
+}
+
+.thirdwidthheader {
+	font-size:13px;
+	font-weight:700;
+	text-align:center;
+	margin:0px;
+	background:#960000;
+	clear:both;
+	color:#fff;
+	display:block;
+}
+
+/* LEFT IMAGE CSS ::::::::::::::::::::::::::::::::::::::::::::*/
+.himage {
+	float:left;
+	border:1px solid #000;
+	margin-right:5px;
+}
+
+/* EMBEDDED LINK CSS ::::::::::::::::::::::::::::::::::::::::::::*/
+.link {
+	padding:2px;
+	padding-left:4px;
+	padding-right:4px;
+	background:#fff;
+	border:1px solid #7D949D;
+	height:20px;
+	text-decoration:none;
+	margin:5px;
+	color:#427694;
+}
+
+.link:hover{
+	background:#960000;
+	color:#fff;
+}
+
+/* GENERIC TAG CSS ::::::::::::::::::::::::::::::::::::::::::::*/
+
+a {
+	color:#960000;
+}
+
+a:hover {
+	color: #c4c4c4;
+} 
+
+p {
+	font-size:15px;
+	text-decoration:none;
+	text-align:justify;
+	padding:2px;
+	padding-left:4px;
+	margin: 10px;
+	line-height:180%;
+	font-weight:normal;
+}
+
+hr{
+	clear:both;
+}
+
+p img {
+	margin-right:5px;
+}
+
+.boxheading {
+   /*  border: 1px solid black; */
+    /* background: #4acce2; */
+    color: #000;
+    font-size: 35px !important;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Bree", Helvetica, Arial;
+	color: #4acce2 !important; 
+	text-transform: uppercase !important; 
+	font-weight: bold !important; 
+
+.rightfocusbox {
+	float:right;
+	width:200px;
+	padding:5px;
+	background:#CDCAB5;
+	margin:5px;
+	border:1px solid #A3A08B;
+	
+}
+
+div.centered 
+{
+ text-align: center; 
+  margin: 0 auto;
+}
+
+form
+{
+	width:905px;
+	margin-left:-20px;
+	background-color:#C4C4C4;
+	clear:both;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+

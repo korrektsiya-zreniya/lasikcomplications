@@ -1,0 +1,15 @@
+.featHeader {
+	FONT: 10px Arial,sans-serif; TEXT-TRANSFORM: uppercase; COLOR: #990000
+}
+.featHeadline {
+	FONT: bold 14px Arial,sans-serif
+}
+.featBody {
+	FONT: 12px Arial,sans-serif
+}
+.smallText {
+	FONT: 11px Arial,sans-serif
+}
+.smallText A {
+	FONT: 11px Arial,sans-serif; COLOR: black
+}

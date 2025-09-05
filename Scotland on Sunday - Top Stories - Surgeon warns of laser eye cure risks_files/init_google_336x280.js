@@ -1,0 +1,10 @@
+google_ad_client="pub-9621580867885108";
+google_ad_width=336;
+google_ad_height=280;
+google_ad_format="336x280_as";
+google_ad_type="text";
+google_color_border="ffffff";
+google_color_bg="ffffff";
+google_color_link="0000cc";
+google_color_url="0000cc";
+google_color_text="000000";

@@ -1,0 +1,195 @@
+.aotdHR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; WIDTH: 200px; COLOR: #b3b3b3; PADDING-TOP: 0px; HEIGHT: 1px; TEXT-ALIGN: center
+}
+P.mmHR {
+	FONT-SIZE: 1px; MARGIN: 10px 30px; BORDER-BOTTOM: #b3b3b3 1px solid; HEIGHT: 1px; TEXT-ALIGN: center
+}
+P.mmHRBlank {
+	FONT-SIZE: 1px; MARGIN: 3px 30px; BORDER-BOTTOM: #b3b3b3 0px solid; HEIGHT: 1px; TEXT-ALIGN: center
+}
+.articleTable {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: black 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; BORDER-LEFT: black 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: black 1px solid; FONT-FAMILY: verdana, arial, helvetica, sans-serif; BACKGROUND-COLOR: darkgray
+}
+.articleTable TD {
+	BACKGROUND-COLOR: beige
+}
+TD.mmLeft {
+	BORDER-RIGHT: #b3b3b3 1px solid; PADDING-RIGHT: 6px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 135px; PADDING-TOP: 0px
+}
+TD.mmMiddle {
+	BORDER-RIGHT: #b3b3b3 1px solid; PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+TD.mm3rd {
+	BORDER-RIGHT: #b3b3b3 1px solid; PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; WIDTH: 178px; PADDING-TOP: 0px
+}
+TD.mmRight {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; WIDTH: 125px; PADDING-TOP: 0px
+}
+TABLE.mmgrey2 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; BACKGROUND-COLOR: #efefef
+}
+TABLE.mmps {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 190px; PADDING-TOP: 2px; BACKGROUND-COLOR: #efefef
+}
+TABLE.mmps4 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 125px; PADDING-TOP: 2px; BACKGROUND-COLOR: #efefef
+}
+TABLE.mmBlank {
+	WIDTH: 190px
+}
+.mmBlueHeader {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; FONT: bold 14px Arial,sans-serif; WIDTH: 125px; PADDING-TOP: 2px; BACKGROUND-COLOR: #d5dde8
+}
+.mmBlueHeader2 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; FONT: bold 14px Arial,sans-serif; WIDTH: 245px; PADDING-TOP: 2px; BACKGROUND-COLOR: #d5dde8
+}
+.mmBlueHeaderRI {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; FONT: bold 14px Arial,sans-serif; WIDTH: 225px; PADDING-TOP: 2px; BACKGROUND-COLOR: #d5dde8
+}
+.announcementHeadline {
+	FONT: bold 14px Arial,sans-serif
+}
+.announcementBody {
+	FONT: 12px Arial,sans-serif; COLOR: black
+}
+.announcementBody A:hover {
+	FONT: 12px Arial,sans-serif; COLOR: black
+}
+.announcementBody A:link {
+	FONT: 12px Arial,sans-serif; COLOR: black
+}
+.announcementBody A:visited {
+	FONT: 12px Arial,sans-serif; COLOR: black
+}
+P.announcementBody {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+P.announcementHeadline {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.itnheader {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 2px; FONT: bold 14px Arial,sans-serif; PADDING-TOP: 2px; BACKGROUND-COLOR: #e6e1c3; TEXT-ALIGN: center
+}
+.itnbody {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; BACKGROUND-COLOR: #ffffff
+}
+.itn {
+	BORDER-RIGHT: #e6e1c3 1px solid; BORDER-TOP: #e6e1c3 1px solid; FONT: 12px Arial,sans-serif; BORDER-LEFT: #e6e1c3 1px solid; WIDTH: 190px; COLOR: black; BORDER-BOTTOM: #e6e1c3 1px solid; BACKGROUND-COLOR: #e6e1c3
+}
+.mmPubList {
+	PADDING-LEFT: 0px; LIST-STYLE-IMAGE: url(https://lasikcomplications.com/images/gen/arrow_rt_red.gif); FONT: 11px Arial,sans-serif; MARGIN-LEFT: 15px; TEXT-TRANSFORM: uppercase; COLOR: #990000; TEXT-INDENT: 0px; MARGIN-RIGHT: 1px; LIST-STYLE-TYPE: none
+}
+.mmPubList UL {
+	PADDING-LEFT: 2px; LIST-STYLE-IMAGE: none; FONT: 11px Arial,sans-serif; TEXT-TRANSFORM: none; COLOR: black; TEXT-INDENT: 0px; LIST-STYLE-TYPE: none
+}
+.mmPubList UL A:link {
+	FONT: bold 11px Arial,sans-serif; COLOR: black
+}
+.mmPubList UL A:hover {
+	FONT: bold 11px Arial,sans-serif; COLOR: black
+}
+.mmPubList UL A:visited {
+	FONT: bold 11px Arial,sans-serif; COLOR: black
+}
+.mmPubList2 {
+	FONT: 11px Arial, Helvetica, sans-serif; COLOR: black
+}
+.mmPubList UL {
+	MARGIN-LEFT: -13px
+}
+.mmPubListItem LI {
+	MARGIN-TOP: -4px
+}
+.fulltextBody {
+	WIDTH: 600px
+}
+.archivestextBody {
+	WIDTH: 600px
+}
+.archivesHLBlue {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #d5dde8
+}
+.archivesHL {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #f8ffbc
+}
+.feedburnerFeedBlock .headline A {
+	FONT: 11px arial, helvetica, sans-serif; COLOR: #000000
+}
+.feedburnerFeedBlock .headline A:hover {
+	FONT: 11px arial, helvetica, sans-serif; COLOR: #000000
+}
+.feedburnerFeedBlock .headline A:link {
+	FONT: 11px arial, helvetica, sans-serif; COLOR: #000000
+}
+.feedburnerFeedBlock .headline A:visited {
+	FONT: 11px arial, helvetica, sans-serif; COLOR: #000000
+}
+.feedburnerSection {
+	FONT: bold 14px arial, helvetica, sans-serif; TEXT-TRANSFORM: uppercase; COLOR: #990000; TEXT-DECORATION: none
+}
+.feedburnerSection A {
+	FONT: bold 14px arial, helvetica, sans-serif; TEXT-TRANSFORM: uppercase; COLOR: #990000; TEXT-DECORATION: none
+}
+.feedburnerSection A:hover {
+	TEXT-DECORATION: underline
+}
+.feedburnerFeedBlock {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: top; COLOR: #000000; FONT-FAMILY: Arial,sans-serif; TEXT-ALIGN: left
+}
+.feedburnerFeedBlock UL {
+	MARGIN-TOP: -4px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; LIST-STYLE-IMAGE: none; MARGIN-BOTTOM: 3px; TEXT-INDENT: 0px; LIST-STYLE-TYPE: none
+}
+.feedburnerFeedBlock UL A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Arial,sans-serif; TEXT-DECORATION: none
+}
+.feedburnerFeedBlock UL A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.feedburnerFeedBlock UL A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.feedburnerFeedBlock UL A:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.feedburnerFeedBlock LI {
+	PADDING-BOTTOM: 5px
+}
+.feedburnerFeedBlock UL {
+	MARGIN-LEFT: -11px
+}
+.feedburnerFeedBlock UL {
+	MARGIN-LEFT: 0.5em
+}
+TD.lcHeader {
+	PADDING-LEFT: 5px; FONT: bold 12px arial, helvetica, sans-serif
+}
+UL.lcList {
+	PADDING-LEFT: 0px; MARGIN-BOTTOM: 6px; TEXT-INDENT: 0px
+}
+UL.lcList LI {
+	FONT: 12px arial, helvetica, sans-serif; COLOR: #2f3f56
+}
+UL.lcList LI A:link {
+	FONT: 12px arial, helvetica, sans-serif; COLOR: #2f3f56
+}
+UL.lcList LI A:hover {
+	FONT: 12px arial, helvetica, sans-serif; COLOR: #2f3f56
+}
+UL.lcList LI A:visited {
+	FONT: 12px arial, helvetica, sans-serif; COLOR: #2f3f56
+}
+UL.lcList {
+	MARGIN-TOP: -19px; MARGIN-LEFT: -20px
+}
+TD.lcHeader {
+	PADDING-BOTTOM: 2px
+}
+UL.lcList {
+	MARGIN-TOP: -2px; MARGIN-LEFT: 2em
+}
+TD.lcHeader {
+	PADDING-BOTTOM: 6px
+}
+.mmPubList UL {
+	MARGIN-LEFT: 0em
+}

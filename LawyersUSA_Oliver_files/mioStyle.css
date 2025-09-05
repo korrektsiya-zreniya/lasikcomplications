@@ -1,0 +1,24 @@
+.mioHead {
+	FONT: bold 14px arial, helvetica, sans-serif; TEXT-TRANSFORM: uppercase; COLOR: #990000
+}
+.mioSubhead {
+	FONT: bold 11px arial, helvetica, sans-serif
+}
+.mioItemHead {
+	FONT: 12px arial, helvetica, sans-serif
+}
+.mioLink A {
+	FONT: 11px arial, helvetica, sans-serif; COLOR: #2f3f56
+}
+.mioLink A:hover {
+	FONT: 11px arial, helvetica, sans-serif; COLOR: #2f3f56
+}
+.mioLink A:link {
+	FONT: 11px arial, helvetica, sans-serif; COLOR: #2f3f56
+}
+.mioLink A:visited {
+	FONT: 11px arial, helvetica, sans-serif; COLOR: #2f3f56
+}
+.spacer {
+	PADDING-TOP: 10px
+}

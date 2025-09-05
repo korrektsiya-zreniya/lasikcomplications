@@ -1,0 +1,145 @@
+body{
+/* Kurt    width: 900px; */
+ /*   margin: 0 auto; */
+  padding: 0;
+  background: url('../images/body_bg.jpg') repeat scroll 0 0 transparent; 
+}
+#loading {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 50px; /* Kurt: made it smaller 100px; */
+    margin-top:200px;
+}
+
+#datacontainer {
+ background-color: white;  /* kurt */  
+  /*width: 52em; /* <-- Change this to increase width */
+/* 2-10-2019 9:55 pm
+  margin: 0 auto; 
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding-bottom: 15px;
+*/
+}
+/*
+#datacontainer .pagination ul li.inactive,
+#datacontainer .pagination ul li.inactive:hover {
+    background-color:#ededed;
+    color:#bababa;
+    border:1px solid #bababa;
+    cursor: default;
+}
+*/
+
+#datacontainer h1.heading { 
+    text-align: center;
+    font-size: 24px;
+    color:#cc0000;
+    font-weight:bold;
+/*
+    margin-bottom: .75em;
+    margin-top: .5em;
+*/
+    padding-top: .7em;
+    padding-bottom: .2em;
+    font-family: "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+}
+
+/*
+#datacontainer .data ul li {
+    list-style: none;
+    font-family: verdana;
+    margin: 5px 0 5px 0;
+    color: #000;
+    font-size: 13px;
+}
+*/
+
+#datacontainer .data table {
+    
+/*  font-family: Verdana, Geneva, sans-serif; */
+  font-family: "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+  font-size: 1.2em; /*<-- Change this to increase report text size */
+}
+#datacontainer .data table th {
+    padding-bottom: .9em;
+    vertical-align: bottom;
+}
+#datacontainer .data table td.date {
+    vertical-align: top;
+    text-align: center;
+    width: 15%;
+}
+#datacontainer .data table td.key {
+    vertical-align: top;
+    text-align: center;
+    width: 10%;
+}
+#datacontainer .data table td.report {
+    
+}
+
+#datacontainer .data table td blockquote { /* Kurt */
+  border-left: 3px solid #c00000;
+  padding: 5px 15px;
+  text-align: justify;
+  line-height: 1.5em;
+  font-size: large;
+}
+
+#datacontainer .data table td blockquote:before { /* Kurt */
+
+ content: open-quote;
+}
+
+#datacontainer .data table td blockquote:after { /* Kurt */
+
+ content: close-quote;
+}
+
+#datacontainer .pagination {
+    width: 800px;
+    height: 25px;
+}
+
+#datacontainer .pagination ul li{
+    list-style: none;
+    float: left;
+ /* border: 1px solid #006699; */
+    border: 1px solid #c2c2c2;
+    padding: 2px 6px 2px 6px;
+    margin: 0 3px 0 3px;
+    font-family: arial;
+    font-size: 14px;
+ /* color: #006699; */
+    color: black;
+    font-weight: bold;
+/*  background-color: #f2f2f2; */
+    background-color: white;
+}
+#datacontainer .pagination ul li:hover {
+    color: #fff;
+/*  background-color: #006699;*/
+    background-color: #4acce2;
+    cursor: pointer;
+}
+
+.go_button {
+
+    background-color: #f2f2f2;
+    border: 1px solid #006699;
+    color: #cc0000;
+    padding: 2px 6px 2px 6px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -1px;
+}
+
+.total {
+
+    float: right;
+    font-family: arial;
+    color:#999;
+}
+

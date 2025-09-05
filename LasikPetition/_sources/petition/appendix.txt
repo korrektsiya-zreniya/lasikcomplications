@@ -1,0 +1,26 @@
+.. include:: ../include/html-entities.txt
+
+Appendix
+========
+
+.. container:: custom-appendix-container
+
+   Appendix – Tables with Additional Details
+
+.. raw:: html
+   :file: table1a.raw.html
+
+|emsp|
+
+|emsp|
+
+.. raw:: html
+   :file: table2a.raw.html
+
+|emsp|
+
+|emsp|
+
+.. raw:: html
+   :file: table3a.raw.html
+

@@ -1,0 +1,14 @@
+I. Action Requested
+===================
+
+I, Morris Waxler [cit5]_, am the former Branch Chief in charge of FDA approvals of LASIK devices between
+1996--2000. I request FDA commissioner, Dr. Margaret Hamburg, take the following actions:
+
+* Withdraw FDA approval (PMA) for all LASIK devices
+* Issue a Public Health Advisory with a voluntary recall of LASIK devices
+
+---------------
+
+.. rubric:: Citations
+
+.. [cit5] Waxler Regulatory Consultancy LLC

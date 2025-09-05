@@ -1,0 +1,18 @@
+TABLE.pollTable {
+	FONT: 11px arial, helvetica, sans-serif; WIDTH: 125px; BACKGROUND-COLOR: #efefef
+}
+.pollHead {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; FONT: bold 11px arial, helvetica, sans-serif; TEXT-TRANSFORM: uppercase; PADDING-TOP: 0px
+}
+.pollQuestion {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; FONT: 12px arial, helvetica, sans-serif; PADDING-TOP: 0px
+}
+.pollAnswer {
+	FONT: 11px arial, helvetica, sans-serif
+}
+.pollLink A {
+	FONT: 11px arial, helvetica, sans-serif; COLOR: black
+}
+.spacer {
+	PADDING-TOP: 10px
+}

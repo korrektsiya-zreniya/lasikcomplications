@@ -1,0 +1,25 @@
+.. include:: ../include/html-entities.txt
+
+Dr. Waxler's MSNBC Interview Video
+==================================
+
+This MSNBC interview took place February 18\ :sup:`th`\ , 2011. Morris Waxler, PhD, former Chief of the FDA branch responsible for reviewing LASIK
+clinical trials, filed a petition with the FDA calling for immediate withdrawal of LASIK devices and asking for a LASIK public health advisory. In this
+interview Dr Waxler explains why. He also intends "to submit CONFIDENTIAL information on these matters [#]_ separately to FDA’s Office of Criminal
+Investigation."
+
+.. raw:: html
+   :file: msnbc-interview.raw.html
+
+Qutotes:
+
+   **"...the adverse event rate is 20%, twenty folder higher than the adverse event rate that was expected and approved under...."**
+
+   **"...Essentially the LASIK community lied and withheld data from the agency with regard to these events and distorted that information..."** [#]_
+
+------------ 
+
+.. rubric:: Footnotes
+
+.. [#] these matters |mdash| see the first three paragraphs of :ref:`factual-grounds` for the full explanation.
+.. [#] events |mdash| meaning the aforementioned adverse events such as dry eye, distorted vision, night driving difficulties, etc. See :ref:`manufacturers-pressured`.

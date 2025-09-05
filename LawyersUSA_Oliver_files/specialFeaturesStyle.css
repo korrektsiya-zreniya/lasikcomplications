@@ -1,0 +1,84 @@
+.sfHeader {
+	FONT: bold 14px Arial,sans-serif; TEXT-TRANSFORM: uppercase; BACKGROUND-COLOR: #849ec6; TEXT-ALIGN: center
+}
+.sfFooter {
+	FONT: bold 12px Arial,sans-serif; COLOR: black; BACKGROUND-COLOR: #849ec6; TEXT-ALIGN: center
+}
+.sfFooter A {
+	FONT: bold 12px Arial,sans-serif; COLOR: black; BACKGROUND-COLOR: #849ec6; TEXT-ALIGN: center
+}
+.sfFooter A:visited {
+	FONT: bold 12px Arial,sans-serif; COLOR: black; BACKGROUND-COLOR: #849ec6; TEXT-ALIGN: center
+}
+.sfFooter A:hover {
+	FONT: bold 12px Arial,sans-serif; COLOR: black; BACKGROUND-COLOR: #849ec6; TEXT-ALIGN: center
+}
+.sfFooter A:link {
+	FONT: bold 12px Arial,sans-serif; COLOR: black; BACKGROUND-COLOR: #849ec6; TEXT-ALIGN: center
+}
+.sf {
+	FONT-WEIGHT: normal
+}
+.sf {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: bottom; COLOR: black
+}
+.sf A {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: bottom; COLOR: black
+}
+.sf A:visited {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: bottom; COLOR: black
+}
+.sf A:hover {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: bottom; COLOR: black
+}
+.sf A:link {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: bottom; COLOR: black
+}
+.sf A {
+	FONT-WEIGHT: bold
+}
+.sf A:visited {
+	FONT-WEIGHT: bold
+}
+.sf A:hover {
+	FONT-WEIGHT: bold
+}
+.sf A:link {
+	FONT-WEIGHT: bold
+}
+.sfTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; VERTICAL-ALIGN: top
+}
+.sfBox {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: top; WIDTH: 20%; TEXT-ALIGN: center
+}
+.sfBox1 {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: top; WIDTH: 20%; TEXT-ALIGN: center
+}
+.sfBox2 {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: top; WIDTH: 20%; TEXT-ALIGN: center
+}
+.sfBox3 {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: top; WIDTH: 20%; TEXT-ALIGN: center
+}
+.sfBox4 {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: top; WIDTH: 20%; TEXT-ALIGN: center
+}
+.sfBox5 {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: top; WIDTH: 20%; TEXT-ALIGN: center
+}
+.sfBox1 {
+	BACKGROUND-COLOR: #f5e7e3
+}
+.sfBox2 {
+	BACKGROUND-COLOR: #e7eff7
+}
+.sfBox3 {
+	BACKGROUND-COLOR: #eeeee4
+}
+.sfBox4 {
+	BACKGROUND-COLOR: #e3f5ea
+}
+.sfBox5 {
+	BACKGROUND-COLOR: #ebebeb
+}

@@ -1,0 +1,24 @@
+.onHeader {
+	FONT: 10px arial, helvetica, sans-serif; TEXT-TRANSFORM: uppercase; COLOR: #990000
+}
+.onDateline {
+	FONT: bold 10px arial, helvetica, sans-serif
+}
+.onItemHead {
+	FONT: 12px arial, helvetica, sans-serif; COLOR: #000000
+}
+.onItemHead A {
+	FONT: 12px arial, helvetica, sans-serif; COLOR: #000000
+}
+.onItemHead A:link {
+	FONT: 12px arial, helvetica, sans-serif; COLOR: #000000
+}
+.onItemHead A:visited {
+	FONT: 12px arial, helvetica, sans-serif; COLOR: #000000
+}
+.onItemHead A:hover {
+	FONT: 12px arial, helvetica, sans-serif; COLOR: #000000
+}
+.onSource {
+	FONT: 10px arial, helvetica, sans-serif; COLOR: #000000
+}
