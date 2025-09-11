@@ -1,9 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<!-- saved from url=(0045)http://www.kvbc.com/Global/story.asp?S=682657 -->
-<HTML><HEAD><TITLE>Sight for Sale, Pt. 1</TITLE>
-<META http-equiv=Content-Type content="text/html; charset=windows-1252"><WN 
-BASE="IIS18" VERSION="Container_A"></WN>
-<SCRIPT language=Javascript1.1><!-- 
+<!-- saved from url=(0045)http://www.kvbc.com/Global/story.asp?S=682657 --><html><head><title> Продается достопримечательность, часть 1 </title><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><wn base="IIS18" version="Container_A"></wn><script language="Javascript1.1"><!-- 
 //***** Video Functions ******
 function displayVideoHelp()
 {
@@ -28,19 +24,14 @@ function checkAllBoxes( strState, formID )
 		objForm.reset();
 
 	} else {
-		for (i=0; i<objForm.length; i++)
+		for (i=0; i <objForm.length; i++)
 		{
 			if (objForm.elements[i].type == "checkbox" )
 				objForm.elements[i].checked = true;
 		}
 	}
 }
-//--></SCRIPT>
-
-<SCRIPT language=Javascript1.3 
-src="Sight%20for%20Sale,%20Pt_%201_files/VideoFunctions.js"></SCRIPT>
-
-<SCRIPT language=JavaScript1.1><!-- 
+//--></script><script language="Javascript1.3" src="Sight%20for%20Sale,%20Pt_%201_files/VideoFunctions.js"></script><script language="JavaScript1.1"><!-- 
 
 			// HTML Nav Rollover functions
 			var agt = navigator.userAgent.toLowerCase();			
@@ -54,22 +45,22 @@ src="Sight%20for%20Sale,%20Pt_%201_files/VideoFunctions.js"></SCRIPT>
 			var is_ie3 = (is_ie && (is_major < 4));
 			var is_ie4 = (is_ie && (is_major == 4) && (agt.indexOf("msie 5")==-1) && (agt.indexOf("msie 6")==-1));
 			var is_ie4up  = (is_ie  && (is_major >= 4));
-			var is_safari = (agt.indexOf("safari")!=-1);			
+			var is_safari = (agt.indexOf("сафари")!=-1);			
 		
-			var ns6;
+			переменная ns6;
 			
-			if (bsr == "Netscape" && ver >= 5){
-				ns6 = true;
+			если (bsr == "Netscape" && ver >= 5){
+				ns6 = истина;
 			}
 
-			function mClk(src) {
+			функция mClk(src) {
 				if(event.srcElement.tagName=='TD'){src.children.tags('A')[0].click();}
 			}
-			function mOvrS(src) {
-				src.style.cursor = 'hand'; src.children.tags('A')[0].style.textDecoration = 'underline';
+			функция mOvrS(src) {
+				src.style.cursor = "рука"; src.дочерние элементы.теги("A")[0].style.TextDecoration = "подчеркивание";
 			}
-			function mOutS(src) {
-				src.style.cursor = 'default'; src.children.tags('A')[0].style.textDecoration = 'none';
+			функциональные заголовки(src) {
+				src.style.cursor = "по умолчанию"; src.children.tags("A")[0].style.TextDecoration = "нет";
 			}
 			
 			
@@ -77,18 +68,18 @@ src="Sight%20for%20Sale,%20Pt_%201_files/VideoFunctions.js"></SCRIPT>
 			var currenturl_nav = "";
 			var currenturl_pagetype = "";
 
-			var currenturl_args = new Object();
+			var currenturl_args = новый объект();
 
-			var currenturl_query = document.location.search;
+			var currenturl_query = документ.местоположение.поиск;
 
 			var currenturl_pairs1 = currenturl_query.split("?");
 
 
-			if (currenturl_pairs1 != "") {
+			если (currenturl_pairs1 != "") {
 
-				var currenturl_pairs = currenturl_pairs1[1].split("&");
+				var currenturl_pairs = currenturl_pairs1[1].разделить("&");
 
-				for(var i = 0; i < currenturl_pairs.length; i++) {
+				для(var i = 0; i < currenturl_pairs.length; i++) {
 					var currenturl_pos = currenturl_pairs[i].indexOf('=');
 					if (currenturl_pos == -1) continue;
 					var currenturl_argname = currenturl_pairs[i].substring(0,currenturl_pos);
@@ -650,45 +641,45 @@ var wrapper = document.getElementById(wrapperid);
 
  	if (bsr == "Netscape" && parseInt(ver) >= 5) {
 
-		var bd = new String(window.frames[p_adID].document.getElementById("AdHolder").innerHTML);
+		var bd = новая строка(window.frames[p_adID].document.getElementById("AdHolder").innerHTML);
 
-		var brsrc = bd.search(/WN\snoad\S\SYes/gi);
+		var brsrc = bd.поиск(/WN\snoad\S\SYes/gi);
 
 		var adiframe = document.getElementById(p_adID);
 
-		if (brsrc != -1) {
+		если (brsrc != -1) {
 
-			adiframe.height = 0;
-			adiframe.width = 0;
+			adiframe.высота = 0;
+			adiframe.ширина = 0;
 		}
-		else {
+		еще {
 		
-			if (wrapper) {
-				//alert(wrapper);
+			если (оболочка) {
+				//предупреждение(оболочка);
 
-				if (p_adID == "160x600A") {
+				если (p_adID == "160x600A") {
 
-					call_abpos('160x600A')
+					вызов_abpos('160x600A')
 
 				}
-				else {
+				еще {
 
-					if (p_adID == "728x90A") {
-					wrapper.style.width = "758px";
+					если (p_adID == "728x90A") {
+					обертка.стиль.ширина = "758 пикселей";
 					}
-					wrapper.style.display = "";
+					оболочка.стиль.отображение = "";
 
 				}
 			}
 
 				
 		
-			adiframe.style.visibility = "visible";
+			adiframe.style.visibility = "видимый";
 
 		}
   			
  	}
-	else if (bsr == "Netscape" && parseInt(ver) < 5 ) { } //Sniff out Netscape 4.x browser and not return anything
+иначе, если (bsr == "Netscape" && parseInt(версия)< 5 ) { } //Sniff out Netscape 4.x browser and not return anything
 	else {
 
 
@@ -810,14 +801,14 @@ function wxSwap (id1, id2)	{
 
 function GetCookie (name)
 {
-	if (document.cookie.length>0)
+	if (document.cookie.length> 0)
 	{
-		var arg = name + "=";
-		var alen = arg.length;
-		var clen = document.cookie.length;
+		var arg = имя + "=";
+		var alen = аргумент.длина;
+		var clen = документ.cookie.длина;
 		var i = 0;
 
-		while (i < clen)
+		в то время как (i < clen)
 		{
 			var j = i + alen;
 
@@ -843,118 +834,118 @@ function getCookieVal (offset)
 
 function setCookie (name,value,expires,path,domain,secure)
 {
-	if (document.cookie.length>0)
+	if (document.cookie.length> 0)
 	{
-		document.cookie = name + "=" + escape (value) +
-			((expires) ? "; expires=" + expires.toGMTString() : "") +
-			((path) ? "; path=" + path : "") +
-			((domain) ? "; domain=" + domain : "") +
-			((secure) ? "; secure" : "");
+		document.cookie = имя + "=" + escape (значение) +
+			((истекает) ? "; истекает=" + истекает.toGMTString() : "") +
+((путь) ? "; путь=" + путь : "") +
+((домен) ? "; домен=" + домен : "") +
+((защищенный) ? "; безопасный" : "");
 	}
 }
 
-function delCookie (name,path,domain) {
-  if (GetCookie(name)) {
-  	alert("deleting cookie = " + GetCookie(name));
-    document.cookie = name + "=" +
-    ((path == null) ? "" : "; path=" + path) +
-    ((domain == null) ? "" : "; domain=" + domain) +
-    "; expires=Thu, 01-Jan-1970 00:00:01 GMT";
+функция delCookie (имя,путь,домен) {
+  если (getCookie(имя)) {
+  	предупреждение("удаление файла cookie = " + getCookie(имя));
+    document.cookie = имя + "=" +
+    ((путь == null) ? "" : "; путь=" + путь) +
+    ((домен == null) ? "" : "; домен=" + домен) +
+    "; истекает=Чт, 01 января 1970 г., 00:00:01 GMT";
   }
 }
 
 var multiple_entries_cookie_val;
-var multiple_entries_update = false;
-var multiple_entries = unescape(GetCookie("multipleentries"));
+var multiple_entries_update = ложь;
+var multiple_entries = отменить просмотр(getCookie("multipleentries"));
 
-var multiple_entries_exp = new Date();
+var multiple_entries_exp = новая дата();
 multiple_entries_exp.setDate("1");
 multiple_entries_exp.setMonth("0");
 multiple_entries_exp.setYear("2010");
 multiple_entries_exp.setHours("0");
 multiple_entries_exp.setMinutes("0");
-var complete_cookie_delete = false;
-var complete_cookie = GetCookie("completeditems");
+переменная complete_cookie_delete = false;
+переменная complete_cookie = getCookie("завершенные элементы");
 
-var profile = GetCookie("FirstName");
+var profile = getCookie("Имя пользователя");
 
-if (profile != null) {
-	profile = profile.replace(/(\+)/g, " ");
+if (профиль != null) {
+	profile = профиль.заменить(/(\+)/g, " ");
 }
 
-else {
+еще {
 	
-	var profile_complete = GetCookie("EmailAddress");
-	if (profile_complete != null) {
-		var profile_index = profile_complete.indexOf("@");
-		profile = profile_complete.substring(0,profile_index);
+	var profile_complete = getCookie("Адрес электронной почты");
+	если (profile_complete != null) {
+		переменная profile_index = profile_complete.Индекс("@");
+		profile = profile_complete.подстрока(0,profile_index);
 	}
 }
 
-var reglinkno = "104054";
-var memcenter = "<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 WIDTH='100%'>";
+переменная reglinkno = "104054";
+переменная memcenter = "<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 WIDTH='100%'>";
 
-function popProfile() {
+функция popProfile() {
 
-var loginmsg = "Log Out";
-var acctmsg = "Manage Account";
+var loginmsg = "Выйти из системы";
+var acctmsg = "Управление учетной записью";
 var membercenterloc = "3";
 var style_align = "";
 if (ns6) {
-style_align = "float: left;";
+style_align = "с плавающей точкой: слева";;
 }
 
 var memcenter_title_style = "#000000";
 var memcenter_links_style = "#3333CC";
 
 
-if ((!is_mac) && (!is_ie3) && (!is_ie4) && (bsr != "Netscape" || ns6)) {
+если ((!is_mac) && (!is_ie3) && (!is_ie4) && (bsr != "Netscape" || ns6)) _BOS_
 
-	if (profile == null) {
+	если (профиль == null) {
 
-		acctmsg = "Create Account";
-		loginmsg = "Log In";	
+		acctmsg = "Создать учетную запись";
+		loginmsg = "Войти в систему";	
 
-		if (membercenterloc == 2 || membercenterloc == 4) {
+		если (membercenterloc == 2 || membercenterloc == 4) {
 			
-			memcenter += "<TR><TD><NOBR><FONT SIZE='1' COLOR='" + memcenter_title_style + "'><B>&nbsp;MEMBER CENTER</B></FONT></NOBR></TD><TD><NOBR><FONT STYLE='font-size: 9px; COLOR:" + memcenter_links_style + "'>| <A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile&amp;mode=create" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + acctmsg + "</FONT></A></NOBR></TD><TD WIDTH='90%'><FONT STYLE='font-size: 9px; COLOR:" + memcenter_links_style + "'>| <NOBR><A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile&amp;mode=login" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + loginmsg + "</FONT></A></NOBR></TD></TR>"
+			центр памяти += "<TR><TD><NOBR><FONT SIZE='1' COLOR='" + memcenter_title_style + "'><B>&nbsp;ЦЕНТР ДЛЯ УЧАСТНИКОВ </B></FONT></NOBR></TD><TD><NOBR><FONT STYLE='font-size: 9px; COLOR:" + memcenter_links_style + "'>|<A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile&amp;mode=create" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + сообщение об ошибке + "</FONT></A></NOBR></TD><TD WIDTH='90%'><FONT STYLE='font-size: 9px; COLOR:" + memcenter_links_style + "'>|<NOBR><A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile&amp;mode=login" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + логинмсг + "</FONT></A></NOBR></TD></TR>"
 		}
-		else {
-			memcenter += "<TR><TD><NOBR><FONT SIZE='1' COLOR='" + memcenter_title_style + "'><B>MEMBER CENTER</B></FONT></NOBR></TD></TR>";
-			memcenter += "<TR><TD HEIGHT='12'><FONT STYLE='font-size: 9px; line-height: 12px'><LI STYLE='list-style-type: square;color:" + memcenter_links_style + ";" + style_align + "'/><A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile&amp;mode=create" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + acctmsg + "</FONT></A></FONT></TD></TR><TR><TD><FONT STYLE='font-size: 9px; line-height: 12px'><LI STYLE='list-style-type: square;color:" + memcenter_links_style + ";" + style_align + "'/><A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile&amp;mode=login" + "&amp;referrer=" + escape(currenturl) + "'>" + "<FONT COLOR='" + memcenter_links_style + "'>" + loginmsg + "</FONT></A></FONT></TD></TR>";
+		еще {
+			центр памяти += "<TR><TD><NOBR><FONT SIZE='1' COLOR='" + memcenter_title_style + "'><B> ЦЕНТР ДЛЯ УЧАСТНИКОВ </B></FONT></NOBR></TD></TR>";
+			центр памяти += "<TR><TD HEIGHT='12'><FONT STYLE='font-size: 9px; line-height: 12px'><LI STYLE='list-style-type: square;color:" + memcenter_links_style + ";" + style_align + "'/><A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile&amp;mode=create" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + сообщение об ошибке + "</FONT></A></FONT></TD></TR><TR><TD><FONT STYLE='font-size: 9px; line-height: 12px'><LI STYLE='list-style-type: square;color:" + memcenter_links_style + ";" + style_align + "'/><A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile&amp;mode=login" + "&amp;referrer=" + escape(currenturl) + "'>" + "<FONT COLOR='" + memcenter_links_style + "'>" + логинмсг + "</FONT></A></FONT></TD></TR>";
 		}
 
 	}
 
-	else {
+	еще {
 
-		if (membercenterloc == 2 || membercenterloc == 4) {
-			memcenter += "<TR><TD><NOBR><FONT SIZE='1' COLOR='" + memcenter_title_style + "'><B>&nbsp;Welcome, " + profile + "!</B></FONT></NOBR></TD>";
-			memcenter += "<TD><NOBR><FONT STYLE='font-size: 9px; COLOR:" + memcenter_links_style + "'>| <A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + acctmsg + "</FONT></A>&nbsp;</FONT></NOBR></TD><TD WIDTH='90%'><NOBR><FONT STYLE='font-size: 9px; COLOR:" + memcenter_links_style + "'>| <A HREF='/global/pm/registration.asp?function=logout" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + loginmsg + "</FONT></A>&nbsp;</FONT></NOBR></TD></TR>";		
+		если (membercenterloc == 2 || membercenterloc == 4) {
+			центр памяти += "<TR><TD><NOBR><FONT SIZE='1' COLOR='" + memcenter_title_style + "'><B> Добро пожаловать, " + профиль +"!</B></FONT></NOBR></TD>";
+			центр памяти += "<TD><NOBR><FONT STYLE='font-size: 9px; COLOR:" + memcenter_links_style + "'>|<A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + сообщение об ошибке + "</FONT></A>&nbsp;</FONT></NOBR></TD><TD WIDTH='90%'><NOBR><FONT STYLE='font-size: 9px; COLOR:" + memcenter_links_style + "'>|<A HREF='/global/pm/registration.asp?function=logout" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + логинмсг + "</FONT></A>&nbsp;</FONT></NOBR></TD></TR>";		
 		
 		}
-		else {
-			memcenter += "<TR><TD><FONT SIZE='1' COLOR='" + memcenter_title_style + "'><B>Welcome, " + profile + "!</B></FONT></TD></TR>";
-			memcenter += "<TR><TD><FONT STYLE='font-size: 9px; line-height: 12px'><LI STYLE='list-style-type: square;color:" + memcenter_links_style + ";" + style_align + "'/><A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style +"'>" + acctmsg + "</FONT></A></FONT></TD></TR><TR><TD><FONT STYLE='font-size: 9px; line-height: 12px'><LI STYLE='list-style-type: square;color:" + memcenter_links_style + ";" + style_align + "'/><A HREF='/global/pm/registration.asp?function=logout" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + loginmsg + "</FONT></A></FONT></TD></TR>";
+		еще {
+			центр памяти += "<TR><TD><FONT SIZE='1' COLOR='" + memcenter_title_style + "'><B> Добро пожаловать, " + профиль +"!</B></FONT></TD></TR>";
+			центр памяти += "<TR><TD><FONT STYLE='font-size: 9px; line-height: 12px'><LI STYLE='list-style-type: square;color:" + memcenter_links_style + ";" + style_align + "'/><A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style +"'>" + сообщение об ошибке + "</FONT></A></FONT></TD></TR><TR><TD><FONT STYLE='font-size: 9px; line-height: 12px'><LI STYLE='list-style-type: square;color:" + memcenter_links_style + ";" + style_align + "'/><A HREF='/global/pm/registration.asp?function=logout" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + логинмсг + "</FONT></A></FONT></TD></TR>";
 		}
 
 	}
 	
-		memcenter += "</TABLE>";
+		центр памяти += "</TABLE>";
 
-		if (bsr != "Netscape") {
-			memcenterdiv = document.all.membercenter;
+		если (bsr != "Netscape") {
+			memcenterdiv = document.all.memberцентр;
 		}
-		else {
-			memcenterdiv = document.getElementById("membercenter");
+		еще {
+			memcenterdiv = document.getElementById("центр элементов");
 		}
 		
-		if (is_safari == true) {
+		если (is_safari == истина) {
 					
-			document.write(memcenter);
+			запись в документ(memcenter);
 								
 		}
-		else {
+		еще {
 		
 			window.setTimeout("memcenterdiv.innerHTML = memcenter;", 500);
 		
@@ -965,24 +956,24 @@ if ((!is_mac) && (!is_ie3) && (!is_ie4) && (bsr != "Netscape" || ns6)) {
 }
 
 
-function quickFormPost(frm,reqflds,customvals,dest) {
+функция quickFormPost(frm,reqflds,customvals,dest) {
 
 				
 
-	qform = eval('document.' + frm);
+	qform = eval('документ.' + frm);
 		
-	qform.SubmitBtn.disabled =  true;
+	qform.SubmitBtn.disabled = истина;
 	
-	document.body.style.cursor = 'wait';
+	document.body.style.cursor = "ждать";
 
-	var qfrmcnt = qform.elements.length
+	var qfrmcnt = qform.элементы.длина
 
-	
-
-	if (quickFormValidate(frm,reqflds) == true) {
 	
 
-		for (q=0; q<qfrmcnt; q++) {
+	если (quickFormValidate(frm,reqflds) == true) {
+	
+
+		для (q=0; q <qfrmcnt; q++) {
 
 			var qelem = qform.elements[q].name;
 
@@ -998,28 +989,28 @@ function quickFormPost(frm,reqflds,customvals,dest) {
 
 				if (txtlen > txtmxlen) {
 					
-					qf_errmsg = "Text entered in this field is " + txtlen + " chars long. The maximum amount allowed is " + txtmxlen + "." ;
+					qf_errmsg = "Текст, вводимый в это поле, содержит символы длиной " + txtlen + ". Максимально допустимое количество символов - " + txtmxlen + "." ;
 					
-					alert(qf_errmsg);
-					var textarea_alert = document.getElementById(qform.name + qelem);
+					предупреждение(qf_errmsg);
+					var textarea_alert = документ.Получить идентификатор элемента(qform.name + келем);
 
 
-					if (textarea_alert != null) {
+					если (textarea_alert != null) {
 						
-						textarea_alert.color = "#CC0000";
+						текстовая область_алерт.color = "#CC0000";
 					}
-					return false;
+					возвращает значение false;
 				}
 			}
 
 
 		
 		
-			if (dest == '0') {
+			если (dest == '0') {
 
 			var undscrint = qelem.indexOf('_');
 
-				if (undscrint == 0) {
+				если (undscrint == 0) {
 
 					qform.elements[q].name = qelem.substr(1);
 					
@@ -1028,18 +1019,18 @@ function quickFormPost(frm,reqflds,customvals,dest) {
 
 			}
 			
-			if (qform.submittedfields != null && qform.elements[q].type != "hidden" && qform.elements[q].type != "submit") {
+			если (qform.submittedfields != null && qform.elements[q].type != "скрытые" && qform.elements[q].type != "отправить") {
 						
-				var prev_flds = qform.submittedfields.value.split("|");
+				переменная prev_flds = qform.submittedfields.value.split("|");
 				
 				
-				var prev_flds_len = prev_flds.length - 2;
+				переменная prev_flds_len = prev_flds.длина - 2;
 				
 				
-				var prev_fld_str = prev_flds[prev_flds_len];
+				переменная prev_fld_str = prev_flds[prev_flds_len];
 				
 				
-				if (qform.elements[q].name != prev_fld_str) {
+				если (qform.elements[q].name!= prev_fld_str) {
 				
 				qform.submittedfields.value += qform.elements[q].name + "|";
 				
@@ -1055,14 +1046,14 @@ function quickFormPost(frm,reqflds,customvals,dest) {
 	
 		
 		genformPost(qform, qfrmcnt, customvals);
-		return false;
+		возвращает значение false;
 
 	}
-	else {
-		alert(qf_errmsg);
-		qform.SubmitBtn.disabled = false;
-		document.body.style.cursor = 'auto';
-		return false;
+	еще {
+		предупреждение(qf_errmsg);
+		qform.SubmitBtn.disabled = ложь;
+		document.body.style.cursor = "авто";
+		возвращает значение false;
 	}
 
 
@@ -1071,12 +1062,12 @@ function quickFormPost(frm,reqflds,customvals,dest) {
 
 
 
-function genformPost(qform, qfrmcnt, customvals) {
+функция genformPost(qform, qfrmcnt, customvals) {
 
-	gen_frm = document.gen_form_post;
+	gen_frm = документ.gen_form_post;
 
 	
-	for (i=0; i < qfrmcnt; i++) {
+	для (i=0; i < qfrmcnt; i++) {
 	
 	
 	var new_frm_fld = "";
@@ -1088,7 +1079,7 @@ function genformPost(qform, qfrmcnt, customvals) {
 	
 	
 	}
-	else if (qform.elements[i].type != "checkbox" && qform.elements[i].type != "radio") {
+	иначе, если (qform.elements[i].type != "флажок" && qform.elements[i].type != "радио") {
 
 		new_frm_fld = "<INPUT TYPE='HIDDEN' NAME='" + qform.elements[i].name + "' VALUE='" + escape(qform.elements[i].value) + "'/>";
 	
@@ -1100,8 +1091,8 @@ function genformPost(qform, qfrmcnt, customvals) {
 	}
 
 
-	gen_frm.method = "POST";
-	gen_frm.action = customvals;
+	gen_frm.method = "ОПУБЛИКОВАТЬ";
+gen_frm.action = пользовательские значения;
 	gen_frm.submit();
 
 
@@ -1111,16 +1102,16 @@ function genformPost(qform, qfrmcnt, customvals) {
 
 
 
-var qf_errmsg;
-var err_flds = new Array();
+var qf_errmsg переменная qf_errmsg;
+var err_flds = новый массив();
 
-function quickFormValidate(frm,reqflds) {
+функция quickFormValidate(frm,reqflds) {
 
 qf_errmsg = "";
 
-if (err_flds) {
+если (err_flds) {
 
-for (p=0; p < err_flds.length; p++) {
+для (p=0; p < err_flds.length; p++) {
 	
 	var err_alert = document.getElementById(frm + "_" + err_flds[p]);
 		
@@ -1179,71 +1170,71 @@ reqfldcnt = reqflds.length;
 					
 					else if (fld.value != '' && fld.name == 'LoginEmailAddress') {
 					
-						var EmailPattern = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+						var EmailPattern = /^(([^<>()[\]\\.,;:\ s@\"]+(\.[^<>()[\]\\.,;:\ s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([а-за-Я\-0-9]+\.)+[а-за-Я]{2,}))$/;
 					
-						var email_input = qform.elements["LoginEmailAddress"].value;			
+						var email_input = qform.elements["Адрес электронной почты для входа"].значение;			
 											
-						var is_valid_email = email_input.match(EmailPattern);
+						var is_valid_email = email_input.match(шаблон электронной почты);
 					
 						
-						if (is_valid_email == null) {
+						если (is_valid_email == null) {
 					
-							if (bsr == "Microsoft Internet Explorer" && ver == 4) {
+							если (bsr == "Microsoft Internet Explorer" && версия == 4) {
 							
-							err_flds[err_flds.length] = "LoginEmailAddress";
+							err_flds[ошибка_flds.длина] = "Адрес электронной почты для входа";
 							}
-							else {
-							err_flds.push("LoginEmailAddress");
+							еще {
+							err_flds.push("Адрес электронной почты для входа");
 							
 							}
-							qf_errmsg = "Please enter a valid Email Address";
-							break;
+							qf_errmsg = "Пожалуйста, введите действительный адрес электронной почты";
+							перерыв;
 					
 						}
 					
 					}
 					
-					else if (fld.value != '' && fld.name == '_ZipCode') {
+					иначе, если (поле.значение != " && fld.name == '_ZipCode') {
 
 						var ZipCodePattern = /^\d{5}(-?\d{4})?$/;
 
-						var zip_input = qform.elements["_ZipCode"].value;
+						var zip_input = qform.elements["_ZipCode"].значение;
 
 						var is_valid_zip = zip_input.match(ZipCodePattern);
 												
-							if (is_valid_zip == null) {
+							если (is_valid_zip == null) {
 
 								
-								if (bsr == "Microsoft Internet Explorer" && ver == 4) {
-								err_flds[err_flds.length] = "ZipCode";
+								если (bsr == "Microsoft Internet Explorer" && версия == 4) {
+								err_flds[ошибка_flds.длина] = "Почтовый индекс";
 								}
-								else {
-								err_flds.push("ZipCode");
+								еще {
+								err_flds.push("Почтовый индекс");
 								}
-								qf_errmsg = "Please enter a valid Zip Code";
-								break;
+								qf_errmsg = "Пожалуйста, введите действительный почтовый индекс";
+								перерыв;
 
 							}
 							
 
 
 					}
-					else if (fld.value != '' && fld.type == "textarea") {
+					иначе, если (поле.value != " && поле.type == "текстовая область") {
 
-						var txtlen = fld.value.length;
+						var txtlen = поле.значение.длина;
 
-						var txtmxlen = fld.getAttribute("MAXLENGTH");
+						var txtmxlen = fld.getAttribute("МАКСИМАЛЬНАЯ ДЛИНА");
 						
-						if (txtlen > txtmxlen) {
+						если (txtlen > txtmxlen) {
 							
-							if (bsr == "Microsoft Internet Explorer" && ver == 4) {
-							err_flds[err_flds.length] = fldstr;
+							если (bsr == "Microsoft Internet Explorer" && версия == 4) {
+							err_flds[ошибка_flds.длина] = fldstr;
 							}
-							else {
+							еще {
 							err_flds.push(fldstr);
 							}
-							qf_errmsg = "Text entered in this field is " + txtlen + " chars long. The maximum amount allowed is " + txtmxlen + "." ;
-							break;
+							qf_errmsg = "Текст, введенный в это поле, содержит символы длиной " + txtlen + ". Максимально допустимое количество символов - " + txtmxlen + "." ;
+							перерыв;
 						}
 					}
 
@@ -1251,21 +1242,21 @@ reqfldcnt = reqflds.length;
 			}
 
 
-			else {
+			еще {
 
 				reqchbxname = reqflds[k][0];
 
-				if (reqchbxname.indexOf('_') == 0) {
+				если (reqchbxname.indexOf('_') == 0) {
 
 				reqchbxname = reqflds[k][0].substr(1);
 
 				}
 
-				var checkbx_valid = false;
+				переменная checkbx_valid = false;
 														
-				var chkbxslen = reqflds[k].length - 1;
+				переменная chkbxslen = reqflds[k].длина - 1;
 
-				for (m=1; m <= chkbxslen; m++) {	
+				для (m=1; m <= chkbxslen; m++) {	
 
 					var fldchk = eval('document.' + frm + '.' + reqflds[k][m]);
 
@@ -1311,28 +1302,28 @@ for (u=0; u < err_len; u++) {
 
 if (err_len > 0) {
 
-var is_valid = false;
+var is_valid = ложь;
 
 }
-else {
+еще {
 
-is_valid = true;
-
-}
-
-return is_valid;
+is_valid = истина;
 
 }
 
+возвращает значение is_valid;
+
+}
 
 
 
-function quickFormError() {
 
-if (err_flds != null) {
+функция quickFormError() {
+
+если (err_flds != null) {
 
 
-	for (p=0; p < err_len; p++) {
+	для (p=0; p < err_len; p++) {
 
 		var err_alert = eval("document.all." + frm + "_" + err_flds[p]);
 
@@ -1520,73 +1511,73 @@ else {
 
 	if (bsr == "Netscape" && ver >= 5) {
 
-		abpos_origHeight = document.bt_px.y;
+		abpos_origHeight = документ.bt_px.y;
 		
  
-		ad_left = document.col4_px.x + 135;
+		ad_left = документ.col4_px.x + 135;
 		 
 
 	
-		wrapper.style.height = abpos_origHeight + 80;
-		wrapper.style.left = ad_left;
+		оболочка.стиль.высота = abpos_origHeight + 80;
+		оболочка.стиль.слева = ad_left;
 
-		if (document.wn_cat_hdr) {
-			ad_text.style.top = document.wn_cat_hdr.y + document.wn_cat_hdr.height - 20;
-			ad_div.style.top = document.wn_cat_hdr.y + document.wn_cat_hdr.height;
+		если (document.wn_cat_hdr) {
+			ad_text.style.top = документ.wn_cat_hdr.y + документ.wn_cat_hdr.height - 20;
+			ad_div.style.top = документ.wn_cat_hdr.y + документ.wn_cat_hdr.height;
 		}
-		else {
+		еще {
 
-			ad_text.style.top = document.banner_px.y - (ad_buffer + 20);
-			ad_div.style.top = document.banner_px.y - (ad_buffer + 2);
+			ad_text.style.top = документ.баннер_рх.у - (ad_buffer + 20);
+			ad_div.style.top = документ.баннер_рх.у - (ad_buffer + 2);
 		
 		}
 		
-		ad_text.style.left = ad_left;
-		ad_div.style.left = ad_left;
+		ad_text.стиль.левый = ad_left;
+		ad_div.стиль.левый = ad_left;
 		
 
 	}
-	else {
+еще {
 	
-		abpos_origHeight = document.body.scrollHeight;
-		bt_px_bottom = document.all.bt_px.getBoundingClientRect().bottom;
+		abpos_origHeight = высота прокрутки документа.body.height;
+		bt_px_bottom = document.all.bt_px.getBoundingClientRect().внизу;
 
  
-		ad_left = document.all.col4_px.getBoundingClientRect().right + 5;
+		ad_left = document.all.col4_px.getBoundingClientRect().справа + 5;
 		 
 		
 		
-		if (bt_px_bottom) {
-		wrapper.style.height = bt_px_bottom + 5;
+		если (bt_px_bottom) {
+		обертка.стиль.высота = bt_px_bottom + 5;
 		}
-		else{
-		wrapper.style.height = abpos_origHeight;
-		}
-		
-		wrapper.style.left = ad_left;
-		
-		if (document.all.wn_cat_hdr) {
-			ad_text.style.top = document.all.wn_cat_hdr.getBoundingClientRect().bottom - 20;
-			ad_div.style.top = document.all.wn_cat_hdr.getBoundingClientRect().bottom;
-		}
-		else {
-			ad_text.style.top = document.all.banner_px.getBoundingClientRect().bottom - (ad_buffer + 20);
-			ad_div.style.top = document.all.banner_px.getBoundingClientRect().bottom - ad_buffer;
+		еще{
+		обертка.стиль.высота = abpos_origHeight;
 		}
 		
-		ad_text.style.left = ad_left;
-		ad_div.style.left = ad_left;
+		обертка.стиль.левый = ad_left;
+		
+		если (document.all.wn_cat_hdr) {
+			ad_text.style.top = document.all.wn_cat_hdr.getBoundingClientRect().внизу - 20;
+			ad_div.style.top = document.all.wn_cat_hdr.getBoundingClientRect().внизу;
+		}
+		еще {
+			ad_text.style.top = document.all.banner_px.getBoundingClientRect().внизу - (ad_buffer + 20);
+			ad_div.style.top = document.all.banner_px.getBoundingClientRect().внизу - ad_buffer;
+		}
+		
+		ad_text.style.слева = ad_left;
+		ad_div.style.слева = ad_left;
 
 
 
 	}
 
 
-	wrapper.style.visibility = "visible";
+	wrapper.style.visibility = "видимый";
 
-	ad_text.style.visibility = "visible";
+	ad_text.style.visibility = "видимый";
 
-	ad_div.style.visibility = "visible";
+	ad_div.style.visibility = "видимый";
 
 
 }
@@ -1601,922 +1592,286 @@ else {
 
 
 
-//--></SCRIPT>
-
-<STYLE>FONT {
-	FONT-FAMILY: Verdana,Arial
+//--></script><style> ШРИФТ {
+	СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial
 }
 FONT.a {
-	TEXT-DECORATION: underline
+	ОФОРМЛЕНИЕ ТЕКСТА: подчеркивание
 }
 FONT.sectiontitle {
-	FONT-SIZE: 9px; COLOR: #000000
+	РАЗМЕР ШРИФТА: 9 пикселей; ЦВЕТ: #000000
 }
 TD.l1off {
-	PADDING-LEFT: 2px; BACKGROUND-COLOR: #000000
+	ОТСТУП СЛЕВА: 2 пикселя; ЦВЕТ ФОНА: #000000
 }
 TD.l1on {
-	PADDING-LEFT: 2px; BACKGROUND-COLOR: #ffffff
+	ОТСТУП СЛЕВА: 2 пикселя; ЦВЕТ ФОНА: #ffffff
 }
 A.l1off {
-	PADDING-LEFT: 2px; FONT-WEIGHT: 700; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana,Arial; TEXT-DECORATION: none
+	ОТСТУП СЛЕВА: 2 пикселя; ВЕС ШРИФТА: 700; РАЗМЕР ШРИФТА: 11 пикселей; ЦВЕТ: #ffffff; СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
 }
 A.l1on {
-	PADDING-LEFT: 2px; FONT-WEIGHT: 700; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana,Arial; TEXT-DECORATION: none
+	ОТСТУП СЛЕВА: 2 пикселя; ВЕС ШРИФТА: 700; РАЗМЕР ШРИФТА: 11 пикселей; ЦВЕТ: #000000; СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
 }
 TD.l2 {
-	PADDING-LEFT: 3px; BACKGROUND-COLOR: #ffffff
+	ОТСТУП СЛЕВА: 3 пикселя; ЦВЕТ ФОНА: #ffffff
 }
 A.l2 {
-	PADDING-LEFT: 3px; FONT-WEIGHT: 400; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Verdana,Arial; TEXT-DECORATION: none
+	ОТСТУП СЛЕВА: 3 пикселя; ВЕС ШРИФТА: 400; РАЗМЕР ШРИФТА: 10 пикселей; ЦВЕТ: #000000; СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
 }
 TD.l3a {
-	PADDING-LEFT: 4px; BACKGROUND-COLOR: #ffffff
+	ОТСТУП СЛЕВА: 4 пикселя; ЦВЕТ ФОНА: #ffffff
 }
-FONT.l3a {
-	PADDING-LEFT: 4px; FONT-WEIGHT: 400; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Verdana,Arial; TEXT-DECORATION: none
+ШРИФТ.l3a {
+	ОТСТУП СЛЕВА: 4 пикселя; ВЕС ШРИФТА: 400; РАЗМЕР ШРИФТА: 10 пикселей; ЦВЕТ: #000000; СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
 }
 TD.l3b {
-	PADDING-LEFT: 2px; BACKGROUND-COLOR: #ffffff
+	ОТСТУП СЛЕВА: 2 пикселя; ЦВЕТ ФОНА: #ffffff
 }
 A.l3b {
-	PADDING-LEFT: 2px; FONT-WEIGHT: 400; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Verdana,Arial; TEXT-DECORATION: none
+	ОТСТУП СЛЕВА: 2 пикселя; ВЕС ШРИФТА: 400; РАЗМЕР ШРИФТА: 10 пикселей; ЦВЕТ: #000000; СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
 }
 FONT.bn {
-	FONT-SIZE: 10px; COLOR: #010553; FONT-FAMILY: Verdana,Arial; TEXT-DECORATION: underline
+	РАЗМЕР ШРИФТА: 10 пикселей; ЦВЕТ: #010553; СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: подчеркивание
 }
 FONT.bnl {
-	FONT-SIZE: 10px; COLOR: #010553; FONT-FAMILY: Verdana,Arial; TEXT-DECORATION: none
+	РАЗМЕР ШРИФТА: 10 пикселей; ЦВЕТ: #010553; СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
 }
 TABLE.ctdbr {
-	BACKGROUND-COLOR: #010553
+	ЦВЕТ ФОНА: #010553
 }
 TD.ctdcrn {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-COLOR: #010553
+	ОТСТУП СПРАВА: 0 пикселей; ОТСТУП СЛЕВА: 0 пикселей; ЦВЕТ ФОНА: #010553
 }
 TD.ctdbtn {
-	BACKGROUND-COLOR: #4c60d4
+	ЦВЕТ ФОНА: #4c60d4
 }
-A.ctdoff {
-	FONT-WEIGHT: 700; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial; TEXT-DECORATION: none
+А.стдофф {
+	ВЕС ШРИФТА: 700; РАЗМЕР ШРИФТА: 11 пикселей; ЦВЕТ: #ffffff; СЕМЕЙСТВО ШРИФТОВ: Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
 }
-DIV.ads {
-	MARGIN: 5px
+РАЗДЕЛ.объявления {
+	ПОЛЕ: 5 пикселей
+} Изображение.видео {
+
+	ВЫРАВНИВАНИЕ ПО ВЕРТИКАЛИ: по центру
 }
-IMG.video {
-	VERTICAL-ALIGN: middle
-}
-TEXTAREA.qform {
-	FONT-FAMILY: Verdana,Arial
+ТЕКСТОВАЯ ОБЛАСТЬ.qформа {
+	СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial
 }
 DIV.wrapper_728x90A {
-	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; DISPLAY: none; MARGIN: 0px; VERTICAL-ALIGN: bottom; BORDER-LEFT: #999999 1px solid; WIDTH: 760px; BORDER-BOTTOM: #999999 0px solid; HEIGHT: 92px; BACKGROUND-COLOR: #000452
+	ГРАНИЦА СПРАВА: #999999 1px сплошная; ГРАНИЦА СВЕРХУ: #999999 1px сплошная; ОТОБРАЖЕНИЕ: нет; ПОЛЕ: 0px; ВЫРАВНИВАНИЕ по ВЕРТИКАЛИ: снизу; ГРАНИЦА СЛЕВА: #999999 1px сплошная; ШИРИНА: 760 пикселей; ГРАНИЦА СНИЗУ: #999999 0px сплошная; ВЫСОТА: 92 пикселя; ФОН-ЦВЕТ: #000452
 }
-DIV.wrapper_160x600A {
-	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 0px solid; LEFT: 762px; VISIBILITY: hidden; MARGIN: 0px; VERTICAL-ALIGN: bottom; BORDER-LEFT: #999999 1px solid; WIDTH: 165px; BORDER-BOTTOM: #999999 0px solid; POSITION: absolute; TOP: 0px; HEIGHT: 600px; BACKGROUND-COLOR: #000452
+DIV.обертка_160x600A {
+	ГРАНИЦА СПРАВА: #999999 1px сплошная; ГРАНИЦА СВЕРХУ: #999999 0px сплошная; СЛЕВА: 762px; ВИДИМОСТЬ: скрытая; ПОЛЕ: 0px; ВЫРАВНИВАНИЕ ПО ВЕРТИКАЛИ: снизу; ГРАНИЦА СЛЕВА: #999999 1px сплошная; ШИРИНА: 165px; ГРАНИЦА СНИЗУ: #999999 0px сплошная; ПОЛОЖЕНИЕ: абсолютный; ВЕРХ: 0 пикселей; ВЫСОТА: 600 пикселей; ЦВЕТ ФОНА: #000452
 }
-DIV.ad_text_160x600A {
-	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 0px solid; LEFT: 762px; VISIBILITY: hidden; MARGIN: 0px; VERTICAL-ALIGN: bottom; BORDER-LEFT: #999999 1px solid; WIDTH: 165px; BORDER-BOTTOM: #999999 0px solid; POSITION: absolute; TOP: 0px; HEIGHT: 600px; BACKGROUND-COLOR: #000452; alignment: center
+РАЗДЕЛ.ad_text_160x600A {
+	ГРАНИЦА СПРАВА: #999999 1px сплошная; ГРАНИЦА СВЕРХУ: #999999 0px сплошная; СЛЕВА: 762px; ВИДИМОСТЬ: скрытая; ПОЛЕ: 0px; ВЫРАВНИВАНИЕ ПО ВЕРТИКАЛИ: снизу; ГРАНИЦА СЛЕВА: #999999 1px сплошная; ШИРИНА: 165px; ГРАНИЦА СНИЗУ: #999999 0px сплошная; ПОЛОЖЕНИЕ: абсолютный; ВЕРХ: 0 пикселей; ВЫСОТА: 600 пикселей; ЦВЕТ ФОНА: #000452; выравнивание: по центру
 }
-DIV.ad_160x600A {
-	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; LEFT: 762px; VISIBILITY: hidden; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #999999 1px solid; WIDTH: 165px; BORDER-BOTTOM: #999999 1px solid; POSITION: absolute; TOP: 0px; HEIGHT: 610px; BACKGROUND-COLOR: #000452; alignment: center
-}
-</STYLE>
+РАЗДЕЛ.ad_160x600A {
+	ГРАНИЦА СПРАВА: #999999 1 пиксель сплошным; ГРАНИЦА СВЕРХУ: #999999 1 пиксель сплошным; СЛЕВА: 762 пикселя; ВИДИМОСТЬ: скрытая; ПОЛЕ: 0 пикселей; ВЫРАВНИВАНИЕ ПО ВЕРТИКАЛИ: среднее; ГРАНИЦА СЛЕВА: #999999 1 пиксель сплошным; ШИРИНА: 165 пикселей; ГРАНИЦА СНИЗУ: #999999 1 пиксель сплошным; ПОЛОЖЕНИЕ: абсолютный; ВЕРХ: 0 пикселей; ВЫСОТА: 610 пикселей; ЦВЕТ ФОНА: #000452; выравнивание: по центру
+}</style><meta content="MSHTML 6.00.2900.2523" name="GENERATOR"/></head><body alink="#000084" bgcolor="#010553" leftmargin="0" link="#0000cc" marginheight="0" marginwidth="0" onload="ScrollFormTo(theAnchor);" rightmargin="0" topmargin="0" vlink="#cc0000"><!--728x90 Leaderboard Ad--><div id="wrapper_728x90A" name="wrapper_728x90A" style="BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; DISPLAY: none; MARGIN: 0px; VERTICAL-ALIGN: bottom; BORDER-LEFT: #999999 1px solid; WIDTH: 760px; BORDER-BOTTOM: #999999 1px solid; HEIGHT: 100px; BACKGROUND-COLOR: #000452"><img align="left" border="0" hspace="0" src="Sight%20for%20Sale,%20Pt_%201_files/adtext_vert.gif" style="MARGIN-TOP: 5px" width="20"/><center><iframe allowtransparency="" border="1" frameborder="0" height="90" id="728x90A" marginheight="0" marginwidth="0" name="728x90A" scrolling="no" src="about:blank" style="MARGIN-TOP: 5px; VISIBILITY: hidden" width="728">&amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;gt; если (документ.слои) {document.write('&amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=98581979274748&amp;amp;type=single&amp;amp;tg=Promotion%202&amp;amp;src1=wn&amp;amp;sz1=728x90A&amp;amp;callType=script&amp;gt;&amp;lt;/SCR' + 'IPT&amp;gt;'); document.close();}&amp;lt;/SCRIPT&amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate('728x90A', 'wn');</script></center></div><table border="0" bordercolor="#ff0000" cellpadding="0" cellspacing="0" height="100%" width="760"><tbody><tr valign="top"><!--LEFT COLUMN --><td bgcolor="#0b2299" id="col1" rowspan="3" width="130"><table background="Sight%20for%20Sale,%20Pt_%201_files/pxl_trans.gif" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><img border="0" src="Sight%20for%20Sale,%20Pt_%201_files/hdr_branding_130x170.jpg" width="130"/></td></tr><tr><td><img src="Sight%20for%20Sale,%20Pt_%201_files/nav_top.gif" width="130"/></td></tr><tr><td bgcolor="#0b2299" valign="top"><!-- NAVIGATION MENU --><a href="http://www.kvbc.com/Global/category.asp?C=6012&amp;nav=15MU" onmouseout="cold('menumenu1_span1');return true;" onmouseover="hot('menumenu1_span1');return true;"><img border="0" height="19" name="menumenu1_span1" src="Sight%20for%20Sale,%20Pt_%201_files/15536_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=6014&amp;nav=15MV" onmouseout="cold('menumenu1_span2');return true;" onmouseover="hot('menumenu1_span2');return true;"><img border="0" height="19" name="menumenu1_span2" src="Sight%20for%20Sale,%20Pt_%201_files/15538_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=6013&amp;nav=15MX" onmouseout="cold('menumenu1_span3');return true;" onmouseover="hot('menumenu1_span3');return true;"><img border="0" height="19" name="menumenu1_span3" src="Sight%20for%20Sale,%20Pt_%201_files/15543_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=7877&amp;nav=15MW" onmouseout="cold('menumenu1_span4');return true;" onmouseover="hot('menumenu1_span4');return true;"><img border="0" height="19" name="menumenu1_span4" src="Sight%20for%20Sale,%20Pt_%201_files/15540_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=7878&amp;nav=15MY" onmouseout="cold('menumenu1_span5');return true;" onmouseover="hot('menumenu1_span5');return true;"><img border="0" height="19" name="menumenu1_span5" src="Sight%20for%20Sale,%20Pt_%201_files/15545_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=6015&amp;nav=15Mb" onmouseout="cold('menumenu1_span6');return true;" onmouseover="hot('menumenu1_span6');return true;"><img border="0" height="19" name="menumenu1_span6" src="Sight%20for%20Sale,%20Pt_%201_files/15552_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=29506&amp;nav=AL7S" onmouseout="cold('menumenu1_span7');return true;" onmouseover="hot('menumenu1_span7');return true;"><img border="0" height="19" name="menumenu1_span7" src="Sight%20for%20Sale,%20Pt_%201_files/53135_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=29824&amp;nav=MXNa" onmouseout="cold('menumenu1_span8');return true;" onmouseover="hot('menumenu1_span8');return true;"><img border="0" height="19" name="menumenu1_span8" src="Sight%20for%20Sale,%20Pt_%201_files/82180_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=6016&amp;nav=15Md" onmouseout="cold('menumenu1_span9');return true;" onmouseover="hot('menumenu1_span9');return true;"><img border="0" height="19" name="menumenu1_span9" src="Sight%20for%20Sale,%20Pt_%201_files/15556_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=30195&amp;nav=MXNZ" onmouseout="cold('menumenu1_span10');return true;" onmouseover="hot('menumenu1_span10');return true;"><img border="0" height="19" name="menumenu1_span10" src="Sight%20for%20Sale,%20Pt_%201_files/82178_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=10891&amp;nav=MYBH" onmouseout="cold('menumenu1_span11');return true;" onmouseover="hot('menumenu1_span11');return true;"><img border="0" height="19" name="menumenu1_span11" src="Sight%20for%20Sale,%20Pt_%201_files/82182_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=7884&amp;nav=15Me" onmouseout="cold('menumenu1_span12');return true;" onmouseover="hot('menumenu1_span12');return true;"><img border="0" height="19" name="menumenu1_span12" src="Sight%20for%20Sale,%20Pt_%201_files/15558_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=7886&amp;nav=15Mg" onmouseout="cold('menumenu1_span13');return true;" onmouseover="hot('menumenu1_span13');return true;"><img border="0" height="19" name="menumenu1_span13" src="Sight%20for%20Sale,%20Pt_%201_files/15562_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/link.asp?L=9450&amp;nav=MXNs" onmouseout="cold('menumenu1_span14');return true;" onmouseover="hot('menumenu1_span14');return true;"><img border="0" height="19" name="menumenu1_span14" src="Sight%20for%20Sale,%20Pt_%201_files/82184_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=17254&amp;nav=MXNu" onmouseout="cold('menumenu1_span15');return true;" onmouseover="hot('menumenu1_span15');return true;"><img border="0" height="19" name="menumenu1_span15" src="Sight%20for%20Sale,%20Pt_%201_files/82186_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=8736&amp;nav=8H3e" onmouseout="cold('menumenu1_span16');return true;" onmouseover="hot('menumenu1_span16');return true;"><img border="0" height="19" name="menumenu1_span16" src="Sight%20for%20Sale,%20Pt_%201_files/47794_G.gif" width="130"/></a><br/></td></tr><tr><td><img src="Sight%20for%20Sale,%20Pt_%201_files/nav_bot.gif" width="130"/></td></tr></tbody></table><!--SEARCH--><table align="center" background="Sight%20for%20Sale,%20Pt_%201_files/pxl_trans.gif" border="0" cellpadding="0" cellspacing="1" width="125"><tbody><tr><td></td></tr><tr><td bgcolor="#ffffff"><table border="0" cellpadding="0" cellspacing="1" width="100%"><tbody><tr><td valign="top" width="100%"><table bgcolor="#0c26ae" border="0" cellpadding="3" cellspacing="0" width="100%"><tbody><tr><form action="https://lasikcomplications.com/Global/SearchResults.asp" method="get" name="SimpleSearchForm"><td><img align="middle" border="0" height="15" src="Sight%20for%20Sale,%20Pt_%201_files/search2.gif" width="80"/><br/><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><input maxlength="30" name="qu" size="12" style="FONT-SIZE: 10px"/></td><td><input border="0" height="20" src="Sight%20for%20Sale,%20Pt_%201_files/btn_go2.gif" type="image" width="26"/></td></tr></tbody></table></td></form></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td></td></tr></tbody></table><!--AD VB120x240A--><!--ADS 120x240A Local--><center><iframe allowtransparency="" border="1" frameborder="0" height="240" id="VB120x240A" marginheight="0" marginwidth="0" name="VB120x240A" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="120">&amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;gt; если (документ.слои) {document.write('&amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=17831871509551&amp;amp;type=single&amp;amp;tg=Promotion%202&amp;amp;src=aff&amp;amp;sz=VB120x240A&amp;amp;callType=script&amp;gt;&amp;lt;/SCR' + 'IPT&amp;gt;'); document.close();}&amp;lt;/SCRIPT&amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate('VB120x240A', 'aff');</script></center><!-- COL 1A POLL --><!-- Subsection Navigation --><!--ADS 120x60--><br/><div align="center"><iframe allowtransparency="" border="1" frameborder="0" height="60" id="Bu120x60A" marginheight="0" marginwidth="0" name="Bu120x60A" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="120">&amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;gt; если (документ.слои) {document.write('&amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=15288344621658&amp;amp;type=single&amp;amp;tg=Promotion%202&amp;amp;src=aff&amp;amp;sz=Bu120x60A&amp;amp;callType=script&amp;gt;&amp;lt;/SCR' + 'IPT&amp;gt;'); document.close();}&amp;lt;/SCRIPT&amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate('Bu120x60A', 'aff');</script></div><br/><div align="center"><iframe allowtransparency="" border="1" frameborder="0" height="60" id="Bu120x60C" marginheight="0" marginwidth="0" name="Bu120x60C" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="120">&amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;gt; если (документ.слои) {document.write('&amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=52746585607528&amp;amp;type=single&amp;amp;tg=Promotion%202&amp;amp;src=aff&amp;amp;sz=Bu120x60C&amp;amp;callType=script&amp;gt;&amp;lt;/SCR' + 'IPT&amp;gt;'); document.close();}&amp;lt;/SCRIPT&amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate('Bu120x60C', 'aff');</script></div></td><!-- END OF LEFT COLUMN --><!-- CENTER COLUMN --><td id="col2/3" valign="top" width="630"><table border="0" bordercolor="#ff0000" cellpadding="0" cellspacing="0" height="100%" width="100%"><tbody><tr><td bgcolor="#010553" colspan="2"><img height="80" id="wn_cat_hdr" name="wn_cat_hdr" src="Sight%20for%20Sale,%20Pt_%201_files/category_hdr.jpg" width="630"/></td><!-- --></tr><tr><!-- NATIONAL CHANNELS --><td bgcolor="#010553" colspan="2"><table border="0" bordercolor="#cc0000" cellpadding="0" cellspacing="1" width="630"><tbody><tr><td bgcolor="#010553" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td valign="top"><table border="0" cellpadding="2" cellspacing="0" width="100%"><tbody><tr><td colspan="0" valign="top" width="90%"><table border="0" cellpadding="2" cellspacing="0" width="100%"><tbody><tr><td><table border="0" cellspacing="0" width="100%"><tbody><tr><td valign="top"><nobr><b><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> ТОРГОВАЯ ПЛОЩАДКА: </font></b></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=41934"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Авто </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=38708"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Работы </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=58268"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">
+Поиск людей </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=48050"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Личные данные </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=23748"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Путешествовать </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=46150"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Желтый 
+                                Страницы </font></a></nobr></td><td align="right" valign="top" width="90%"><nobr><font style="FONT-SIZE: 10px; COLOR: #ffffff"> 
+20 декабря 2004 года </font></nobr></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td valign="top"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><nobr><b><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> СТИЛЬ ЖИЗНИ: </font></b></nobr></td></tr></tbody></table></td><td width="90%"><table border="0" cellpadding="1" cellspacing="0" width="100%"><tbody><tr><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=49907"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Образование </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=28006"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Дом
+и приют </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=15965"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Деньги </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=29878"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Домашние животные </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=39546"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Рецепты </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=35501"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Отношения </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=49342"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Что
+будет дальше </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top" width="90%"><nobr><a href="http://www.kvbc.com/global/category.asp?c=47823"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Больше 
+                                Темы...</font></a></nobr></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td><td align="middle" rowspan="3" valign="top"> </td></tr><tr><!-- PAGE CONTENT --><td bgcolor="#010553" height="100%" valign="top" width="500"><table border="0" cellpadding="1" cellspacing="0" width="100%"><tbody><tr><td valign="top" width="1"><img border="0" height="1" id="banner_px" name="banner_px" src="Sight%20for%20Sale,%20Pt_%201_files/pxl_trans.gif" width="1"/></td><td><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td align="middle" colspan="2"><table border="0" cellpadding="0" cellspacing="1" width="100%"><tbody><tr><td align="middle"><iframe allowtransparency="" border="1" frameborder="0" height="60" id="banner" marginheight="0" marginwidth="0" name="banner" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="468">&amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;gt; если (документ.слои) {document.write('&amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=69536230564116&amp;amp;type=single&amp;amp;tg=Promotion%202&amp;amp;src=wn&amp;amp;sz=banner&amp;amp;callType=script&amp;gt;&amp;lt;/SCR' + 'IPT&amp;gt;'); document.close();}&amp;lt;/SCRIPT&amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate('баннер', 'wn');</script></td></tr></tbody></table></td></tr></tbody></table><!--AD SpH490x25--><iframe allowtransparency="" border="1" frameborder="0" height="25" id="SpH490x25" marginheight="0" marginwidth="0" name="SpH490x25" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="490">&amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;gt; если (документ.слои) {document.write('&amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=103078762292861&amp;amp;type=single&amp;amp;tg=Promotion%202&amp;amp;src=aff&amp;amp;sz=SpH490x25&amp;amp;callType=script&amp;gt;&amp;lt;/SCR' + 'IPT&amp;gt;'); document.close();}&amp;lt;/SCRIPT&amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate('SpH490x25', 'aff');</script><table border="0" cellpadding="0" cellspacing="1" width="100%"><tbody><tr><td><!-- COL 2A WEATHER/POLL--></td></tr></tbody></table><!-- DISPLAY STORY--><table border="0" cellpadding="0" cellspacing="1" width="100%"><tbody><tr><td></td></tr><tr><td bgcolor="#ffffff"><table border="0" cellpadding="0" cellspacing="1" width="100%"><tbody><tr><td valign="top" width="100%"><table bgcolor="#ffffff" border="0" cellpadding="5" cellspacing="0" width="100%"><tbody><tr><td valign="top"><font class="sectiontitle"> Новость 3 
+                                Исследователи </font><br/><font style="FONT-SIZE: 11px; COLOR: #3333cc; FONT-FAMILY: Verdana,Arial"><b>
+Продается достопримечательность, часть 1 </b></font><br clear="all"/><table border="0" cellpadding="2" cellspacing="0" width="470"><tbody><tr><td align="middle" width="20"><a href="javascript:%20var%20headline%20=%20escape(&quot;Sight%20for%20Sale,%20Pt.%201&quot;);%20OpenWin(%20'/Global/Create_Email_Story.asp?s=682657&amp;Headline=' + headline +  '||width=635,height=400,toolbar=no,scrollbars=no')"><img align="baseline" border="0" height="17" src="Sight%20for%20Sale,%20Pt_%201_files/icon_email.gif" width="18"/></a></td><td width="105"><nobr><a href="javascript:%20var%20headline%20=%20escape(&quot;Sight%20for%20Sale,%20Pt.%201&quot;);%20OpenWin(%20'/Global/Create_Email_Story.asp?s=682657&amp;Headline=' + headline +  '||width=635,height=400,toolbar=no,scrollbars=no')"><font class="a" style="FONT-SIZE: 10px; COLOR: #000000"> Отправь электронное
+письмо другу </font></a></nobr></td><td align="middle" width="20"><a href="http://www.kvbc.com/global/story.asp?s=682657&amp;ClientType=Print"><img align="baseline" border="0" height="17" src="Sight%20for%20Sale,%20Pt_%201_files/icon_printer.gif" width="18"/></a></td><td width="140"><nobr><a href="http://www.kvbc.com/global/story.asp?s=682657&amp;ClientType=Printable"><font class="a" style="FONT-SIZE: 10px; COLOR: #000000">
+Версия, удобная для печати </font></a></nobr></td><td width="185"> </td></tr></tbody></table><table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="3" name="D20" width="180"><tbody><tr><td align="middle" colspan="2"><img src="Sight%20for%20Sale,%20Pt_%201_files/682657_BG1.jpg" vspace="3" width="180"/></td></tr><tr><td align="middle" colspan="2"><img src="Sight%20for%20Sale,%20Pt_%201_files/682657_BG2.jpg" vspace="3" width="180"/></td></tr><tr><td align="middle" colspan="2"><img src="Sight%20for%20Sale,%20Pt_%201_files/682657_BG3.jpg" vspace="3" width="180"/></td></tr><tr><td align="middle" colspan="2"><img src="Sight%20for%20Sale,%20Pt_%201_files/682657_BG4.jpg" vspace="3" width="180"/></td></tr><!--AD 180x150 LOCAL--><tr><td align="middle"><iframe allowtransparency="" border="1" frameborder="0" height="150" id="180x150" marginheight="0" marginwidth="0" name="180x150" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="180">&amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;gt; если (документ.слои) {document.write('&amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=24940422773361&amp;amp;type=single&amp;amp;tg=Promotion%202&amp;amp;src=aff&amp;amp;sz=180x150&amp;amp;callType=script&amp;gt;&amp;lt;/SCR' + 'IPT&amp;gt;'); document.close();}&amp;lt;/SCRIPT&amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate("180x150", "aff");</script></td></tr></tbody></table><font color="#000000" size="1"><br/><p> ЛАС-ВЕГАС, 27 февраля 2002 года <br/><em><a href="http://www.kvbc.com/Global/story.asp?S=172472&amp;nav=15Mf1ErW1Cz1"> Дарси 
+                                Копья </a> отчет </em></p><p> Можете ли вы ясно видеть без очков или
+контактных линз? Многие люди не могут этого сделать. На самом деле, больше 
+                                более миллиона человек ежегодно обращаются за помощью к хирургу lasik
+для коррекции своего зрения. У одной из крупнейших
+национальных сетей центров лазерной хирургии глаза
+процветающий бизнес здесь, в Лас-Вегасе, но новости № 3 
+                                Исследователь Дарси Спирс обнаружила, что этот
+дисконтный центр, возможно, вводит вас в заблуждение
+, выставляя на продажу зрение.</p><p> Можете ли вы назвать цену идеальному зрению? Один
+центр lasik предлагает очень низкую цену на их 
+                                операции, и, как говорится, ты получаешь то, за что
+платишь. Наше расследование, проведенное скрытой камерой
+, раскрывает то, что некоторые называют деньги важнее лекарств. 
+                                философия, которая уходит пациентов и бывший 
+                                человек видит красный.</p><p>"Она практически уговорила меня на это, потому что это
+звучало заманчиво. Мне не нужно носить очки, чтобы читать
+или водить машину", - говорит Гейл Кеннеди, потребитель.</p><p> Гейл Кеннеди обратилась в Lasik и
+Институт лазерного зрения как к избавлению от своей тюрьмы
+плохого зрения. Гейл знала людей, которые
+успешно перенесли там операции. Проблема в том, что она
+этого не сделала.</p><p>"Прошло 11 месяцев после операции, и мои
+глаза болят у меня каждый день и каждую ночь", - говорит
+Гейл.<br/> Гейл говорит, что ей все еще нужны
+очки для чтения, и она не может видеть
+лучше.<br/>"Это почти как нервные окончания 
+                                были повреждены, и они сильно
+пересохли."<br/> <br/> Доктор Джон Симс проработал штатным
+хирургом в LVI в Лас-Вегасе почти два
+года. Он и по меньшей мере пять других сотрудников 
+                                недавно уволились из-за того, что они называют
+"деньги важнее медицины".</p><p>"Продавцы должны были соответствовать определенным квотам, чтобы
+сохранить свою работу, иначе их бы уволили. 
+                                Оптометристы должны были ежедневно принимать определенное количество
+пациентов, врачи должны были
+выполнять определенное количество операций в день". 
+                                говорит доктор Симс.</p><p> Внутренние записи, полученные The News 3. 
+                                Исследователи показали, что сотрудники LVI могут получать комиссионные
+в зависимости от того, сколько пациентов они принимают за
+неделю. Оптометрист LVI доктор Леса Дэвис
+признает, что испытывает давление.</p><p>"На консультантов оказывается давление 
+                                чтобы принять как можно больше пациентов, или чтобы я
+приняла как можно больше пациентов сама", - говорит доктор Леса
+Дэвис.</p><p>"Это создает проблему конфликта
+интересов, не так ли? Если чье-то возмещение
+зависит от того, решите ли вы сделать
+операцию или нет, существует потенциальный риск
+того, что роль консультанта может быть испорчена
+этим стимулом", - говорит доктор Уэйн Бизер из Американской
+академии офтальмологов.</p><p> Мы отправили продюсера со скрытой камерой на
+рекламируемую бесплатную консультацию. Вот что
+рассказал продавец, которого называют консультантом пациентов 
+                                ее. Имейте в виду, что у этого человека нет медицинского образования. 
+                                степень.</p><p>"О чем это говорит для данной консультации 
+                                - я? Что я кандидат?" Спросил наш 
+                                производитель.</p><p>- В принципе, ты хороший кандидат для
+операции. Очевидно, я не могу определить это без 
+                                видя результаты экзамена, но основываясь на ваших 
+                                учитывая рецепт и ваш возраст, да, вы
+очень хороший кандидат для операции. Если бы ты был 
+                                это неподходящий кандидат для операции, я бы не
+позволил вам продолжать", - сказал консультант.</p><p> Но только для того, чтобы обратиться к врачу, пациенты сначала
+должны внести невозвращаемый депозит в размере 100 долларов,
+основываясь на рекомендациях продавца.</p><p>"Политика компании заключается в том, что единственный
+, кто может принять решение о том, подходит ли тот или иной
+кандидат, - это врач", - говорит
+Мэтью Цифрони.<br/> Никто из сотрудников корпоративного офиса laser vision
+institute не стал бы сниматься на
+камеру. Их адвокат утверждает, что LVI из Лас-Вегаса 
+                                персонал не соблюдал процедуру.</p><p>"Если политика компании не
+соблюдается, и у нас есть основания полагать, что это так,
+то мы предпримем соответствующие действия, чтобы
+обеспечить ее соблюдение", - говорит Цифрони.</p><p> Для некоторых это слишком мало, слишком поздно.</p><p>"Я думаю, что там много других людей 
+                                я им нравлюсь, и я очень давно хотела
+, чтобы произошло что-то подобное, потому
+что считаю, что это должно быть услышано", - говорит Гейл.</p><p> Гейл Кеннеди - не единственная актриса в Лас-Вегасе 
+                                пациент, у которого были проблемы. Вы познакомитесь с ними подробнее в
+продолжении этой истории. 
+Адвокат LVI попросил нас обратить ваше внимание на то, что в
+институте лазерного зрения есть множество довольных пациентов.</p><p> Во второй половине 2001 года, ЛВИ, проведенные 
+                                процедуры около 1000 пациентов.<br/> Восемьдесят-одна из тех, или приблизительно 8 
+ процентов, заполнил удовлетворенности пациентов 
+ обследование и почти все они думали, что их 
+                                лечение хорошее или отличное.</p><p> Местные эксперты и хирурги-офтальмологи, с которыми мы
+беседовали, говорят, что отраслевой стандарт заключается в
+том, что пациенты должны пройти бесплатное обследование у врача, чтобы
+определить кандидатуру, прежде чем они начнут тратить
+деньги на процедуру lasik.</p><p><strong><u> Ссылки по теме/информация о
+расследовании, опубликованном в среду, "Слепая вера"</u></strong></p><ul><li> Веб-сайт института лазерного зрения:<a href="http://www.laservisioninstitute.com/"> http://www.laservisioninstitute.com/</a></li><li> Веб-сайт группы наблюдателей за глазной хирургией:<a href="http://www.surgicaleyes.org/"> http://www.surgicaleyes.org/</a></li><li> Агентством, осуществляющим надзор за миром очков
+, является Совет оптиков-дистрибьюторов штата Невада в <a href="http://www.nvbdo.state.nv.us/"> http://www.nvbdo.state.nv.us/</a></li><li> Закон штата Невада, регулирующий оптометрию:<a href="http://www.leg.state.nv.us/nrs/nrs-636.html"> http://www.leg.state.nv.us/nrs/nrs-636.html </a></li><li> Пересмотренный закон штата Невада: глава 636
+аннотация: глава 636 - оптометрия. 
+Законодательная декларация NRS 636.010. Настоящим
+оптометрия объявляется научной
+профессией, влияющей на общественную безопасность и благосостояние
+, отвечающей общественным интересам и
+, следовательно, подлежащей защите и регулированию
+со стороны государства. [1:208:1955]nrs 636.015 
+                                определения. Используемые в этой главе
+слова и термины, если контекст не требует иного, используются следующим образом: 
+                                определены внутренние номера с 636.016 по 636.024.<a href="http://www.leg.state.nv.us/nrs/nrs-636.html"> http://www.leg.state.nv.us/nrs/nrs-636.html </a>(раздел, касающийся совместного ведения с
+офтальмологами, - 636.374)</li></ul><p><strong><u> Статьи по теме:</u></strong></p><ul><li>"Тактика продаж Lasik-хирургии вызывает
+удивление"<br/> автор: Марк Борбели <br/> специально для
+"Вашингтон пост"<br/> 4 сентября 2001 года <br/><a href="http://www.washingtonpost.com/wp-dyn/articles/a37121-2001sep3.html"> http://www.washingtonpost.com/wp-dyn/articles/a37121-2001sep3.html </a></li><li>"Пациенты, Рассматривающие Лазерную Хирургию, Должны 
+                                Входить С Открытыми Глазами"<br/> Автор: Джон Нолан <br/> Агентство
+Ассошиэйтед Пресс (для журнала Salina Journal)<br/><a href="http://www.saljournal.com/stories/120500/lif_eyesurgery.html"> http://www.saljournal.com/stories/120500/lif_eyesurgery.html </a></li><li>"Eyeglass World соглашается пересмотреть практику 
+                                и выплатить штрафы на общую сумму 500 000 долларов".<br/> Около 
+                                Стивен Барретт, доктор медицины.<br/> Дом для наблюдения за шарлатанами 
+                                страница <br/><a href="http://www.quackwatch.com/04consumereducation/news/ew.html"> http://www.quackwatch.com/04consumereducation/news/ew.html </a></li><li>"Судебные Иски Проливают Свет На Риски, Связанные С Лазерными
+Операциями На Глазах"<br/> Автор: Линда Марса <br/> Лос-Анджелес 
+                                Раз <br/><a href="http://www.latimes.com/"> http://www.latimes.com/</a></li></ul><p><strong><u> Дополнительная информация:</u></strong><br/> Юрист Института лазерного зрения Мэтью Цифрони (Matthew
+Zifrony) провел статистический анализ 81
+опроса об удовлетворенности пациентов, который LVI
+получил в связи со своим
+местоположением в Лас-Вегасе. Большинство этих опросов были получены
+LVI во второй половине 2001 календарного
+года, в период, когда LVI проводила 
+                                процедуры, проведенные примерно у 1000 пациентов (т.е. 
+                                Примерно 8% пациентов с LVI за этот
+период времени, по-видимому, откликнулись на участие в
+опросе.) Каждый опрос содержал до 20 пунктов, в
+которых пациенту предлагалось оценить уровень LVI от 1 
+                                к 4, где 1 означает плохое, 2 - справедливое, 3
+- хорошее и 4 - отличное обслуживание. 
+                                Ниже приведена разбивка таких
+ответов:<br/> Плохой, справедливый, хороший
+, превосходный <br/> ответов 15 56 331 
+                                1,172 <br/> процентное соотношение 1% 4% 21% 74%<br/><br/> Больше 
+                                информацию о жалобах потребителей можно
+найти в департаменте сельского хозяйства Флориды 
+                                и потребительские услуги. 1-800-справочная-Флорида.<a href="http://www.doacs.state.fl.us/"> http://www.doacs.state.fl.us/</a></p></font></td></tr></tbody></table></td></tr></tbody></table></td></tr><!-- --></tbody></table><!--DISPLAY SEARCH RESULTS --></td><td width="1"></td></tr></tbody></table><table border="0" cellpadding="1" cellspacing="0" width="100%"><tbody><tr><td width="1"></td><td height="100%" id="col2" valign="top" width="100%"><!-- XML BLOCK A --><!-- FULL/HALF HORIZONTALS --><table border="0" cellpadding="0" cellspacing="1" width="100%"><tbody><tr><td></td></tr><tr><td bgcolor="#cccccc"><table border="0" cellpadding="0" cellspacing="1" width="100%"><tbody><tr><td valign="top"><table bgcolor="#ffe06d" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td align="left" valign="top"><img height="16" src="Sight%20for%20Sale,%20Pt_%201_files/c_co_tl.gif" width="4"/></td><td valign="center" width="100%"><b><font style="FONT-SIZE: 12px; COLOR: #000000"> Где 
+                                Приходят новости 
+                              Первый </font></b></td></tr></tbody></table></td></tr><tr><td bgcolor="#ffffff" valign="top"><table border="0" cellpadding="5" cellspacing="0" width="100%"><tbody><tr><td colspan="3" valign="top" width="100%"><font style="FONT-SIZE: 9px; COLOR: #000000"> Новость 3 
+                                Исследователи </font><br/><a href="http://www.kvbc.com/Global/story.asp?S=682716"><font class="a" style="FONT-SIZE: 11px; COLOR: #3333cc"><b>
+Продается достопримечательность, стр. 2 </b></font><img border="0" class="video" height="13" hspace="2" src="Sight%20for%20Sale,%20Pt_%201_files/icon_vidincluded.gif" width="91"/></a><br/><table align="left" border="0" cellpadding="0" cellspacing="3" width="90"><tbody><tr><td><a href="http://www.kvbc.com/Global/story.asp?S=682716"><img border="0" hspace="0" src="Sight%20for%20Sale,%20Pt_%201_files/682716_SS.jpg" width="90"/></a></td></tr></tbody></table><font color="#000000" size="1"> Кто бы вы хотели, чтобы сообщил
+вам, являетесь ли вы кандидатом на лазерную
+хирургию глаза? Продавец? Руководитель корпоративного бизнеса
+? Возможно, врач. Но мы обнаружили
+, что в одном центре, где продается зрение, это может быть не так
+.</font><br/></td></tr><tr><td valign="top" width="50%"><font style="FONT-SIZE: 9px; COLOR: #000000"> Новость 3 
+                                Исследователи </font><br/><a href="http://www.kvbc.com/Global/story.asp?S=686012"><font class="a" style="FONT-SIZE: 11px; COLOR: #3333cc"><b>
+Продается достопримечательность, стр. 3 </b></font></a><br/><table align="left" border="0" cellpadding="0" cellspacing="3" width="90"><tbody><tr><td><a href="http://www.kvbc.com/Global/story.asp?S=686012"><img border="0" hspace="0" src="Sight%20for%20Sale,%20Pt_%201_files/686012_SS.jpg" width="90"/></a></td></tr></tbody></table><font color="#000000" size="1"> Маркетинг медицинских услуг 
+                                процедуры - это спорный вопрос, но реклама
+лазерной офтальмохирургии с низкими ценами есть повсюду. В своем
+продолжающемся репортаже следователь News 3 Дарси 
+                                Спирс публикует несколько рекламных роликов lasik, обещающих больше 
+                                чем они занимаются.</font><br/></td><td valign="top" width="50%"><font style="FONT-SIZE: 9px; COLOR: #000000"> Новость 3 
+                                Исследователи </font><br/><a href="http://www.kvbc.com/Global/story.asp?S=686156"><font class="a" style="FONT-SIZE: 11px; COLOR: #3333cc"><b>
+Продается достопримечательность, стр. 4 </b></font></a><br/><table align="left" border="0" cellpadding="0" cellspacing="3" width="50"><tbody><tr><td><a href="http://www.kvbc.com/Global/story.asp?S=686156"><img border="0" hspace="0" src="Sight%20for%20Sale,%20Pt_%201_files/686156_SS.jpg" width="50"/></a></td></tr></tbody></table><font color="#000000" size="1">
+Хирурги из других городов прилетают и проводят операции и
+обследования в течение нескольких дней, а затем улетают. Это
+концепция корпоративной медицины, используемая Институтом лазерного
+зрения. Говорят, что это гарантирует 
+                                пациенты получают наилучший уход, но мы обнаружили, что
+при продаже зрения уход не всегда оказывается
+врачом, имеющим соответствующую лицензию.</font><br/></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><!--COL 2B WEATHER/POLL --><!-- NESTED CATEGORIES --><!--COL 2C WEATHER/POLL --><br clear="all"/></td><!-- END OF COL 2 --><td width="2"></td></tr></tbody></table></td><!--COl 4--><td bgcolor="#bbbbbb" height="100%" id="col4" valign="top" width="130"><table bgcolor="#000000" border="0" cellpadding="0" cellspacing="1" width="100%"><tbody><tr><td bgcolor="#ffffff"><div id="membercenter"></div><script language="JavaScript1.1"> popProfile() Профиль пользователя();</script></td></tr></tbody></table><table bgcolor="#bbbbbb" border="0" cellpadding="0" cellspacing="1" height="100%" width="100%"><!-- DISPLAY EMPLOYMENT CLASSIFIEDS SPONSORS --><tbody><tr><td bgcolor="#bbbbbb" height="95%" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td bgcolor="#bbbbbb"><table bgcolor="#bbbbbb" border="0" cellpadding="2" cellspacing="0" width="100%"><tbody><tr><td><center><iframe allowtransparency="" border="1" frameborder="0" height="600" id="120x600" marginheight="0" marginwidth="0" name="120x600" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="120">&amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;gt; если (документ.слои) {document.write('&amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=92974958419798&amp;amp;type=single&amp;amp;tg=Promotion%202&amp;amp;src=wn&amp;amp;sz=120x600&amp;amp;callType=script&amp;gt;&amp;lt;/SCR' + 'IPT&amp;gt;'); document.close();}&amp;lt;/SCRIPT&amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate("120x600", "wn");</script><table border="0" cellpadding="2" cellspacing="0" width="100%"><tbody><tr><td valign="top" width="100%"><table align="center" border="0" cellpadding="0" cellspacing="3" width="115"><tbody><tr><td><a href="http://www.kvbc.com/global/Category.asp?c=33195"><img border="0" hspace="0" src="Sight%20for%20Sale,%20Pt_%201_files/93848_G.gif" width="115"/></a><br/></td></tr></tbody></table></td></tr><tr><td valign="top" width="100%"><a href="http://www.kvbc.com/Global/link.asp?L=141106"><font class="a" style="FONT-SIZE: 10px; COLOR: #3333cc"><b> Делать 
+                                Вы знаете Свой Кредитный
+рейтинг?</b></font></a><br/><font color="#000000" size="1"> Закажите свой кредитный отчет и просмотрите его
+онлайн прямо сейчас!</font><br/></td></tr><tr><td valign="top" width="100%"><a href="http://www.kvbc.com/Global/link.asp?L=130272"><font class="a" style="FONT-SIZE: 10px; COLOR: #3333cc"><b> Ухаживаете
+за кем-то с
+болезнью Альцгеймера?</b></font></a><br/><font color="#000000" size="1"> Получите информацию и
+советы по уходу по
+почте.</font><br/></td></tr></tbody></table></center></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><img border="0" height="1" id="col4_px" name="col4_px" src="Sight%20for%20Sale,%20Pt_%201_files/pxl_trans.gif" width="130"/></td></tr></tbody></table></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" width="760"><tbody><tr><td bgcolor="#010553"><table border="0" bordercolor="#cc0000" cellpadding="1" cellspacing="1" width="100%"><tbody><tr><td align="middle" bgcolor="#ffffff" colspan="2" valign="bottom"><table align="center" border="0" bordercolor="#ff0000" cellpadding="0" cellspacing="5"><tbody><tr><td><a href="http://www.worldnow.com/" target="_blank"><img border="0" height="34" id="bt_px" name="bt_px" src="Sight%20for%20Sale,%20Pt_%201_files/wn_powerby.gif" width="99"/></a></td><td><font style="FONT-SIZE: 10px; COLOR: #000000"> Все содержимое
+защищено авторскими правами 2000 - 2004 WorldNow и KVBC. все права защищены.<br/> Для получения дополнительной информации на этом сайте, пожалуйста, ознакомьтесь
+с нашим <a href="http://www.kvbc.com/global/story.asp?s=18990"> политика конфиденциальности </a> и <a href="http://www.kvbc.com/global/story.asp?s=18991"> условия обслуживания </a>.</font></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><div style="LEFT: 0px; POSITION: absolute; TOP: 0px"><iframe allowtransparency="" border="1" frameborder="0" height="1" id="Popup" marginheight="0" marginwidth="0" name="Popup" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="1"></iframe><script language="JavaScript1.1"> coreAdsCreate('Всплывающее окно', 'aff');</script></div><div style="LEFT: 0px; POSITION: absolute; TOP: 0px"><iframe allowtransparency="" border="1" frameborder="0" height="1" id="RichMedia" marginheight="0" marginwidth="0" name="RichMedia" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="1"></iframe><script language="JavaScript1.1"> coreAdsCreate('RichMedia', 'wn');</script></div><div class="wrapper_160x600A" id="wrapper_160x600A" name="wrapper"></div><div align="center" class="ad_text_160x600A" id="ad_text_160x600A" name="ad_text"><img border="0" height="20" src="Sight%20for%20Sale,%20Pt_%201_files/adtext_horiz.gif" width="160"/></div><div align="center" class="ad_160x600A" id="ad_160x600A" name="ad"><center><iframe allowtransparency="" border="1" frameborder="0" height="600" id="160x600A" marginheight="0" marginwidth="0" name="160x600A" scrolling="no" src="about:blank" style="MARGIN-TOP: 5px; VISIBILITY: hidden" width="160">&amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;gt; если (документ.слои) {document.write('&amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=29982153177261&amp;amp;type=single&amp;amp;tg=Promotion%202&amp;amp;src1=wn&amp;amp;sz1=160x600A&amp;amp;callType=script&amp;gt;&amp;lt;/SCR' + 'IPT&amp;gt;'); document.close();}&amp;lt;/SCRIPT&amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate("160x600A", "wn");</script></center></div><div style="LEFT: 0px; POSITION: absolute; TOP: 0px"><iframe height="0" id="iframeads" name="iframeads" src="Sight%20for%20Sale,%20Pt_%201_files/CA6VSTM3.htm" style="VISIBILITY: hidden" width="0"></iframe></div><script language="JavaScript1.1"> если (bsr != "Netscape" || ns6) {
 
-<META content="MSHTML 6.00.2900.2523" name=GENERATOR></HEAD>
-<BODY vLink=#cc0000 aLink=#000084 link=#0000cc bgColor=#010553 leftMargin=0 
-topMargin=0 onload=ScrollFormTo(theAnchor); rightMargin=0 MARGINHEIGHT="0" 
-MARGINWIDTH="0"><!--728x90 Leaderboard Ad-->
-<DIV id=wrapper_728x90A 
-style="BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; DISPLAY: none; MARGIN: 0px; VERTICAL-ALIGN: bottom; BORDER-LEFT: #999999 1px solid; WIDTH: 760px; BORDER-BOTTOM: #999999 1px solid; HEIGHT: 100px; BACKGROUND-COLOR: #000452" 
-NAME="wrapper_728x90A"><IMG style="MARGIN-TOP: 5px" hspace=0 
-src="Sight%20for%20Sale,%20Pt_%201_files/adtext_vert.gif" width=20 align=left border=0>
-<CENTER><IFRAME id=728x90A style="MARGIN-TOP: 5px; VISIBILITY: hidden" border=1 
-name=728x90A marginWidth=0 marginHeight=0 src="about:blank" frameBorder=0 
-width=728 scrolling=no height=90 
-allowTransparency><SCRIPT LANGUAGE='JavaScript1.1'>if (document.layers) {document.write('<SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=98581979274748&type=single&tg=Promotion%202&src1=wn&sz1=728x90A&callType=script></SCR' + 'IPT>'); document.close();}</SCRIPT></IFRAME>
-<SCRIPT language=JavaScript1.1>coreAdsCreate('728x90A', 'wn');</SCRIPT>
-</CENTER></DIV>
-<TABLE borderColor=#ff0000 height="100%" cellSpacing=0 cellPadding=0 width=760 
-border=0>
-  <TBODY>
-  <TR vAlign=top><!--LEFT COLUMN -->
-    <TD id=col1 width=130 bgColor=#0b2299 rowSpan=3>
-      <TABLE cellSpacing=0 cellPadding=0 width="100%" 
-      background="Sight%20for%20Sale,%20Pt_%201_files/pxl_trans.gif" border=0>
-        <TBODY>
-        <TR>
-          <TD><IMG src="Sight%20for%20Sale,%20Pt_%201_files/hdr_branding_130x170.jpg" 
-            width=130 border=0></TD></TR>
-        <TR>
-          <TD><IMG src="Sight%20for%20Sale,%20Pt_%201_files/nav_top.gif" 
-        width=130></TD></TR>
-        <TR>
-          <TD vAlign=top bgColor=#0b2299><!-- NAVIGATION MENU --><A 
-            onmouseover="hot('menumenu1_span1');return true;" 
-            onmouseout="cold('menumenu1_span1');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=6012&amp;nav=15MU"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/15536_G.gif" border=0 
-            name=menumenu1_span1 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span2');return true;" 
-            onmouseout="cold('menumenu1_span2');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=6014&amp;nav=15MV"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/15538_G.gif" border=0 
-            name=menumenu1_span2 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span3');return true;" 
-            onmouseout="cold('menumenu1_span3');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=6013&amp;nav=15MX"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/15543_G.gif" border=0 
-            name=menumenu1_span3 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span4');return true;" 
-            onmouseout="cold('menumenu1_span4');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=7877&amp;nav=15MW"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/15540_G.gif" border=0 
-            name=menumenu1_span4 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span5');return true;" 
-            onmouseout="cold('menumenu1_span5');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=7878&amp;nav=15MY"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/15545_G.gif" border=0 
-            name=menumenu1_span5 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span6');return true;" 
-            onmouseout="cold('menumenu1_span6');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=6015&amp;nav=15Mb"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/15552_G.gif" border=0 
-            name=menumenu1_span6 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span7');return true;" 
-            onmouseout="cold('menumenu1_span7');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=29506&amp;nav=AL7S"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/53135_G.gif" border=0 
-            name=menumenu1_span7 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span8');return true;" 
-            onmouseout="cold('menumenu1_span8');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=29824&amp;nav=MXNa"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/82180_G.gif" border=0 
-            name=menumenu1_span8 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span9');return true;" 
-            onmouseout="cold('menumenu1_span9');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=6016&amp;nav=15Md"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/15556_G.gif" border=0 
-            name=menumenu1_span9 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span10');return true;" 
-            onmouseout="cold('menumenu1_span10');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=30195&amp;nav=MXNZ"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/82178_G.gif" border=0 
-            name=menumenu1_span10 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span11');return true;" 
-            onmouseout="cold('menumenu1_span11');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=10891&amp;nav=MYBH"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/82182_G.gif" border=0 
-            name=menumenu1_span11 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span12');return true;" 
-            onmouseout="cold('menumenu1_span12');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=7884&amp;nav=15Me"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/15558_G.gif" border=0 
-            name=menumenu1_span12 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span13');return true;" 
-            onmouseout="cold('menumenu1_span13');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=7886&amp;nav=15Mg"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/15562_G.gif" border=0 
-            name=menumenu1_span13 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span14');return true;" 
-            onmouseout="cold('menumenu1_span14');return true;" 
-            href="http://www.kvbc.com/Global/link.asp?L=9450&amp;nav=MXNs"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/82184_G.gif" border=0 
-            name=menumenu1_span14 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span15');return true;" 
-            onmouseout="cold('menumenu1_span15');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=17254&amp;nav=MXNu"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/82186_G.gif" border=0 
-            name=menumenu1_span15 width="130" height="19"></A><BR><A 
-            onmouseover="hot('menumenu1_span16');return true;" 
-            onmouseout="cold('menumenu1_span16');return true;" 
-            href="http://www.kvbc.com/Global/category.asp?C=8736&amp;nav=8H3e"><IMG 
-            src="Sight%20for%20Sale,%20Pt_%201_files/47794_G.gif" border=0 
-            name=menumenu1_span16 width="130" height="19"></A><BR></TD></TR>
-        <TR>
-          <TD><IMG src="Sight%20for%20Sale,%20Pt_%201_files/nav_bot.gif" 
-        width=130></TD></TR></TBODY></TABLE><!--SEARCH-->
-      <TABLE cellSpacing=1 cellPadding=0 width=125 align=center 
-      background="Sight%20for%20Sale,%20Pt_%201_files/pxl_trans.gif" border=0>
-        <TBODY>
-        <TR>
-          <TD></TD></TR>
-        <TR>
-          <TD bgColor=#ffffff>
-            <TABLE cellSpacing=1 cellPadding=0 width="100%" border=0>
-              <TBODY>
-              <TR>
-                <TD vAlign=top width="100%">
-                  <TABLE cellSpacing=0 cellPadding=3 width="100%" 
-                  bgColor=#0c26ae border=0>
-                    <TBODY>
-                    <TR>
-                      <FORM name=SimpleSearchForm 
-                      action="https://lasikcomplications.com/Global/SearchResults.asp" method=get>
-                      <TD><IMG height=15 
-                        src="Sight%20for%20Sale,%20Pt_%201_files/search2.gif" width=80 
-                        align=middle border=0><BR>
-                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
-border=0>
-                          <TBODY>
-                          <TR>
-                            <TD><INPUT style="FONT-SIZE: 10px" maxLength=30 
-                              size=12 name=qu></TD>
-                            <TD><INPUT type=image height=20 width=26 
-                              src="Sight%20for%20Sale,%20Pt_%201_files/btn_go2.gif" 
-                              border=0></TD></TR></TBODY></TABLE></TD></FORM></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
-        <TR>
-          <TD></TD></TR></TBODY></TABLE><!--AD VB120x240A--><!--ADS 120x240A Local-->
-      <CENTER><IFRAME id=VB120x240A style="VISIBILITY: hidden" border=1 
-      name=VB120x240A marginWidth=0 marginHeight=0 src="about:blank" 
-      frameBorder=0 width=120 scrolling=no height=240 
-      allowTransparency><SCRIPT LANGUAGE='JavaScript1.1'>if (document.layers) {document.write('<SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=17831871509551&type=single&tg=Promotion%202&src=aff&sz=VB120x240A&callType=script></SCR' + 'IPT>'); document.close();}</SCRIPT></IFRAME>
-      <SCRIPT 
-language=JavaScript1.1>coreAdsCreate('VB120x240A', 'aff');</SCRIPT>
-      </CENTER><!-- COL 1A POLL --><!-- Subsection Navigation --><!--ADS 120x60--><BR>
-      <DIV align=center><IFRAME id=Bu120x60A style="VISIBILITY: hidden" border=1 
-      name=Bu120x60A marginWidth=0 marginHeight=0 src="about:blank" 
-      frameBorder=0 width=120 scrolling=no height=60 
-      allowTransparency><SCRIPT LANGUAGE='JavaScript1.1'>if (document.layers) {document.write('<SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=15288344621658&type=single&tg=Promotion%202&src=aff&sz=Bu120x60A&callType=script></SCR' + 'IPT>'); document.close();}</SCRIPT></IFRAME>
-      <SCRIPT language=JavaScript1.1>coreAdsCreate('Bu120x60A', 'aff');</SCRIPT>
-      </DIV><BR>
-      <DIV align=center><IFRAME id=Bu120x60C style="VISIBILITY: hidden" border=1 
-      name=Bu120x60C marginWidth=0 marginHeight=0 src="about:blank" 
-      frameBorder=0 width=120 scrolling=no height=60 
-      allowTransparency><SCRIPT LANGUAGE='JavaScript1.1'>if (document.layers) {document.write('<SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=52746585607528&type=single&tg=Promotion%202&src=aff&sz=Bu120x60C&callType=script></SCR' + 'IPT>'); document.close();}</SCRIPT></IFRAME>
-      <SCRIPT language=JavaScript1.1>coreAdsCreate('Bu120x60C', 'aff');</SCRIPT>
-      </DIV></TD><!-- END OF LEFT COLUMN --><!-- CENTER COLUMN -->
-    <TD id=col2/3 vAlign=top width=630>
-      <TABLE borderColor=#ff0000 height="100%" cellSpacing=0 cellPadding=0 
-      width="100%" border=0>
-        <TBODY>
-        <TR>
-          <TD bgColor=#010553 colSpan=2><IMG id=wn_cat_hdr 
-            src="Sight%20for%20Sale,%20Pt_%201_files/category_hdr.jpg" 
-          name=wn_cat_hdr width="630" height="80"></TD><!----></TR>
-        <TR><!-- NATIONAL CHANNELS -->
-          <TD bgColor=#010553 colSpan=2>
-            <TABLE borderColor=#cc0000 cellSpacing=1 cellPadding=0 width=630 
-            border=0>
-              <TBODY>
-              <TR>
-                <TD width="100%" bgColor=#010553>
-                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-                    <TBODY>
-                    <TR>
-                      <TD vAlign=top>
-                        <TABLE cellSpacing=0 cellPadding=2 width="100%" 
-border=0>
-                          <TBODY>
-                          <TR>
-                            <TD vAlign=top width="90%" colSpan=0>
-                              <TABLE cellSpacing=0 cellPadding=2 width="100%" 
-                              border=0>
-                                <TBODY>
-                                <TR>
-                                <TD>
-                                <TABLE cellSpacing=0 width="100%" border=0>
-                                <TBODY>
-                                <TR>
-                                <TD vAlign=top><NOBR><B><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana">MARKETPLACE:&nbsp;</FONT></B></NOBR></TD>
-                                <TD vAlign=top><NOBR><A 
-                                href="http://www.kvbc.com/global/category.asp?c=41934"><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">Auto</FONT></A><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana">&nbsp;|</FONT></NOBR></TD>
-                                <TD vAlign=top><NOBR><A 
-                                href="http://www.kvbc.com/global/category.asp?c=38708"><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">Jobs</FONT></A><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana">&nbsp;|</FONT></NOBR></TD>
-                                <TD vAlign=top><NOBR><A 
-                                href="http://www.kvbc.com/global/category.asp?c=58268"><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">People 
-                                Search</FONT></A><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana">&nbsp;|</FONT></NOBR></TD>
-                                <TD vAlign=top><NOBR><A 
-                                href="http://www.kvbc.com/global/category.asp?c=48050"><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">Personals</FONT></A><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana">&nbsp;|</FONT></NOBR></TD>
-                                <TD vAlign=top><NOBR><A 
-                                href="http://www.kvbc.com/global/category.asp?c=23748"><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">Travel</FONT></A><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana">&nbsp;|</FONT></NOBR></TD>
-                                <TD vAlign=top><NOBR><A 
-                                href="http://www.kvbc.com/global/category.asp?c=46150"><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">Yellow 
-                                Pages</FONT></A></NOBR></TD>
-                                <TD vAlign=top align=right 
-                                width="90%"><NOBR><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff">&nbsp;December 
-                                20, 2004</FONT></NOBR></TD></TR></TBODY></TABLE>
-                                <TABLE cellSpacing=0 cellPadding=0 width="100%" 
-                                border=0>
-                                <TBODY>
-                                <TR>
-                                <TD vAlign=top>
-                                <TABLE cellSpacing=0 cellPadding=0 border=0>
-                                <TBODY>
-                                <TR>
-                                <TD><NOBR><B><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana">LIFESTYLE:&nbsp;</FONT></B></NOBR></TD></TR></TBODY></TABLE></TD>
-                                <TD width="90%">
-                                <TABLE cellSpacing=0 cellPadding=1 width="100%" 
-                                border=0>
-                                <TBODY>
-                                <TR>
-                                <TD vAlign=top><NOBR><A 
-                                href="http://www.kvbc.com/global/category.asp?c=49907"><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">Education</FONT></A><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana">&nbsp;|</FONT></NOBR></TD>
-                                <TD vAlign=top><NOBR><A 
-                                href="http://www.kvbc.com/global/category.asp?c=28006"><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">House 
-                                &amp; Home</FONT></A><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana">&nbsp;|</FONT></NOBR></TD>
-                                <TD vAlign=top><NOBR><A 
-                                href="http://www.kvbc.com/global/category.asp?c=15965"><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">Money</FONT></A><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana">&nbsp;|</FONT></NOBR></TD>
-                                <TD vAlign=top><NOBR><A 
-                                href="http://www.kvbc.com/global/category.asp?c=29878"><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">Pets</FONT></A><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana">&nbsp;|</FONT></NOBR></TD>
-                                <TD vAlign=top><NOBR><A 
-                                href="http://www.kvbc.com/global/category.asp?c=39546"><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">Recipes</FONT></A><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana">&nbsp;|</FONT></NOBR></TD>
-                                <TD vAlign=top><NOBR><A 
-                                href="http://www.kvbc.com/global/category.asp?c=35501"><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">Relationships</FONT></A><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana">&nbsp;|</FONT></NOBR></TD>
-                                <TD vAlign=top><NOBR><A 
-                                href="http://www.kvbc.com/global/category.asp?c=49342"><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">What's 
-                                Next</FONT></A><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana">&nbsp;|</FONT></NOBR></TD>
-                                <TD vAlign=top width="90%"><NOBR><A 
-                                href="http://www.kvbc.com/global/category.asp?c=47823"><FONT 
-                                style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">More 
-                                Topics...</FONT></A></NOBR></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
-          <TD vAlign=top align=middle rowSpan=3>&nbsp;</TD></TR>
-        <TR><!-- PAGE CONTENT -->
-          <TD vAlign=top width=500 bgColor=#010553 height="100%">
-            <TABLE cellSpacing=0 cellPadding=1 width="100%" border=0>
-              <TBODY>
-              <TR>
-                <TD vAlign=top width=1><IMG id=banner_px height=1 
-                  src="Sight%20for%20Sale,%20Pt_%201_files/pxl_trans.gif" width=1 
-                  border=0 name=banner_px></TD>
-                <TD>
-                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-                    <TBODY>
-                    <TR>
-                      <TD align=middle colSpan=2>
-                        <TABLE cellSpacing=1 cellPadding=0 width="100%" 
-border=0>
-                          <TBODY>
-                          <TR>
-                            <TD align=middle><IFRAME id=banner 
-                              style="VISIBILITY: hidden" border=1 name=banner 
-                              marginWidth=0 marginHeight=0 src="about:blank" 
-                              frameBorder=0 width=468 scrolling=no height=60 
-                              allowTransparency><SCRIPT LANGUAGE='JavaScript1.1'>if (document.layers) {document.write('<SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=69536230564116&type=single&tg=Promotion%202&src=wn&sz=banner&callType=script></SCR' + 'IPT>'); document.close();}</SCRIPT></IFRAME>
-                              <SCRIPT language=JavaScript1.1>coreAdsCreate('banner', 'wn');</SCRIPT>
-                            </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!--AD SpH490x25--><IFRAME 
-                  id=SpH490x25 style="VISIBILITY: hidden" border=1 
-                  name=SpH490x25 marginWidth=0 marginHeight=0 src="about:blank" 
-                  frameBorder=0 width=490 scrolling=no height=25 
-                  allowTransparency><SCRIPT LANGUAGE='JavaScript1.1'>if (document.layers) {document.write('<SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=103078762292861&type=single&tg=Promotion%202&src=aff&sz=SpH490x25&callType=script></SCR' + 'IPT>'); document.close();}</SCRIPT></IFRAME>
-                  <SCRIPT language=JavaScript1.1>coreAdsCreate('SpH490x25', 'aff');</SCRIPT>
-
-                  <TABLE cellSpacing=1 cellPadding=0 width="100%" border=0>
-                    <TBODY>
-                    <TR>
-                      <TD><!-- COL 2A WEATHER/POLL--></TD></TR></TBODY></TABLE><!-- DISPLAY STORY-->
-                  <TABLE cellSpacing=1 cellPadding=0 width="100%" border=0>
-                    <TBODY>
-                    <TR>
-                      <TD></TD></TR>
-                    <TR>
-                      <TD bgColor=#ffffff>
-                        <TABLE cellSpacing=1 cellPadding=0 width="100%" 
-border=0>
-                          <TBODY>
-                          <TR>
-                            <TD vAlign=top width="100%">
-                              <TABLE cellSpacing=0 cellPadding=5 width="100%" 
-                              bgColor=#ffffff border=0>
-                                <TBODY>
-                                <TR>
-                                <TD vAlign=top><FONT class=sectiontitle>News 3 
-                                Investigators</FONT><BR><FONT 
-                                style="FONT-SIZE: 11px; COLOR: #3333cc; FONT-FAMILY: Verdana,Arial"><B>Sight 
-                                for Sale, Pt. 1</B></FONT><BR clear=all>
-                                <TABLE cellSpacing=0 cellPadding=2 width=470 
-                                border=0>
-                                <TBODY>
-                                <TR>
-                                <TD align=middle width=20><A 
-                                href="javascript:%20var%20headline%20=%20escape(&quot;Sight%20for%20Sale,%20Pt.%201&quot;);%20OpenWin(%20'/Global/Create_Email_Story.asp?s=682657&amp;Headline=' + headline +  '||width=635,height=400,toolbar=no,scrollbars=no')"><IMG 
-                                height=17 
-                                src="Sight%20for%20Sale,%20Pt_%201_files/icon_email.gif" 
-                                width=18 align=baseline border=0></A></TD>
-                                <TD width=105><NOBR><A 
-                                href="javascript:%20var%20headline%20=%20escape(&quot;Sight%20for%20Sale,%20Pt.%201&quot;);%20OpenWin(%20'/Global/Create_Email_Story.asp?s=682657&amp;Headline=' + headline +  '||width=635,height=400,toolbar=no,scrollbars=no')"><FONT 
-                                class=a 
-                                style="FONT-SIZE: 10px; COLOR: #000000">Email to 
-                                a Friend</FONT></A></NOBR></TD>
-                                <TD align=middle width=20><A 
-                                href="http://www.kvbc.com/global/story.asp?s=682657&amp;ClientType=Print"><IMG 
-                                height=17 
-                                src="Sight%20for%20Sale,%20Pt_%201_files/icon_printer.gif" 
-                                width=18 align=baseline border=0></A></TD>
-                                <TD width=140><NOBR><A 
-                                href="http://www.kvbc.com/global/story.asp?s=682657&amp;ClientType=Printable"><FONT 
-                                class=a 
-                                style="FONT-SIZE: 10px; COLOR: #000000">Printer 
-                                Friendly Version </FONT></A></NOBR></TD>
-                                <TD width=185>&nbsp;</TD></TR></TBODY></TABLE>
-                                <TABLE cellSpacing=3 cellPadding=0 width=180 
-                                align=left bgColor=#ffffff border=0 NAME="D20">
-                                <TBODY>
-                                <TR>
-                                <TD align=middle colSpan=2><IMG 
-                                src="Sight%20for%20Sale,%20Pt_%201_files/682657_BG1.jpg" 
-                                width=180 vspace=3></TD></TR>
-                                <TR>
-                                <TD align=middle colSpan=2><IMG 
-                                src="Sight%20for%20Sale,%20Pt_%201_files/682657_BG2.jpg" 
-                                width=180 vspace=3></TD></TR>
-                                <TR>
-                                <TD align=middle colSpan=2><IMG 
-                                src="Sight%20for%20Sale,%20Pt_%201_files/682657_BG3.jpg" 
-                                width=180 vspace=3></TD></TR>
-                                <TR>
-                                <TD align=middle colSpan=2><IMG 
-                                src="Sight%20for%20Sale,%20Pt_%201_files/682657_BG4.jpg" 
-                                width=180 vspace=3></TD></TR><!--AD 180x150 LOCAL-->
-                                <TR>
-                                <TD align=middle><IFRAME id=180x150 
-                                style="VISIBILITY: hidden" border=1 name=180x150 
-                                marginWidth=0 marginHeight=0 src="about:blank" 
-                                frameBorder=0 width=180 scrolling=no height=150 
-                                allowTransparency><SCRIPT LANGUAGE='JavaScript1.1'>if (document.layers) {document.write('<SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=24940422773361&type=single&tg=Promotion%202&src=aff&sz=180x150&callType=script></SCR' + 'IPT>'); document.close();}</SCRIPT></IFRAME>
-                                <SCRIPT language=JavaScript1.1>coreAdsCreate('180x150', 'aff');</SCRIPT>
-                                </TD></TR></TBODY></TABLE><FONT color=#000000 
-                                size=1><BR>
-                                <P>LAS VEGAS, February 27, 2002<BR><EM><A 
-                                href="http://www.kvbc.com/Global/story.asp?S=172472&amp;nav=15Mf1ErW1Cz1">Darcy 
-                                Spears</A> reporting</EM></P>
-                                <P>Can you see clearly without glasses or 
-                                contact lenses? Many people can't. In fact, more 
-                                than a million people turn to lasik surgery each 
-                                year to correct their vision. One of the largest 
-                                national chains of laser eye surgery centers has 
-                                a booming business here in Las Vegas, but News 3 
-                                investigator Darcy Spears found that this 
-                                discount center may be pulling the wool over 
-                                your eyes as they put sight up for sale.</P>
-                                <P>Can you put a price on perfect vision? One 
-                                lasik center puts a very low price on their 
-                                surgeries, and as the saying goes, you get what 
-                                you pay for. Our hidden camera investigation 
-                                exposes what some call a �money over medicine� 
-                                philosophy that's leaving patients and former 
-                                employees seeing red.</P>
-                                <P>"She basically talked me into it, because it 
-                                sounded good. Don't have to wear glasses to read 
-                                or drive," says Gail Kennedy, consumer. </P>
-                                <P>Gail Kennedy looked to the Lasik and Laser 
-                                Vision Institute as freedom from her prison of 
-                                poor sight. Gail had known people who had 
-                                successful surgeries there. The problem is, she 
-                                did not.</P>
-                                <P>"It's been 11 months since my surgery and my 
-                                eyes have hurt me every day, every night," says 
-                                Gail. <BR>Gail says she still needs reading 
-                                glasses and can't really see any 
-                                better.<BR>"It�s almost like the nerve endings 
-                                have been damaged and they're severely 
-                                dry."<BR>&nbsp;<BR>Dr. Jon Siems was the staff 
-                                surgeon at LVI in Las Vegas for almost two 
-                                years. He and at least five other staff members 
-                                recently left because of what they call the 
-                                money over medicine mentality.</P>
-                                <P>"Salespeople had to meet certain quotas to 
-                                maintain their jobs or else they'd get released. 
-                                Optometrists had to see a certain number of 
-                                patients every day, physicians were supposed to 
-                                perform a certain number of surgeries a day," 
-                                says Dr. Siems.</P>
-                                <P>Internal records obtained by the News 3 
-                                investigators show LVI staff can get commissions 
-                                depending on how many patients they sign up each 
-                                week. LVI optometrist Dr. Lesa Davis 
-                                acknowledges the pressure. </P>
-                                <P>"The counselors are the ones under pressure 
-                                to see as many patients as they can, or have me 
-                                see as many patients as I can," Dr. Lesa 
-                                Davis.</P>
-                                <P>"It presents an issue of conflict of 
-                                interest, doesn't it? If someone's reimbursement 
-                                is based upon whether or not you decide to have 
-                                the surgery or not, there's a potential risk 
-                                that the counseling role might be tainted by 
-                                that incentive," Dr. Wayne Bizer of the American 
-                                Academy of Ophthalmologists.</P>
-                                <P>We sent a producer with a hidden camera for 
-                                the advertised free consultation. Here's what a 
-                                salesperson, called a patient counselor, told 
-                                her. Keep in mind, this person has no medical 
-                                degree. </P>
-                                <P>"For this consultation, what did this tell 
-                                me? That I'm a candidate?" Asked our 
-                                producer.</P>
-                                <P>"You're basically a good candidate for the 
-                                surgery. Obviously I can't determine it without 
-                                seeing exam results, but based on your 
-                                prescription and your age alone, yes, you're a 
-                                very good candidate for the surgery. If you were 
-                                not a good candidate for the surgery, I wouldn't 
-                                let you go on," said the consultant. </P>
-                                <P>But just to see a physician, patients first 
-                                have to put down a non-refundable $100 deposit, 
-                                based on advice from a salesperson.</P>
-                                <P>"The company's policy is that the only one 
-                                that can make the decision as to whether or not 
-                                somebody's a candidate is the physician," says 
-                                Matthew Zifrony.<BR>No one from laser vision 
-                                institute's corporate offices would go on 
-                                camera. Their lawyer says the Las Vegas LVI 
-                                staff was not following procedure.</P>
-                                <P>"If the company's policies are not being 
-                                followed and we have reason to believe that, 
-                                then we will take the appropriate action to see 
-                                that they are followed," says Zifroni.</P>
-                                <P>That's too little, too late for some.</P>
-                                <P>"I think there's a lot of other people out 
-                                there like me and I�ve wanted for a very long 
-                                time for something like this to happen, because 
-                                I think it needs to be heard," says Gail.</P>
-                                <P>Gail Kennedy isn't the only Las Vegas LVI 
-                                patient who's had problems. You'll meet more in 
-                                the continuing coverage of this story. LVI's 
-                                attorney asked us to point out that there are 
-                                plenty of happy laser vision institute patients. 
-                                </P>
-                                <P>During the last half of 2001, LVI performed 
-                                procedures on about 1,000 patients. 
-                                <BR>Eighty-one of those, or approximately 8 
-                                percent, filled out a patient satisfaction 
-                                survey and almost all of them thought their 
-                                treatment was good or excellent.</P>
-                                <P>Local experts and ophthalmology surgeons we 
-                                spoke to say that the industry standard is for 
-                                patients to get a free eye exam from a doctor to 
-                                determine candidacy before they start spending 
-                                money on the lasik process. </P>
-                                <P><STRONG><U>Related links/info for Wednesday�s 
-                                investigation, "Blind Faith"</U></STRONG></P>
-                                <UL>
-                                <LI>Laser vision institute's website: <A 
-                                href="http://www.laservisioninstitute.com/">http://www.laservisioninstitute.com/</A> 
-
-                                <LI>Eye surgery watchdog group website: <A 
-                                href="http://www.surgicaleyes.org/">http://www.surgicaleyes.org/</A> 
-
-                                <LI>Agency that oversees eyeglass world is 
-                                Nevada State Board of Dispensing Opticians at <A 
-                                href="http://www.nvbdo.state.nv.us/">http://www.nvbdo.state.nv.us/</A> 
-
-                                <LI>Nevada state law governing optometry: <A 
-                                href="http://www.leg.state.nv.us/nrs/nrs-636.html">http://www.leg.state.nv.us/nrs/nrs-636.html</A> 
-
-                                <LI>Nevada revised statutes: chapter 636 
-                                abstract: chapter 636 - optometry. NRS 636.010 
-                                legislative declaration. The practice of 
-                                optometry is hereby declared to be a learned 
-                                profession, affecting public safety and welfare 
-                                and charged with the public interest, and 
-                                therefore subject to protection and regulation 
-                                by the state. [1:208:1955]nrs 636.015 
-                                definitions. As used in this chapter, unless the 
-                                context otherwise requires, the words and terms 
-                                defined innrs 636.016. To. 636.024. <A 
-                                href="http://www.leg.state.nv.us/nrs/nrs-636.html">http://www.leg.state.nv.us/nrs/nrs-636.html</A> 
-                                (section regarding co-management with 
-                                ophthalmologists is 636.374)</LI></UL>
-                                <P><STRONG><U>Related articles:</U></STRONG> 
-</P>
-                                <UL>
-                                <LI>"Lasik Surgery Sales Tactics Raise 
-                                Eyebrows"<BR>by Marc Borbely <BR>special to the 
-                                Washington Post<BR>September 4, 2001 <BR><A 
-                                href="http://www.washingtonpost.com/wp-dyn/articles/a37121-2001sep3.html">http://www.washingtonpost.com/wp-dyn/articles/a37121-2001sep3.html</A> 
-
-                                <LI>"Patients Considering Laser Surgery Should 
-                                Enter With Eyes Open"<BR>By John Nolan<BR>the 
-                                Associated Press (for the Salina Journal)<BR><A 
-                                href="http://www.saljournal.com/stories/120500/lif_eyesurgery.html">http://www.saljournal.com/stories/120500/lif_eyesurgery.html</A> 
-
-                                <LI>"Eyeglass World Agrees to Revise Practices 
-                                and Pay Penalties Totaling $500,000"<BR>By 
-                                Stephen Barrett, M.D.<BR>Quackwatch home 
-                                page<BR><A 
-                                href="http://www.quackwatch.com/04consumereducation/news/ew.html">http://www.quackwatch.com/04consumereducation/news/ew.html</A> 
-
-                                <LI>"Lawsuits Shed Light On the Risks Of Laser 
-                                Eye Surgeries"<BR>By Linda Marsa<BR>Los Angeles 
-                                Times<BR><A 
-                                href="http://www.latimes.com/">http://www.latimes.com/</A></LI></UL>
-                                <P><STRONG><U>Additional info:</U></STRONG> 
-                                <BR>Laser Vision Institute Attorney Matthew 
-                                Zifrony performed a statistical analysis of 81 
-                                patient satisfaction surveys which LVI had 
-                                received in connection with Its Las Vegas 
-                                location. Most of these surveys were received by 
-                                LVI during the last half of the 2001 calendar 
-                                year during a time period when LVI performed 
-                                procedures on approximately 1,000 patients (i.e. 
-                                Approximately 8% of LVI's patients during this 
-                                time period appear to have responded to the 
-                                survey.) Each survey contained up to 20 items in 
-                                which the patient was asked to rank LVI from 1 
-                                to 4, with 1 denoting poor, 2 denoting fair, 3 
-                                denoting good and 4 denoting excellent service. 
-                                The following is a breakdown of such 
-                                responses:<BR>Poor fair good 
-                                excellent<BR>responses 15 56 331 
-                                1,172<BR>percentage 1% 4% 21% 74%<BR><BR>More 
-                                information regarding consumer complaints can be 
-                                found at the Florida department of agriculture 
-                                and consumer services. 1-800-help-fla. <A 
-                                href="http://www.doacs.state.fl.us/">http://www.doacs.state.fl.us/</A></P></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR><!----></TBODY></TABLE><!--DISPLAY SEARCH RESULTS --></TD>
-                <TD width=1></TD></TR></TBODY></TABLE>
-            <TABLE cellSpacing=0 cellPadding=1 width="100%" border=0>
-              <TBODY>
-              <TR>
-                <TD width=1></TD>
-                <TD id=col2 vAlign=top width="100%" height="100%"><!-- XML BLOCK A --><!-- FULL/HALF HORIZONTALS -->
-                  <TABLE cellSpacing=1 cellPadding=0 width="100%" border=0>
-                    <TBODY>
-                    <TR>
-                      <TD></TD></TR>
-                    <TR>
-                      <TD bgColor=#cccccc>
-                        <TABLE cellSpacing=1 cellPadding=0 width="100%" 
-border=0>
-                          <TBODY>
-                          <TR>
-                            <TD vAlign=top>
-                              <TABLE cellSpacing=0 cellPadding=0 width="100%" 
-                              bgColor=#ffe06d border=0>
-                                <TBODY>
-                                <TR>
-                                <TD vAlign=top align=left><IMG 
-                                src="Sight%20for%20Sale,%20Pt_%201_files/c_co_tl.gif" width="4" height="16"></TD>
-                                <TD vAlign=center width="100%"><B><FONT 
-                                style="FONT-SIZE: 12px; COLOR: #000000">Where 
-                                News Comes 
-                              First</FONT></B></TD></TR></TBODY></TABLE></TD></TR>
-                          <TR>
-                            <TD vAlign=top bgColor=#ffffff>
-                              <TABLE cellSpacing=0 cellPadding=5 width="100%" 
-                              border=0>
-                                <TBODY>
-                                <TR>
-                                <TD vAlign=top width="100%" colSpan=3><FONT 
-                                style="FONT-SIZE: 9px; COLOR: #000000">News 3 
-                                Investigators</FONT><BR><A 
-                                href="http://www.kvbc.com/Global/story.asp?S=682716"><FONT 
-                                class=a 
-                                style="FONT-SIZE: 11px; COLOR: #3333cc"><B>Sight 
-                                for Sale, Pt. 2</B></FONT><IMG class=video 
-                                height=13 hspace=2 
-                                src="Sight%20for%20Sale,%20Pt_%201_files/icon_vidincluded.gif" 
-                                width=91 border=0></A><BR>
-                                <TABLE cellSpacing=3 cellPadding=0 width=90 
-                                align=left border=0>
-                                <TBODY>
-                                <TR>
-                                <TD><A 
-                                href="http://www.kvbc.com/Global/story.asp?S=682716"><IMG 
-                                hspace=0 
-                                src="Sight%20for%20Sale,%20Pt_%201_files/682716_SS.jpg" 
-                                width=90 
-                                border=0></A></TD></TR></TBODY></TABLE><FONT 
-                                color=#000000 size=1>Who would you want telling 
-                                you whether you were a candidate for laser eye 
-                                surgery? A salesperson? A corporate business 
-                                executive? Probably a doctor. But we found that 
-                                may not be the case at one center, where sight 
-                                is for sale. </FONT><BR></TD></TR>
-                                <TR>
-                                <TD vAlign=top width="50%"><FONT 
-                                style="FONT-SIZE: 9px; COLOR: #000000">News 3 
-                                Investigators</FONT><BR><A 
-                                href="http://www.kvbc.com/Global/story.asp?S=686012"><FONT 
-                                class=a 
-                                style="FONT-SIZE: 11px; COLOR: #3333cc"><B>Sight 
-                                for Sale, Pt. 3</B></FONT></A><BR>
-                                <TABLE cellSpacing=3 cellPadding=0 width=90 
-                                align=left border=0>
-                                <TBODY>
-                                <TR>
-                                <TD><A 
-                                href="http://www.kvbc.com/Global/story.asp?S=686012"><IMG 
-                                hspace=0 
-                                src="Sight%20for%20Sale,%20Pt_%201_files/686012_SS.jpg" 
-                                width=90 
-                                border=0></A></TD></TR></TBODY></TABLE><FONT 
-                                color=#000000 size=1>Marketing medical 
-                                procedures is controversial, but low-ball ads 
-                                for laser eye surgery are everywhere. In her 
-                                continuing coverage, News 3 investigator Darcy 
-                                Spears exposes some lasik ads promising more 
-                                than they deliver. </FONT><BR></TD>
-                                <TD vAlign=top width="50%"><FONT 
-                                style="FONT-SIZE: 9px; COLOR: #000000">News 3 
-                                Investigators</FONT><BR><A 
-                                href="http://www.kvbc.com/Global/story.asp?S=686156"><FONT 
-                                class=a 
-                                style="FONT-SIZE: 11px; COLOR: #3333cc"><B>Sight 
-                                for Sale, Pt. 4</B></FONT></A><BR>
-                                <TABLE cellSpacing=3 cellPadding=0 width=50 
-                                align=left border=0>
-                                <TBODY>
-                                <TR>
-                                <TD><A 
-                                href="http://www.kvbc.com/Global/story.asp?S=686156"><IMG 
-                                hspace=0 
-                                src="Sight%20for%20Sale,%20Pt_%201_files/686156_SS.jpg" 
-                                width=50 
-                                border=0></A></TD></TR></TBODY></TABLE><FONT 
-                                color=#000000 size=1>Out of town 
-                                surgeons&nbsp;fly in and&nbsp;do surgeries and 
-                                exams for a few days, then fly out. It's a 
-                                corporate medicine concept used by the Laser 
-                                Vision Institute. They say it guarantees 
-                                patients the best care, but we found that care 
-                                isn't always coming from a properly licensed 
-                                doctor when sight is for sale. 
-                                </FONT><BR></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!--COL 2B WEATHER/POLL --><!-- NESTED CATEGORIES --><!--COL 2C WEATHER/POLL --><BR 
-                  clear=all></TD><!-- END OF COL 2 -->
-                <TD width=2></TD></TR></TBODY></TABLE></TD><!--COl 4-->
-          <TD id=col4 vAlign=top width=130 bgColor=#bbbbbb height="100%">
-            <TABLE cellSpacing=1 cellPadding=0 width="100%" bgColor=#000000 
-            border=0>
-              <TBODY>
-              <TR>
-                <TD bgColor=#ffffff>
-                  <DIV id=membercenter></DIV>
-                  <SCRIPT language=JavaScript1.1>popProfile();</SCRIPT>
-                </TD></TR></TBODY></TABLE>
-            <TABLE height="100%" cellSpacing=1 cellPadding=0 width="100%" 
-            bgColor=#bbbbbb border=0><!-- DISPLAY EMPLOYMENT CLASSIFIEDS SPONSORS -->
-              <TBODY>
-              <TR>
-                <TD vAlign=top bgColor=#bbbbbb height="95%">
-                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-                    <TBODY>
-                    <TR>
-                      <TD bgColor=#bbbbbb>
-                        <TABLE cellSpacing=0 cellPadding=2 width="100%" 
-                        bgColor=#bbbbbb border=0>
-                          <TBODY>
-                          <TR>
-                            <TD>
-                              <CENTER><IFRAME id=120x600 
-                              style="VISIBILITY: hidden" border=1 name=120x600 
-                              marginWidth=0 marginHeight=0 src="about:blank" 
-                              frameBorder=0 width=120 scrolling=no height=600 
-                              allowTransparency><SCRIPT LANGUAGE='JavaScript1.1'>if (document.layers) {document.write('<SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=92974958419798&type=single&tg=Promotion%202&src=wn&sz=120x600&callType=script></SCR' + 'IPT>'); document.close();}</SCRIPT></IFRAME>
-                              <SCRIPT language=JavaScript1.1>coreAdsCreate('120x600', 'wn');</SCRIPT>
-                              <TABLE cellSpacing=0 cellPadding=2 width="100%" 
-                              border=0>
-                                <TBODY>
-                                <TR>
-                                <TD vAlign=top width="100%">
-                                <TABLE cellSpacing=3 cellPadding=0 width=115 
-                                align=center border=0>
-                                <TBODY>
-                                <TR>
-                                <TD><A 
-                                href="http://www.kvbc.com/global/Category.asp?c=33195"><IMG 
-                                hspace=0 
-                                src="Sight%20for%20Sale,%20Pt_%201_files/93848_G.gif" 
-                                width=115 
-                                border=0></A><BR></TD></TR></TBODY></TABLE></TD></TR>
-                                <TR>
-                                <TD vAlign=top width="100%"><A 
-                                href="http://www.kvbc.com/Global/link.asp?L=141106"><FONT 
-                                class=a 
-                                style="FONT-SIZE: 10px; COLOR: #3333cc"><B>Do 
-                                You Know Your Credit 
-                                Score?</B></FONT></A><BR><FONT color=#000000 
-                                size=1>Order your credit report and view it 
-                                online now! </FONT><BR></TD></TR>
-                                <TR>
-                                <TD vAlign=top width="100%"><A 
-                                href="http://www.kvbc.com/Global/link.asp?L=130272"><FONT 
-                                class=a 
-                                style="FONT-SIZE: 10px; COLOR: #3333cc"><B>Caring 
-                                for Someone with 
-                                Alzheimer's?</B></FONT></A><BR><FONT 
-                                color=#000000 size=1>Get caregiving info and 
-                                tips by 
-                            mail.</FONT><BR></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><IMG 
-            id=col4_px height=1 src="Sight%20for%20Sale,%20Pt_%201_files/pxl_trans.gif" 
-            width=130 border=0 
-name=col4_px></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
-<TABLE cellSpacing=0 cellPadding=0 width=760 border=0>
-  <TBODY>
-  <TR>
-    <TD bgColor=#010553>
-      <TABLE borderColor=#cc0000 cellSpacing=1 cellPadding=1 width="100%" 
-      border=0>
-        <TBODY>
-        <TR>
-          <TD vAlign=bottom align=middle bgColor=#ffffff colSpan=2>
-            <TABLE borderColor=#ff0000 cellSpacing=5 cellPadding=0 align=center 
-            border=0>
-              <TBODY>
-              <TR>
-                <TD><A href="http://www.worldnow.com/" target=_blank><IMG 
-                  id=bt_px src="Sight%20for%20Sale,%20Pt_%201_files/wn_powerby.gif" 
-                  border=0 name=bt_px width="99" height="34"></A></TD>
-                <TD><FONT style="FONT-SIZE: 10px; COLOR: #000000">All content 
-                  � Copyright 2000 - 2004 WorldNow and KVBC. All Rights 
-                  Reserved.<BR>For more information on this site, please read 
-                  our <A 
-                  href="http://www.kvbc.com/global/story.asp?s=18990">Privacy 
-                  Policy</A> and <A 
-                  href="http://www.kvbc.com/global/story.asp?s=18991">Terms of 
-                  Service</A>.</FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
-<DIV style="LEFT: 0px; POSITION: absolute; TOP: 0px"><IFRAME id=Popup 
-style="VISIBILITY: hidden" border=1 name=Popup marginWidth=0 marginHeight=0 
-src="about:blank" frameBorder=0 width=1 scrolling=no height=1 
-allowTransparency></IFRAME>
-<SCRIPT language=JavaScript1.1>coreAdsCreate('Popup', 'aff');</SCRIPT>
-</DIV>
-<DIV style="LEFT: 0px; POSITION: absolute; TOP: 0px"><IFRAME id=RichMedia 
-style="VISIBILITY: hidden" border=1 name=RichMedia marginWidth=0 marginHeight=0 
-src="about:blank" frameBorder=0 width=1 scrolling=no height=1 
-allowTransparency></IFRAME>
-<SCRIPT language=JavaScript1.1>coreAdsCreate('RichMedia', 'wn');</SCRIPT>
-</DIV>
-<DIV class=wrapper_160x600A id=wrapper_160x600A NAME="wrapper"></DIV>
-<DIV class=ad_text_160x600A id=ad_text_160x600A align=center NAME="ad_text"><IMG 
-src="Sight%20for%20Sale,%20Pt_%201_files/adtext_horiz.gif" border=0 width="160" height="20"></DIV>
-<DIV class=ad_160x600A id=ad_160x600A align=center NAME="ad">
-<CENTER><IFRAME id=160x600A style="MARGIN-TOP: 5px; VISIBILITY: hidden" border=1 
-name=160x600A marginWidth=0 marginHeight=0 src="about:blank" frameBorder=0 
-width=160 scrolling=no height=600 
-allowTransparency><SCRIPT LANGUAGE='JavaScript1.1'>if (document.layers) {document.write('<SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=29982153177261&type=single&tg=Promotion%202&src1=wn&sz1=160x600A&callType=script></SCR' + 'IPT>'); document.close();}</SCRIPT></IFRAME>
-<SCRIPT language=JavaScript1.1>coreAdsCreate('160x600A', 'wn');</SCRIPT>
-</CENTER></DIV>
-<DIV style="LEFT: 0px; POSITION: absolute; TOP: 0px"><IFRAME id=iframeads 
-style="VISIBILITY: hidden" name=iframeads 
-src="Sight%20for%20Sale,%20Pt_%201_files/CA6VSTM3.htm" width=0 height=0></IFRAME></DIV>
-<SCRIPT language=JavaScript1.1> 
-
-if (bsr != "Netscape" || ns6) {
-
-	if (bsr != "Netscape") {
-		var coreadsiframe = document.all.iframeads;
+	если (bsr != "Netscape") {
+		var coreadsiframe = документ.все.iframeads;
 	}
-	else {
+еще {
 		var coreadsiframe = document.getElementById("iframeads");
 	}
 	
-	coreadsiframe.src = coreadcall;
-	//alert('core ad call = ' + document.all.iframeads.src);
+	coreadsiframe.src = основной вызов;
+	//alert('основной вызов рекламы = ' + document.all.iframeads.src);
 	//document.write(coreadsiframe.src);
 
-	var complete_cookie_exp = new Date();
-	complete_cookie_exp.setYear("1970");
+	переменная complete_cookie_exp = новая дата();
+complete_cookie_exp.установленный год("1970");
 	
 
-	if (complete_cookie != null && complete_cookie_delete == true) {
+	если (complete_cookie != null && complete_cookie_delete == true) _BOS_
 							
-		setCookie("completeditems", "0", complete_cookie_exp, "/");
+		setCookie("завершенные элементы", "0", complete_cookie_exp, "/");
 
 	}
-	if (multiple_entries_cookie_val != null && multiple_entries_update == true) {
+	если (multiple_entries_cookie_val != null && multiple_entries_update == true) _BOS_
 
-		//multiple_entries += "_repeat";
+		//множественные входы += "_repeat";
 
-		//setCookie("multipleentries", multiple_entries_cookie_val, multiple_entries_exp,"/");
+		//setCookie("множественные входы", multiple_entries_cookie_val, multiple_entries_exp,"/");
 		
 	}
 	
-	//alert("multi entry cookie val after setcookie = " + GetCookie("multipleentries"));
+	//предупреждение("значение файла cookie с несколькими входами после setcookie = " + getCookie("множественные входы"));
 
-}	
-	
- </SCRIPT>
-
-<SCRIPT language=JavaScript 
-src="Sight%20for%20Sale,%20Pt_%201_files/wnsdc_tag.js"></SCRIPT>
-<NOSCRIPT><IMG height=1 src="Sight%20for%20Sale,%20Pt_%201_files/dcs.gif" width=1 
-border=0 name=DCSIMG></NOSCRIPT> <!-- *IWjSaI^I[J`~ITRGRBMBbM]DaM^EK5C/?4@2=4E A~B9G6G NQM/OYZLQXZMRBMSPVRPRHOFnp'eI3dC_EaEQBM/]EXEK@dE_ZVRK@_AZIOw'{?k&ft.ps!}}RRMRBML\GRLlEUD_BB1E@@L\GRLlEUD_BM/`IcVRVO}}WjSaI^I[J`~ --></BODY></HTML>
+}</script><script language="JavaScript" src="Sight%20for%20Sale,%20Pt_%201_files/wnsdc_tag.js"></script><noscript><img border="0" height="1" name="DCSIMG" src="Sight%20for%20Sale,%20Pt_%201_files/dcs.gif" width="1"/></noscript><!-- *IWjSaI^I[J`~ITRGRBMBbM]DaM^EK5C/?4@2=4E A~B9G6G NQM/OYZLQXZMRBMSPVRPRHOFnp'eI3dC_EaEQBM/]EXEK@dE_ZVRK@_AZIOw'{?k&ft.ps!}}RRMRBML\GRLlEUD_BB1E@@L\GRLlEUD_BM/`IcVRVO}}WjSaI^I[J`~ --></body></html>
