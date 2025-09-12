@@ -93,7 +93,7 @@
 				</select>
 				</p>
 			</div>
-			<div id="menu"> <a id="active" href="../index.htm">Home</a> <a href="../letters.htm">Letters</a> <a href="../news.htm">News</a> <a href="http://lasiknewswire.com/" target="_blank" onClick="alert('You are leaving the LASIKComplications.com site. Thank you for visiting. You will now be going to LasikNewsWire.com.')">Blog</a> <a href="../risks.htm">Complications</a> <a href="../simulations.htm">Images </a> <a href="../fda.htm">FDA</a> <a href="../lawsuits.htm">Legal</a> <a href="../largepupils.htm">Pupil Size</a> <a href="../dryeye.htm">Dry Eye</a> <a href="../marketing.htm">Marketing</a> <a href="../contactus.php">Contact</a> <a href="../Archives.htm">Archives</a> <a href="../links.htm" style="border-right:0px">Links </a> </div>
+			<div id="menu"> <a id="active" href="../index.htm">Home</a> <a href="../letters.htm">Letters</a> <a href="../news.htm">News</a> <a href="http://lasiknewswire.com/" target="_blank" onClick="alert('You are leaving the LASIKComplications.com site. Thank you for visiting. You will now be going to LasikNewsWire.com.')">Blog</a> <a href="../risks.htm">Complications</a> <a href="../simulations.htm">Images </a> <a href="../fda.htm">FDA</a> <a href="../lawsuits.htm">Legal</a> <a href="../largepupils.htm">Pupil Size</a> <a href="../dryeye.htm">Dry Eye</a> <a href="../marketing.htm">Marketing</a> <a href="../contactus.htm">Contact</a> <a href="../Archives.htm">Archives</a> <a href="../links.htm" style="border-right:0px">Links </a> </div>
 			<div id="loading"></div>
 			<!-- LEFT COLUMN CONTENT STARTS HERE ::::::::::::::::::::::::::::::::::::::::::::-->
 			<div id="datacontainer">  
