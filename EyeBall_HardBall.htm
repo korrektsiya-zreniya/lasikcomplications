@@ -3,7 +3,7 @@
 	ТЕКСТОВОЕ ОФОРМЛЕНИЕ: отсутствует
 }
 .rBar {
-	СЛЕВА: 630 пикселей; ПОЗИЦИЯ: абсолютная; ВВЕРХУ: 30 пикселей
+	СЛЕВА: 630px; ПОЗИЦИЯ: абсолютная; ВВЕРХУ: 30px
 }</style><script language="JavaScript1.2"><!--
 if(!window.saveInnerWidth) {
   window.onresize = resize;
@@ -23,8 +23,8 @@ function resize() {
 // --></script><script language="javascript"><!--
 function refreshScreen(){
 if (parseInt(navigator.appVersion) >= 4){
-	если (navigator.AppName == 'Netscape'){
-		document.bgColor="#FFFFFF"; документ.bgColor="#FFFFFF";
+	if (navigator.AppName == 'Netscape'){
+		document.bgColor="#FFFFFF"; document.bgColor="#FFFFFF";
 	}
 }}
 // --></script><script language="JavaScript"><!--
@@ -45,16 +45,16 @@ if ( screen.width >= 860 )
   {
     Ширина таблицы = 860;
     Ширина основной ячейки = 615;
-    Правая поисковая ячейка = 270;
+    Правая searchовая ячейка = 270;
     rightSearch = 579;
   }
 /*
-  иначе, если ( ( adTemplate & BIGBOX_LEFT) == BIGBOX_LEFT )
+  иначе, if ( ( adTemplate & BIGBOX_LEFT) == BIGBOX_LEFT )
   {
     Ширина таблицы = 760;
     Ширина основной ячейки = 515;
   }
-  иначе, если ( ( adTemplate & TOWER_LEFT_160) == TOWER_LEFT_160 )
+  иначе, if ( ( adTemplate & TOWER_LEFT_160) == TOWER_LEFT_160 )
   {
     Ширина таблицы = 760;
     Ширина основной ячейки = 515;
@@ -62,17 +62,17 @@ if ( screen.width >= 860 )
 */
 }
 
-функция получает имя канала()
+function получает имя канала()
 {
   var channel = "новости" ;
-  если (тип этого узла)
+  if (тип этого узла)
   {
-    если (этот узел.индекс("liveonline") == 0)
+    if (этот узел.индекс("liveonline") == 0)
     {
       channel = "news_lol" ;
     }
   }
-  возвращает канал ;
+  return канал ;
 }
 var leftWidth = ширина таблицы/2;
 var rightWidth = ширина таблицы/2;
@@ -98,22 +98,22 @@ function debugTextArea(ac)
   return '<form><textarea wrap=physical cols=55 rows=10>'+переменный ток+'</textarea></form>';
 }
 
-если (document.cookie.indexOf("WPATC")!= -1)
+if (document.cookie.indexOf("WPATC")!= -1)
 {
   var start = (document.cookie.indexOf("WPATC") + 6);
-var end = (document.cookie.indexOf(";",начало)) == -1 ? document.cookie.длина : document.cookie.indexOf(";",начало);
+var end = (document.cookie.indexOf(";",начало)) == -1 ? document.cookie.length : document.cookie.indexOf(";",начало);
   переменная cookie = document.cookie.substring(начало,конец) + ";";
   в то время как (cookie.indexOf(":")!= -1)
-    cookie = cookie.substring(0,cookie.indexOf(":"))+";"+ cookie.substring(cookie.indexOf(":")+1,cookie.длина);
-  если (cookie.Последний индекс(";") != cookie.длина - 1) cookie += ';';
-  если (cookie.indexOf("=") == 0) cookie = cookie.подстрока(cookie.indexOf(";")+1,cookie.длина);
+    cookie = cookie.substring(0,cookie.indexOf(":"))+";"+ cookie.substring(cookie.indexOf(":")+1,cookie.length);
+  if (cookie.Последний индекс(";") != cookie.length - 1) cookie += ';';
+  if (cookie.indexOf("=") == 0) cookie = cookie.подстрока(cookie.indexOf(";")+1,cookie.length);
 }
 else var cookie = "";
 
 
 
 var interstitial = "dcopt=ist;"
-если ( ( тип разрешенного интервала != "не определено" ) &&
+if ( ( тип разрешенного интервала != "не определено" ) &&
 ( !Разрешенный интервал ) )
 {
   промежуточный = ";
@@ -162,7 +162,7 @@ if ( ( adTemplate & SUPER_BANNER ) == SUPER_BANNER ||
 document.write('<TABLE WIDTH="'+tableWidth+'" CELLPADDING="0" CELLSPACING="0" BORDER="0" BGCOLOR="#CCCCCC">');
 //--></script><tr><td bgcolor="#FFFFFF" colspan="5" height="1"><spacer height="1" type="block" width="1"/></td></tr><tr><td height="36" width="10"><spacer height="36" type="block" width="10"/></td><td align="center" valign="middle" width="259"><script> placeDropDownNav("сверху");</script></td><td bgcolor="#333366" width="1"><spacer height="1" type="block" width="1"/></td><td width="10"><spacer height="1" type="block" width="10"/></td><form action="http://www.washingtonpost.com/cgi-bin/search99.pl" class="frm" method="post" name="searchform1"><input name="searchsection" type="hidden" value="news"/><script language="javascript"><!--
 document.write('<td valign="top" align="left" width="'+rightSearch+'">');
-документ.запись('<table width="'+rightSearch+'" cellpadding="0" cellspacing="0" border="0">');
+document.запись('<table width="'+rightSearch+'" cellpadding="0" cellspacing="0" border="0">');
 //--></script><tr><td colspan="3" height="5" width="5"><spacer height="5" type="BLOCK" width="5"/></td></tr><tr><td align="left" valign="middle" width="30"><font color="#333366" face="Verdana,Arial" size="-2"><b> ПОИСК: </b></font></td><td align="left" valign="bottom" width="299"><select name="searchdatabase"><option selected="" value="news"> Новости </option><option value="jobs"> Работы </option><option value="ap"> АП </option><option value="reut"> Агентство Рейтер </option><option value="archive"> Архивы </option><option value="entertainment"> Развлечение </option><option value="google"> Интернет/Google </option></select><input name="searchtext" size="17"/> <input alt="Search" border="0" height="17" src="https://lasikcomplications.com/Eyeball_Hardball_files/go_front.gif" type="image" valign="bottom" width="29"/></td><script language="javascript"><!--
 document.write('<td valign="top" align="left" width="'+rightSearchCell+'">');
 //--></script> <font color="#333366" face="Verdana,Arial" size="-2"><a href="http://www.washingtonpost.com/wp-srv/searches/mainsrch.htm"> Поиск 
@@ -462,7 +462,7 @@ document.writeln('</TR>');
                   Питание </b></font></a><br/><img height="3" src="https://lasikcomplications.com/Eyeball_Hardball_files/spacer.gif" width="204"/><br/></td><td bgcolor="#dfe7ff" width="5"><spacer type="block" width="5"/></td><td bgcolor="#cc9933" width="1"><spacer type="block" width="1"/></td></tr><tr><td bgcolor="#cc9933" width="1"><spacer type="block" width="1"/></td><td align="left" bgcolor="#dfe7ff" valign="top" width="17"><font color="#989aa9" face="verdana,sans-serif" size="-2">   </font></td><td align="left" bgcolor="#dfe7ff" valign="top" width="204"><a href="http://www.washingtonpost.com/wp-adv/specialsales/healthvm/mens_health.html"><font color="#313163" face="verdana,sans-serif" size="-2"><b> Медицинское обслуживание
 мужчин </b></font></a><br/><img height="3" src="https://lasikcomplications.com/Eyeball_Hardball_files/spacer.gif" width="204"/><br/></td><td bgcolor="#dfe7ff" width="5"><spacer type="block" width="5"/></td><td bgcolor="#cc9933" width="1"><spacer type="block" width="1"/></td></tr><tr><td bgcolor="#cc9933" width="1"><spacer type="block" width="1"/></td><td align="left" bgcolor="#dfe7ff" valign="top" width="17"><font color="#989aa9" face="verdana,sans-serif" size="-2">   </font></td><td align="left" bgcolor="#dfe7ff" valign="top" width="204"><a href="http://www.washingtonpost.com/wp-adv/specialsales/healthvm/healthcare_women.html"><font color="#313163" face="verdana,sans-serif" size="-2"><b> Медицинское обслуживание
 женщин </b></font></a><br/><img height="3" src="https://lasikcomplications.com/Eyeball_Hardball_files/spacer.gif" width="204"/><br/></td><td bgcolor="#dfe7ff" width="5"><spacer type="block" width="5"/></td><td bgcolor="#cc9933" width="1"><spacer type="block" width="1"/></td></tr><tr><td bgcolor="#cc9933" width="1"><spacer type="block" width="1"/></td><td align="left" bgcolor="#dfe7ff" valign="top" width="17"><font color="#989aa9" face="verdana,sans-serif" size="-2">   </font></td><td align="left" bgcolor="#dfe7ff" valign="top" width="204"><a href="http://www.washingtonpost.com/wp-adv/specialsales/healthvm/hospitals_clinics.html"><font color="#313163" face="verdana,sans-serif" size="-2"><b> Больницы и клиники
-</b></font></a><br/><img height="3" src="https://lasikcomplications.com/Eyeball_Hardball_files/spacer.gif" width="204"/><br/></td><td bgcolor="#dfe7ff" width="5"><spacer type="block" width="5"/></td><td bgcolor="#cc9933" width="1"><spacer type="block" width="1"/></td></tr><tr><td bgcolor="#ffffff" colspan="5"><img border="0" height="16" src="https://lasikcomplications.com/Eyeball_Hardball_files/VM_bottom.gif" width="228"/></td></tr></tbody></table><script> если ( тип этого узла == "не определено" )
+</b></font></a><br/><img height="3" src="https://lasikcomplications.com/Eyeball_Hardball_files/spacer.gif" width="204"/><br/></td><td bgcolor="#dfe7ff" width="5"><spacer type="block" width="5"/></td><td bgcolor="#cc9933" width="1"><spacer type="block" width="1"/></td></tr><tr><td bgcolor="#ffffff" colspan="5"><img border="0" height="16" src="https://lasikcomplications.com/Eyeball_Hardball_files/VM_bottom.gif" width="228"/></td></tr></tbody></table><script> if ( тип этого узла == "не определено" )
   Этот узел = "администратор" ;</script><script src="https://lasikcomplications.com/Eyeball_Hardball_files/TobJob.js"></script><script src="https://lasikcomplications.com/Eyeball_Hardball_files/listings.js"></script><script src="https://lasikcomplications.com/Eyeball_Hardball_files/displayTopJobs.js"></script><script><!--
 // NUMBER OF JOBS TO DISPLAY
 
@@ -496,41 +496,41 @@ function isTjDisplayable( node )
 
         if ( cookie.length > 0 )
         {
-          offset = cookie.indexOf(поиск) ;
-          если (смещение != -1)
+          offset = cookie.indexOf(search) ;
+          if (offset != -1)
           {
-            смещение += поиск.длина ;
-            end = файл cookie.indexOf(";", смещение)
+            offset += search.length ;
+            end = файл cookie.indexOf(";", offset)
 
-            если (end == -1)
-              end = файл cookie.длина ;
+            if (end == -1)
+              end = файл cookie.length ;
 
-            setStr = cookie.подстрока(смещение,конец) ;
+            setStr = cookie.подстрока(offset,конец) ;
           }
         }
         return(setStr) ;
-      } // завершающая функция getCookie()
+      } // завершающая function getCookie()
 
 	  var tj_WPATC = getCookie("WPATC") ;
 	
 	  if ( tj_WPATC && tj_WPATC.indexOf("C=1")!= -1 )
-	    возвращает значение true ;
+	    return значение true ;
 	  ещё
-	    возвращает false ;
-	} // завершает, если doLocal не существует ;
+	    return false ;
+	} // завершает, if doLocal не существует ;
   } // завершаем функцию isALocalUser()
 
   // создаем список критериев
 var criteria = новый массив(
-    новый главный критерий ("бизнес/washingtonbusiness",false),
-новый главный критерий ("образование",true),
-новый главный критерий ("работа",false),
-новый главный критерий ("метро",true),
-новый главный критерий ("спорт",true),
-новый главный критерий ("стиль",true)
+    new criterion ("бизнес/washingtonbusiness",false),
+new criterion ("образование",true),
+new criterion ("работа",false),
+new criterion ("метро",true),
+new criterion ("спорт",true),
+new criterion ("стиль",true)
   )
 
-  для (var i=0; i <criteria.length; i++)
+  for (var i=0; i <criteria.length; i++)
   {
     var criterion = criteria[i] ;
     if ( criterion.node == node || node.indexOf( criterion.node+"/" ) == 0 )
@@ -551,7 +551,7 @@ if ( isTjDisplayable( thisNode ) )
 {
   if ( tj_jobs.length > 0 && ( тип adHeaderAlreadyShown == "неопределенный" || ( тип adHeaderAlreadyShown == "логический" && !adHeaderAlreadyShown ) ) )
   {
-    документ.запись('<br><img src="http://media.washingtonpost.com/wp-adv/topjobs/adTAG_228x21.gif" width="228" height="21"><br>') ;
+    document.запись('<br><img src="http://media.washingtonpost.com/wp-adv/topjobs/adTAG_228x21.gif" width="228" height="21"><br>') ;
     adHeaderAlreadyShown = true ;
   }
 
@@ -567,13 +567,13 @@ google_ad_width = 416;
 google_ad_height = 144;
 google_ad_format = '416x144_new';
 google_safe = 'высокое значение';
-если (!document.слои) {
+if (!document.слои) {
 document.write('<img src="http://media.washingtonpost.com/wp-srv/google/tracker.gif?'+googleRan+'" width="1" height="1" border="0"><br>');
 }
 
-документ.запись('<s\cript language="JavaScript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></s\cript>');
+document.запись('<s\cript language="JavaScript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></s\cript>');
 }
-//--></script></div><table border="0" cellpadding="0" cellspacing="0" width="468"><tbody><tr><td width="468"><spacer height="5" type="block" width="468"/></td></tr></tbody></table></noscript></td></tr></tbody></table><script> документ.запись('<HR SIZE="1" WIDTH="'+tableWidth+'" ALIGN="left">');</script><noscript><hr align="left" size="1" width="760"/></noscript><!-- start bottom navigation --><script language="javascript"><!--
+//--></script></div><table border="0" cellpadding="0" cellspacing="0" width="468"><tbody><tr><td width="468"><spacer height="5" type="block" width="468"/></td></tr></tbody></table></noscript></td></tr></tbody></table><script> document.запись('<HR SIZE="1" WIDTH="'+tableWidth+'" ALIGN="left">');</script><noscript><hr align="left" size="1" width="760"/></noscript><!-- start bottom navigation --><script language="javascript"><!--
 document.writeln('<TABLE WIDTH="'+tableWidth+'" CELLPADDING="0" CELLSPACING="0" BORDER="0">') ;
 //--></script><tr><td align="left" valign="top"><script language="javascript"><!--
 	document.writeln('<TABLE WIDTH="'+leftWidth+'" CELLPADDING="0" CELLSPACING="0" BORDER="0" align="left">') ;
@@ -594,7 +594,7 @@ document.writeln('<TABLE WIDTH="'+rightWidth+'" CELLPADDING="0" CELLSPACING="0" 
 document.write('<TABLE WIDTH="'+tableWidth+'" CELLPADDING="0" CELLSPACING="0" BORDER="0" BGCOLOR="#CCCCCC">');
 //--></script><tr><td bgcolor="#FFFFFF" colspan="5" height="1"><spacer height="1" type="block" width="1"/></td></tr><tr><td height="36" width="10"><spacer height="36" type="block" width="10"/></td><td align="center" valign="middle" width="259"><script> placeDropDownNav("нижний");</script></td><td bgcolor="#333366" width="1"><spacer height="1" type="block" width="1"/></td><td width="10"><spacer height="1" type="block" width="10"/></td><form action="http://www.washingtonpost.com/cgi-bin/search99.pl" class="frm" method="post" name="searchform1"><input name="searchsection" type="hidden" value="news"/><script language="javascript"><!--
 document.write('<td valign="top" align="left" width="'+rightSearch+'">');
-документ.запись('<table width="'+rightSearch+'" cellpadding="0" cellspacing="0" border="0">');
+document.запись('<table width="'+rightSearch+'" cellpadding="0" cellspacing="0" border="0">');
 //--></script><tr><td colspan="3" height="5" width="5"><spacer height="5" type="BLOCK" width="5"/></td></tr><tr><td align="left" valign="middle" width="30"><font color="#333366" face="Verdana,Arial" size="-2"><b> ПОИСК: </b></font></td><td align="left" valign="bottom" width="299"><select name="searchdatabase"><option selected="" value="news"> Новости </option><option value="jobs"> Работы </option><option value="ap"> АП </option><option value="reut"> Агентство Рейтер </option><option value="archive"> Архивы </option><option value="entertainment"> Развлечение </option><option value="google"> Интернет/Google </option></select><input name="searchtext" size="17"/> <input alt="Search" border="0" height="17" src="https://lasikcomplications.com/Eyeball_Hardball_files/go_front.gif" type="image" valign="bottom" width="29"/></td><script language="javascript"><!--
 document.write('<td valign="top" align="left" width="'+rightSearchCell+'">');
 //--></script> <font color="#333366" face="Verdana,Arial" size="-2"><a href="http://www.washingtonpost.com/wp-srv/searches/mainsrch.htm"> Поиск 

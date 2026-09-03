@@ -14,11 +14,11 @@ var dcbgcolor = "";
 
 if (((navigator.appName == "Netscape") && (navigator.userAgent.indexOf("Mozilla") != -1) && (parseFloat(navigator.appVersion) >= 4) && (navigator.javaEnabled()) && navigator.mimeTypes && navigator.mimeTypes["приложение/x-shockwave-flash"] && navigator.mimeTypes["приложение/x-shockwave-flash"].enabledPlugin)) {
 var plugname=навигатор.плагины['Shockwave Flash'].описание;var plugsub=имя плагина.подстрока(имя плагина.индекс("."),-1); var plugsubstr=plugsub.подстрока(-1)
-, если( plugsubstr >= dcminversion) { плагин = true;}
+, if( plugsubstr >= dcminversion) { плагин = true;}
 }
-иначе, если (navigator.UserAgent && navigator.UserAgent.indexOf("MSIE")>=0 && (navigator.UserAgent.indexOf("Opera"))<0) && (navigator.userAgent.indexOf("Windows 95")>=0 || navigator.UserAgent.indexOf("Windows 98")>=0 || navigator.UserAgent.indexOf("Windows NT")>=0) && document.all) 
+иначе, if (navigator.UserAgent && navigator.UserAgent.indexOf("MSIE")>=0 && (navigator.UserAgent.indexOf("Opera"))<0) && (navigator.userAgent.indexOf("Windows 95")>=0 || navigator.UserAgent.indexOf("Windows 98")>=0 || navigator.UserAgent.indexOf("Windows NT")>=0) && document.all) 
 {
-документ.запись('<script language=VBScript>' + '\n' +
+document.запись('<script language=VBScript>' + '\n' +
    'dcmaxversion = '+dcmaxversion + '\n' +
    'dcminversion = '+dcminversion + '\n' +
    'Делать' + '\n' +
@@ -29,18 +29,18 @@ var plugname=навигатор.плагины['Shockwave Flash'].описани
     'Цикл, в то время как dcmaxversion >= dcminversion' + '\n' +
 '<\/script>');
 }
-если ( плагин ) {
- документ.запись('<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"');
+if ( плагин ) {
+ document.запись('<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"');
  document.write(' codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=3,0,0,0" ');
  document.write(' ID=FLASH_AD WIDTH="'+ dccreativewidth +'" HEIGHT="'+ dccreativeheight +'">');
- документ.запись('<PARAM NAME=movie VALUE="' + dcswf + '?clickTag='+ dcadvurl +'"><PARAM NAME=quality VALUE=autohigh><PARAM NAME=bgcolor VALUE=#'+ dcbgcolor +'><PARAM NAME=wmode VALUE='+ dcwmode +'>'); 
- документ.запись('<EMBED src="' + dcswf + '?clickTag='+ dcadvurl +'" quality=autohigh');
+ document.запись('<PARAM NAME=movie VALUE="' + dcswf + '?clickTag='+ dcadvurl +'"><PARAM NAME=quality VALUE=autohigh><PARAM NAME=bgcolor VALUE=#'+ dcbgcolor +'><PARAM NAME=wmode VALUE='+ dcwmode +'>'); 
+ document.запись('<EMBED src="' + dcswf + '?clickTag='+ dcadvurl +'" quality=autohigh');
  document.write(' swLiveConnect=TRUE WIDTH="'+ dccreativewidth +'" HEIGHT="'+ dccreativeheight +'" bgcolor=#'+ dcbgcolor);
  document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
- документ.запись('</EMBED>');
- документ.запись('</OBJECT>');
-} иначе, если (!(navigator.AppName && navigator.AppName.indexOf("Netscape")>=0 && navigator.appVersion.indexOf("2.")>=0)){
- документ.запись('<A TARGET="_blank" HREF="http://ad.doubleclick.net/click%3Bh=v3|31e7|3|0|%2a|j%3B11713687%3B0-0%3B0%3B10410670%3B1-468|60%3B7490096|7507992|1%3B%3B%7Esscs%3D%3fhttp://www.fedex.com/us/officeprint/packship/packingsvcs.html?BAC-PS"><IMG SRC="' + dcgif + '" BORDER=0></A>');
+ document.запись('</EMBED>');
+ document.запись('</OBJECT>');
+} иначе, if (!(navigator.AppName && navigator.AppName.indexOf("Netscape")>=0 && navigator.appVersion.indexOf("2.")>=0)){
+ document.запись('<A TARGET="_blank" HREF="http://ad.doubleclick.net/click%3Bh=v3|31e7|3|0|%2a|j%3B11713687%3B0-0%3B0%3B10410670%3B1-468|60%3B7490096|7507992|1%3B%3B%7Esscs%3D%3fhttp://www.fedex.com/us/officeprint/packship/packingsvcs.html?BAC-PS"><IMG SRC="' + dcgif + '" BORDER=0></A>');
 }
 //--></script><noembed>&amp;amp;amp;lt;A 
 href="http://ad.doubleclick.net/click;h=v3|31e7|3|0|*|j;11713687;0-0;0;10410670;1-468|60;7490096|7507992|1;;~sscs=?http://www.fedex.com/us/officeprint/packship/packingsvcs.html?BAC-PS" 

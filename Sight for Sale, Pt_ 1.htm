@@ -49,14 +49,14 @@ function checkAllBoxes( strState, formID )
 		
 			переменная ns6;
 			
-			если (bsr == "Netscape" && ver >= 5){
+			if (bsr == "Netscape" && ver >= 5){
 				ns6 = истина;
 			}
 
-			функция mClk(src) {
+			function mClk(src) {
 				if(event.srcElement.tagName=='TD'){src.children.tags('A')[0].click();}
 			}
-			функция mOvrS(src) {
+			function mOvrS(src) {
 				src.style.cursor = "рука"; src.дочерние элементы.теги("A")[0].style.TextDecoration = "подчеркивание";
 			}
 			функциональные заголовки(src) {
@@ -70,16 +70,16 @@ function checkAllBoxes( strState, formID )
 
 			var currenturl_args = новый объект();
 
-			var currenturl_query = документ.местоположение.поиск;
+			var currenturl_query = document.местоположение.поиск;
 
 			var currenturl_pairs1 = currenturl_query.split("?");
 
 
-			если (currenturl_pairs1 != "") {
+			if (currenturl_pairs1 != "") {
 
 				var currenturl_pairs = currenturl_pairs1[1].разделить("&");
 
-				для(var i = 0; i < currenturl_pairs.length; i++) {
+				for (var i = 0; i < currenturl_pairs.length; i++) {
 					var currenturl_pos = currenturl_pairs[i].indexOf('=');
 					if (currenturl_pos == -1) continue;
 					var currenturl_argname = currenturl_pairs[i].substring(0,currenturl_pos);
@@ -647,27 +647,27 @@ var wrapper = document.getElementById(wrapperid);
 
 		var adiframe = document.getElementById(p_adID);
 
-		если (brsrc != -1) {
+		if (brsrc != -1) {
 
-			adiframe.высота = 0;
-			adiframe.ширина = 0;
+			adiframe.height = 0;
+			adiframe.width = 0;
 		}
-		еще {
+		else {
 		
-			если (оболочка) {
+			if (оболочка) {
 				//предупреждение(оболочка);
 
-				если (p_adID == "160x600A") {
+				if (p_adID == "160x600A") {
 
 					вызов_abpos('160x600A')
 
 				}
-				еще {
+				else {
 
-					если (p_adID == "728x90A") {
-					обертка.стиль.ширина = "758 пикселей";
+					if (p_adID == "728x90A") {
+					обертка.style.width = "758px";
 					}
-					оболочка.стиль.отображение = "";
+					оболочка.style.display = "";
 
 				}
 			}
@@ -679,7 +679,7 @@ var wrapper = document.getElementById(wrapperid);
 		}
   			
  	}
-иначе, если (bsr == "Netscape" && parseInt(версия)< 5 ) { } //Sniff out Netscape 4.x browser and not return anything
+иначе, if (bsr == "Netscape" && parseInt(версия)< 5 ) { } //Sniff out Netscape 4.x browser and not return anything
 	else {
 
 
@@ -805,7 +805,7 @@ function GetCookie (name)
 	{
 		var arg = имя + "=";
 		var alen = аргумент.длина;
-		var clen = документ.cookie.длина;
+		var clen = document.cookie.длина;
 		var i = 0;
 
 		в то время как (i < clen)
@@ -844,8 +844,8 @@ function setCookie (name,value,expires,path,domain,secure)
 	}
 }
 
-функция delCookie (имя,путь,домен) {
-  если (getCookie(имя)) {
+function delCookie (имя,путь,домен) {
+  if (getCookie(имя)) {
   	предупреждение("удаление файла cookie = " + getCookie(имя));
     document.cookie = имя + "=" +
     ((путь == null) ? "" : "; путь=" + путь) +
@@ -873,10 +873,10 @@ if (профиль != null) {
 	profile = профиль.заменить(/(\+)/g, " ");
 }
 
-еще {
+else {
 	
 	var profile_complete = getCookie("Адрес электронной почты");
-	если (profile_complete != null) {
+	if (profile_complete != null) {
 		переменная profile_index = profile_complete.Индекс("@");
 		profile = profile_complete.подстрока(0,profile_index);
 	}
@@ -885,7 +885,7 @@ if (профиль != null) {
 переменная reglinkno = "104054";
 переменная memcenter = "<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=1 WIDTH='100%'>";
 
-функция popProfile() {
+function popProfile() {
 
 var loginmsg = "Выйти из системы";
 var acctmsg = "Управление учетной записью";
@@ -899,32 +899,32 @@ var memcenter_title_style = "#000000";
 var memcenter_links_style = "#3333CC";
 
 
-если ((!is_mac) && (!is_ie3) && (!is_ie4) && (bsr != "Netscape" || ns6)) _BOS_
+if ((!is_mac) && (!is_ie3) && (!is_ie4) && (bsr != "Netscape" || ns6)) _BOS_
 
-	если (профиль == null) {
+	if (профиль == null) {
 
 		acctmsg = "Создать учетную запись";
 		loginmsg = "Войти в систему";	
 
-		если (membercenterloc == 2 || membercenterloc == 4) {
+		if (membercenterloc == 2 || membercenterloc == 4) {
 			
 			центр памяти += "<TR><TD><NOBR><FONT SIZE='1' COLOR='" + memcenter_title_style + "'><B>&nbsp;ЦЕНТР ДЛЯ УЧАСТНИКОВ </B></FONT></NOBR></TD><TD><NOBR><FONT STYLE='font-size: 9px; COLOR:" + memcenter_links_style + "'>|<A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile&amp;mode=create" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + сообщение об ошибке + "</FONT></A></NOBR></TD><TD WIDTH='90%'><FONT STYLE='font-size: 9px; COLOR:" + memcenter_links_style + "'>|<NOBR><A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile&amp;mode=login" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + логинмсг + "</FONT></A></NOBR></TD></TR>"
 		}
-		еще {
+		else {
 			центр памяти += "<TR><TD><NOBR><FONT SIZE='1' COLOR='" + memcenter_title_style + "'><B> ЦЕНТР ДЛЯ УЧАСТНИКОВ </B></FONT></NOBR></TD></TR>";
 			центр памяти += "<TR><TD HEIGHT='12'><FONT STYLE='font-size: 9px; line-height: 12px'><LI STYLE='list-style-type: square;color:" + memcenter_links_style + ";" + style_align + "'/><A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile&amp;mode=create" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + сообщение об ошибке + "</FONT></A></FONT></TD></TR><TR><TD><FONT STYLE='font-size: 9px; line-height: 12px'><LI STYLE='list-style-type: square;color:" + memcenter_links_style + ";" + style_align + "'/><A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile&amp;mode=login" + "&amp;referrer=" + escape(currenturl) + "'>" + "<FONT COLOR='" + memcenter_links_style + "'>" + логинмсг + "</FONT></A></FONT></TD></TR>";
 		}
 
 	}
 
-	еще {
+	else {
 
-		если (membercenterloc == 2 || membercenterloc == 4) {
+		if (membercenterloc == 2 || membercenterloc == 4) {
 			центр памяти += "<TR><TD><NOBR><FONT SIZE='1' COLOR='" + memcenter_title_style + "'><B> Добро пожаловать, " + профиль +"!</B></FONT></NOBR></TD>";
 			центр памяти += "<TD><NOBR><FONT STYLE='font-size: 9px; COLOR:" + memcenter_links_style + "'>|<A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + сообщение об ошибке + "</FONT></A>&nbsp;</FONT></NOBR></TD><TD WIDTH='90%'><NOBR><FONT STYLE='font-size: 9px; COLOR:" + memcenter_links_style + "'>|<A HREF='/global/pm/registration.asp?function=logout" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + логинмсг + "</FONT></A>&nbsp;</FONT></NOBR></TD></TR>";		
 		
 		}
-		еще {
+		else {
 			центр памяти += "<TR><TD><FONT SIZE='1' COLOR='" + memcenter_title_style + "'><B> Добро пожаловать, " + профиль +"!</B></FONT></TD></TR>";
 			центр памяти += "<TR><TD><FONT STYLE='font-size: 9px; line-height: 12px'><LI STYLE='list-style-type: square;color:" + memcenter_links_style + ";" + style_align + "'/><A HREF='/global/link.asp?L=" + reglinkno + "&amp;function=manageprofile" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style +"'>" + сообщение об ошибке + "</FONT></A></FONT></TD></TR><TR><TD><FONT STYLE='font-size: 9px; line-height: 12px'><LI STYLE='list-style-type: square;color:" + memcenter_links_style + ";" + style_align + "'/><A HREF='/global/pm/registration.asp?function=logout" + "&amp;referrer=" + escape(currenturl) + "'><FONT COLOR='" + memcenter_links_style + "'>" + логинмсг + "</FONT></A></FONT></TD></TR>";
 		}
@@ -933,19 +933,19 @@ var memcenter_links_style = "#3333CC";
 	
 		центр памяти += "</TABLE>";
 
-		если (bsr != "Netscape") {
+		if (bsr != "Netscape") {
 			memcenterdiv = document.all.memberцентр;
 		}
-		еще {
+		else {
 			memcenterdiv = document.getElementById("центр элементов");
 		}
 		
-		если (is_safari == истина) {
+		if (is_safari == истина) {
 					
-			запись в документ(memcenter);
+			запись в document(memcenter);
 								
 		}
-		еще {
+		else {
 		
 			window.setTimeout("memcenterdiv.innerHTML = memcenter;", 500);
 		
@@ -956,11 +956,11 @@ var memcenter_links_style = "#3333CC";
 }
 
 
-функция quickFormPost(frm,reqflds,customvals,dest) {
+function quickFormPost(frm,reqflds,customvals,dest) {
 
 				
 
-	qform = eval('документ.' + frm);
+	qform = eval('document.' + frm);
 		
 	qform.SubmitBtn.disabled = истина;
 	
@@ -970,10 +970,10 @@ var memcenter_links_style = "#3333CC";
 
 	
 
-	если (quickFormValidate(frm,reqflds) == true) {
+	if (quickFormValidate(frm,reqflds) == true) {
 	
 
-		для (q=0; q <qfrmcnt; q++) {
+		for (q=0; q <qfrmcnt; q++) {
 
 			var qelem = qform.elements[q].name;
 
@@ -992,25 +992,25 @@ var memcenter_links_style = "#3333CC";
 					qf_errmsg = "Текст, вводимый в это поле, содержит символы длиной " + txtlen + ". Максимально допустимое количество символов - " + txtmxlen + "." ;
 					
 					предупреждение(qf_errmsg);
-					var textarea_alert = документ.Получить идентификатор элемента(qform.name + келем);
+					var textarea_alert = document.Получить id элемента(qform.name + келем);
 
 
-					если (textarea_alert != null) {
+					if (textarea_alert != null) {
 						
 						текстовая область_алерт.color = "#CC0000";
 					}
-					возвращает значение false;
+					return значение false;
 				}
 			}
 
 
 		
 		
-			если (dest == '0') {
+			if (dest == '0') {
 
 			var undscrint = qelem.indexOf('_');
 
-				если (undscrint == 0) {
+				if (undscrint == 0) {
 
 					qform.elements[q].name = qelem.substr(1);
 					
@@ -1019,7 +1019,7 @@ var memcenter_links_style = "#3333CC";
 
 			}
 			
-			если (qform.submittedfields != null && qform.elements[q].type != "скрытые" && qform.elements[q].type != "отправить") {
+			if (qform.submittedfields != null && qform.elements[q].type != "скрытые" && qform.elements[q].type != "отправить") {
 						
 				переменная prev_flds = qform.submittedfields.value.split("|");
 				
@@ -1030,7 +1030,7 @@ var memcenter_links_style = "#3333CC";
 				переменная prev_fld_str = prev_flds[prev_flds_len];
 				
 				
-				если (qform.elements[q].name!= prev_fld_str) {
+				if (qform.elements[q].name!= prev_fld_str) {
 				
 				qform.submittedfields.value += qform.elements[q].name + "|";
 				
@@ -1046,14 +1046,14 @@ var memcenter_links_style = "#3333CC";
 	
 		
 		genformPost(qform, qfrmcnt, customvals);
-		возвращает значение false;
+		return значение false;
 
 	}
-	еще {
+	else {
 		предупреждение(qf_errmsg);
 		qform.SubmitBtn.disabled = ложь;
 		document.body.style.cursor = "авто";
-		возвращает значение false;
+		return значение false;
 	}
 
 
@@ -1062,12 +1062,12 @@ var memcenter_links_style = "#3333CC";
 
 
 
-функция genformPost(qform, qfrmcnt, customvals) {
+function genformPost(qform, qfrmcnt, customvals) {
 
-	gen_frm = документ.gen_form_post;
+	gen_frm = document.gen_form_post;
 
 	
-	для (i=0; i < qfrmcnt; i++) {
+	for(i=0; i < qfrmcnt; i++) {
 	
 	
 	var new_frm_fld = "";
@@ -1079,7 +1079,7 @@ var memcenter_links_style = "#3333CC";
 	
 	
 	}
-	иначе, если (qform.elements[i].type != "флажок" && qform.elements[i].type != "радио") {
+	иначе, if (qform.elements[i].type != "флажок" && qform.elements[i].type != "радио") {
 
 		new_frm_fld = "<INPUT TYPE='HIDDEN' NAME='" + qform.elements[i].name + "' VALUE='" + escape(qform.elements[i].value) + "'/>";
 	
@@ -1105,13 +1105,13 @@ gen_frm.action = пользовательские значения;
 var qf_errmsg переменная qf_errmsg;
 var err_flds = новый массив();
 
-функция quickFormValidate(frm,reqflds) {
+function quickFormValidate(frm,reqflds) {
 
 qf_errmsg = "";
 
-если (err_flds) {
+if (err_flds) {
 
-для (p=0; p < err_flds.length; p++) {
+for (p=0; p < err_flds.length; p++) {
 	
 	var err_alert = document.getElementById(frm + "_" + err_flds[p]);
 		
@@ -1177,13 +1177,13 @@ reqfldcnt = reqflds.length;
 						var is_valid_email = email_input.match(шаблон электронной почты);
 					
 						
-						если (is_valid_email == null) {
+						if (is_valid_email == null) {
 					
-							если (bsr == "Microsoft Internet Explorer" && версия == 4) {
+							if (bsr == "Microsoft Internet Explorer" && версия == 4) {
 							
 							err_flds[ошибка_flds.длина] = "Адрес электронной почты для входа";
 							}
-							еще {
+							else {
 							err_flds.push("Адрес электронной почты для входа");
 							
 							}
@@ -1194,7 +1194,7 @@ reqfldcnt = reqflds.length;
 					
 					}
 					
-					иначе, если (поле.значение != " && fld.name == '_ZipCode') {
+					иначе, if (поле.значение != " && fld.name == '_ZipCode') {
 
 						var ZipCodePattern = /^\d{5}(-?\d{4})?$/;
 
@@ -1202,13 +1202,13 @@ reqfldcnt = reqflds.length;
 
 						var is_valid_zip = zip_input.match(ZipCodePattern);
 												
-							если (is_valid_zip == null) {
+							if (is_valid_zip == null) {
 
 								
-								если (bsr == "Microsoft Internet Explorer" && версия == 4) {
+								if (bsr == "Microsoft Internet Explorer" && версия == 4) {
 								err_flds[ошибка_flds.длина] = "Почтовый индекс";
 								}
-								еще {
+								else {
 								err_flds.push("Почтовый индекс");
 								}
 								qf_errmsg = "Пожалуйста, введите действительный почтовый индекс";
@@ -1219,18 +1219,18 @@ reqfldcnt = reqflds.length;
 
 
 					}
-					иначе, если (поле.value != " && поле.type == "текстовая область") {
+					иначе, if (поле.value != " && поле.type == "текстовая область") {
 
 						var txtlen = поле.значение.длина;
 
 						var txtmxlen = fld.getAttribute("МАКСИМАЛЬНАЯ ДЛИНА");
 						
-						если (txtlen > txtmxlen) {
+						if (txtlen > txtmxlen) {
 							
-							если (bsr == "Microsoft Internet Explorer" && версия == 4) {
+							if (bsr == "Microsoft Internet Explorer" && версия == 4) {
 							err_flds[ошибка_flds.длина] = fldstr;
 							}
-							еще {
+							else {
 							err_flds.push(fldstr);
 							}
 							qf_errmsg = "Текст, введенный в это поле, содержит символы длиной " + txtlen + ". Максимально допустимое количество символов - " + txtmxlen + "." ;
@@ -1242,11 +1242,11 @@ reqfldcnt = reqflds.length;
 			}
 
 
-			еще {
+			else {
 
 				reqchbxname = reqflds[k][0];
 
-				если (reqchbxname.indexOf('_') == 0) {
+				if (reqchbxname.indexOf('_') == 0) {
 
 				reqchbxname = reqflds[k][0].substr(1);
 
@@ -1256,7 +1256,7 @@ reqfldcnt = reqflds.length;
 														
 				переменная chkbxslen = reqflds[k].длина - 1;
 
-				для (m=1; m <= chkbxslen; m++) {	
+				for (m=1; m <= chkbxslen; m++) {	
 
 					var fldchk = eval('document.' + frm + '.' + reqflds[k][m]);
 
@@ -1305,25 +1305,25 @@ if (err_len > 0) {
 var is_valid = ложь;
 
 }
-еще {
+else {
 
 is_valid = истина;
 
 }
 
-возвращает значение is_valid;
+return значение is_valid;
 
 }
 
 
 
 
-функция quickFormError() {
+function quickFormError() {
 
-если (err_flds != null) {
+if (err_flds != null) {
 
 
-	для (p=0; p < err_len; p++) {
+	for (p=0; p < err_len; p++) {
 
 		var err_alert = eval("document.all." + frm + "_" + err_flds[p]);
 
@@ -1511,35 +1511,35 @@ else {
 
 	if (bsr == "Netscape" && ver >= 5) {
 
-		abpos_origHeight = документ.bt_px.y;
+		abpos_origHeight = document.bt_px.y;
 		
  
-		ad_left = документ.col4_px.x + 135;
+		ad_left = document.col4_px.x + 135;
 		 
 
 	
-		оболочка.стиль.высота = abpos_origHeight + 80;
-		оболочка.стиль.слева = ad_left;
+		оболочка.style.height = abpos_origHeight + 80;
+		оболочка.style.left = ad_left;
 
-		если (document.wn_cat_hdr) {
-			ad_text.style.top = документ.wn_cat_hdr.y + документ.wn_cat_hdr.height - 20;
-			ad_div.style.top = документ.wn_cat_hdr.y + документ.wn_cat_hdr.height;
+		if (document.wn_cat_hdr) {
+			ad_text.style.top = document.wn_cat_hdr.y + document.wn_cat_hdr.height - 20;
+			ad_div.style.top = document.wn_cat_hdr.y + document.wn_cat_hdr.height;
 		}
-		еще {
+		else {
 
-			ad_text.style.top = документ.баннер_рх.у - (ad_buffer + 20);
-			ad_div.style.top = документ.баннер_рх.у - (ad_buffer + 2);
+			ad_text.style.top = document.баннер_рх.у - (ad_buffer + 20);
+			ad_div.style.top = document.баннер_рх.у - (ad_buffer + 2);
 		
 		}
 		
-		ad_text.стиль.левый = ad_left;
-		ad_div.стиль.левый = ad_left;
+		ad_text.style.left = ad_left;
+		ad_div.style.left = ad_left;
 		
 
 	}
-еще {
+else {
 	
-		abpos_origHeight = высота прокрутки документа.body.height;
+		abpos_origHeight = document.body.scrollHeight;
 		bt_px_bottom = document.all.bt_px.getBoundingClientRect().внизу;
 
  
@@ -1547,26 +1547,26 @@ else {
 		 
 		
 		
-		если (bt_px_bottom) {
-		обертка.стиль.высота = bt_px_bottom + 5;
+		if (bt_px_bottom) {
+		обертка.style.height = bt_px_bottom + 5;
 		}
-		еще{
-		обертка.стиль.высота = abpos_origHeight;
+		else{
+		обертка.style.height = abpos_origHeight;
 		}
 		
-		обертка.стиль.левый = ad_left;
+		обертка.style.left = ad_left;
 		
-		если (document.all.wn_cat_hdr) {
+		if (document.all.wn_cat_hdr) {
 			ad_text.style.top = document.all.wn_cat_hdr.getBoundingClientRect().внизу - 20;
 			ad_div.style.top = document.all.wn_cat_hdr.getBoundingClientRect().внизу;
 		}
-		еще {
+		else {
 			ad_text.style.top = document.all.banner_px.getBoundingClientRect().внизу - (ad_buffer + 20);
 			ad_div.style.top = document.all.banner_px.getBoundingClientRect().внизу - ad_buffer;
 		}
 		
-		ad_text.style.слева = ad_left;
-		ad_div.style.слева = ad_left;
+		ad_text.style.left = ad_left;
+		ad_div.style.left = ad_left;
 
 
 
@@ -1592,83 +1592,83 @@ else {
 
 
 
-//--></script><style> ШРИФТ {
-	СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial
+//--></script><style> font {
+	font-family: Verdana,Arial
 }
 FONT.a {
 	ОФОРМЛЕНИЕ ТЕКСТА: подчеркивание
 }
 FONT.sectiontitle {
-	РАЗМЕР ШРИФТА: 9 пикселей; ЦВЕТ: #000000
+	font-size: 9px; color: #000000
 }
 TD.l1off {
-	ОТСТУП СЛЕВА: 2 пикселя; ЦВЕТ ФОНА: #000000
+	ОТСТУП СЛЕВА: 2 пикселя; background-color: #000000
 }
 TD.l1on {
-	ОТСТУП СЛЕВА: 2 пикселя; ЦВЕТ ФОНА: #ffffff
+	ОТСТУП СЛЕВА: 2 пикселя; background-color: #ffffff
 }
 A.l1off {
-	ОТСТУП СЛЕВА: 2 пикселя; ВЕС ШРИФТА: 700; РАЗМЕР ШРИФТА: 11 пикселей; ЦВЕТ: #ffffff; СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
+	ОТСТУП СЛЕВА: 2 пикселя; font-weight: 700; font-size: 11px; color: #ffffff; font-family: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
 }
 A.l1on {
-	ОТСТУП СЛЕВА: 2 пикселя; ВЕС ШРИФТА: 700; РАЗМЕР ШРИФТА: 11 пикселей; ЦВЕТ: #000000; СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
+	ОТСТУП СЛЕВА: 2 пикселя; font-weight: 700; font-size: 11px; color: #000000; font-family: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
 }
 TD.l2 {
-	ОТСТУП СЛЕВА: 3 пикселя; ЦВЕТ ФОНА: #ffffff
+	ОТСТУП СЛЕВА: 3 пикселя; background-color: #ffffff
 }
 A.l2 {
-	ОТСТУП СЛЕВА: 3 пикселя; ВЕС ШРИФТА: 400; РАЗМЕР ШРИФТА: 10 пикселей; ЦВЕТ: #000000; СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
+	ОТСТУП СЛЕВА: 3 пикселя; font-weight: 400; font-size: 10px; color: #000000; font-family: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
 }
 TD.l3a {
-	ОТСТУП СЛЕВА: 4 пикселя; ЦВЕТ ФОНА: #ffffff
+	ОТСТУП СЛЕВА: 4 пикселя; background-color: #ffffff
 }
-ШРИФТ.l3a {
-	ОТСТУП СЛЕВА: 4 пикселя; ВЕС ШРИФТА: 400; РАЗМЕР ШРИФТА: 10 пикселей; ЦВЕТ: #000000; СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
+font.l3a {
+	ОТСТУП СЛЕВА: 4 пикселя; font-weight: 400; font-size: 10px; color: #000000; font-family: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
 }
 TD.l3b {
-	ОТСТУП СЛЕВА: 2 пикселя; ЦВЕТ ФОНА: #ffffff
+	ОТСТУП СЛЕВА: 2 пикселя; background-color: #ffffff
 }
 A.l3b {
-	ОТСТУП СЛЕВА: 2 пикселя; ВЕС ШРИФТА: 400; РАЗМЕР ШРИФТА: 10 пикселей; ЦВЕТ: #000000; СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
+	ОТСТУП СЛЕВА: 2 пикселя; font-weight: 400; font-size: 10px; color: #000000; font-family: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
 }
 FONT.bn {
-	РАЗМЕР ШРИФТА: 10 пикселей; ЦВЕТ: #010553; СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: подчеркивание
+	font-size: 10px; color: #010553; font-family: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: подчеркивание
 }
 FONT.bnl {
-	РАЗМЕР ШРИФТА: 10 пикселей; ЦВЕТ: #010553; СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
+	font-size: 10px; color: #010553; font-family: Verdana,Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
 }
 TABLE.ctdbr {
-	ЦВЕТ ФОНА: #010553
+	background-color: #010553
 }
 TD.ctdcrn {
-	ОТСТУП СПРАВА: 0 пикселей; ОТСТУП СЛЕВА: 0 пикселей; ЦВЕТ ФОНА: #010553
+	ОТСТУП СПРАВА: 0px; ОТСТУП СЛЕВА: 0px; background-color: #010553
 }
 TD.ctdbtn {
-	ЦВЕТ ФОНА: #4c60d4
+	background-color: #4c60d4
 }
 А.стдофф {
-	ВЕС ШРИФТА: 700; РАЗМЕР ШРИФТА: 11 пикселей; ЦВЕТ: #ffffff; СЕМЕЙСТВО ШРИФТОВ: Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
+	font-weight: 700; font-size: 11px; color: #ffffff; font-family: Arial; ОФОРМЛЕНИЕ ТЕКСТА: отсутствует
 }
 РАЗДЕЛ.объявления {
-	ПОЛЕ: 5 пикселей
+	ПОЛЕ: 5px
 } Изображение.видео {
 
-	ВЫРАВНИВАНИЕ ПО ВЕРТИКАЛИ: по центру
+	ВЫРАВНИВАНИЕ ПО ВЕРТИКАЛИ: center
 }
 ТЕКСТОВАЯ ОБЛАСТЬ.qформа {
-	СЕМЕЙСТВО ШРИФТОВ: Verdana,Arial
+	font-family: Verdana,Arial
 }
 DIV.wrapper_728x90A {
-	ГРАНИЦА СПРАВА: #999999 1px сплошная; ГРАНИЦА СВЕРХУ: #999999 1px сплошная; ОТОБРАЖЕНИЕ: нет; ПОЛЕ: 0px; ВЫРАВНИВАНИЕ по ВЕРТИКАЛИ: снизу; ГРАНИЦА СЛЕВА: #999999 1px сплошная; ШИРИНА: 760 пикселей; ГРАНИЦА СНИЗУ: #999999 0px сплошная; ВЫСОТА: 92 пикселя; ФОН-ЦВЕТ: #000452
+	ГРАНИЦА СПРАВА: #999999 1px сплошная; ГРАНИЦА СВЕРХУ: #999999 1px сплошная; ОТОБРАЖЕНИЕ: нет; ПОЛЕ: 0px; ВЫРАВНИВАНИЕ по ВЕРТИКАЛИ: снизу; ГРАНИЦА СЛЕВА: #999999 1px сплошная; ШИРИНА: 760px; ГРАНИЦА СНИЗУ: #999999 0px сплошная; ВЫСОТА: 92 пикселя; ФОН-color: #000452
 }
 DIV.обертка_160x600A {
-	ГРАНИЦА СПРАВА: #999999 1px сплошная; ГРАНИЦА СВЕРХУ: #999999 0px сплошная; СЛЕВА: 762px; ВИДИМОСТЬ: скрытая; ПОЛЕ: 0px; ВЫРАВНИВАНИЕ ПО ВЕРТИКАЛИ: снизу; ГРАНИЦА СЛЕВА: #999999 1px сплошная; ШИРИНА: 165px; ГРАНИЦА СНИЗУ: #999999 0px сплошная; ПОЛОЖЕНИЕ: абсолютный; ВЕРХ: 0 пикселей; ВЫСОТА: 600 пикселей; ЦВЕТ ФОНА: #000452
+	ГРАНИЦА СПРАВА: #999999 1px сплошная; ГРАНИЦА СВЕРХУ: #999999 0px сплошная; СЛЕВА: 762px; ВИДИМОСТЬ: скрытая; ПОЛЕ: 0px; ВЫРАВНИВАНИЕ ПО ВЕРТИКАЛИ: снизу; ГРАНИЦА СЛЕВА: #999999 1px сплошная; ШИРИНА: 165px; ГРАНИЦА СНИЗУ: #999999 0px сплошная; ПОЛОЖЕНИЕ: абсолютный; ВЕРХ: 0px; ВЫСОТА: 600px; background-color: #000452
 }
 РАЗДЕЛ.ad_text_160x600A {
-	ГРАНИЦА СПРАВА: #999999 1px сплошная; ГРАНИЦА СВЕРХУ: #999999 0px сплошная; СЛЕВА: 762px; ВИДИМОСТЬ: скрытая; ПОЛЕ: 0px; ВЫРАВНИВАНИЕ ПО ВЕРТИКАЛИ: снизу; ГРАНИЦА СЛЕВА: #999999 1px сплошная; ШИРИНА: 165px; ГРАНИЦА СНИЗУ: #999999 0px сплошная; ПОЛОЖЕНИЕ: абсолютный; ВЕРХ: 0 пикселей; ВЫСОТА: 600 пикселей; ЦВЕТ ФОНА: #000452; выравнивание: по центру
+	ГРАНИЦА СПРАВА: #999999 1px сплошная; ГРАНИЦА СВЕРХУ: #999999 0px сплошная; СЛЕВА: 762px; ВИДИМОСТЬ: скрытая; ПОЛЕ: 0px; ВЫРАВНИВАНИЕ ПО ВЕРТИКАЛИ: снизу; ГРАНИЦА СЛЕВА: #999999 1px сплошная; ШИРИНА: 165px; ГРАНИЦА СНИЗУ: #999999 0px сплошная; ПОЛОЖЕНИЕ: абсолютный; ВЕРХ: 0px; ВЫСОТА: 600px; background-color: #000452; выравнивание: center
 }
 РАЗДЕЛ.ad_160x600A {
-	ГРАНИЦА СПРАВА: #999999 1 пиксель сплошным; ГРАНИЦА СВЕРХУ: #999999 1 пиксель сплошным; СЛЕВА: 762 пикселя; ВИДИМОСТЬ: скрытая; ПОЛЕ: 0 пикселей; ВЫРАВНИВАНИЕ ПО ВЕРТИКАЛИ: среднее; ГРАНИЦА СЛЕВА: #999999 1 пиксель сплошным; ШИРИНА: 165 пикселей; ГРАНИЦА СНИЗУ: #999999 1 пиксель сплошным; ПОЛОЖЕНИЕ: абсолютный; ВЕРХ: 0 пикселей; ВЫСОТА: 610 пикселей; ЦВЕТ ФОНА: #000452; выравнивание: по центру
+	ГРАНИЦА СПРАВА: #999999 1 пиксель сплошным; ГРАНИЦА СВЕРХУ: #999999 1 пиксель сплошным; СЛЕВА: 762 пикселя; ВИДИМОСТЬ: скрытая; ПОЛЕ: 0px; ВЫРАВНИВАНИЕ ПО ВЕРТИКАЛИ: среднее; ГРАНИЦА СЛЕВА: #999999 1 пиксель сплошным; ШИРИНА: 165px; ГРАНИЦА СНИЗУ: #999999 1 пиксель сплошным; ПОЛОЖЕНИЕ: абсолютный; ВЕРХ: 0px; ВЫСОТА: 610px; background-color: #000452; выравнивание: center
 }</style><meta content="MSHTML 6.00.2900.2523" name="GENERATOR"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/></head><body alink="#000084" bgcolor="#010553" leftmargin="0" link="#0000cc" marginheight="0" marginwidth="0" onload="ScrollFormTo(theAnchor);" rightmargin="0" topmargin="0" vlink="#cc0000"><!--728x90 Leaderboard Ad--><div id="wrapper_728x90A" name="wrapper_728x90A" style="BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; DISPLAY: none; MARGIN: 0px; VERTICAL-ALIGN: bottom; BORDER-LEFT: #999999 1px solid; WIDTH: 760px; BORDER-BOTTOM: #999999 1px solid; HEIGHT: 100px; BACKGROUND-COLOR: #000452"><img align="left" border="0" hspace="0" src="Sight%20for%20Sale,%20Pt_%201_files/adtext_vert.gif" style="MARGIN-TOP: 5px" width="20"/><center><iframe allowtransparency="" border="1" frameborder="0" height="90" id="728x90A" marginheight="0" marginwidth="0" name="728x90A" scrolling="no" src="about:blank" style="MARGIN-TOP: 5px; VISIBILITY: hidden" width="728">&amp;amp;amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;amp;amp;gt; если (документ.слои) {document.write('&amp;amp;amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=98581979274748&amp;amp;amp;amp;type=single&amp;amp;amp;amp;tg=Promotion%202&amp;amp;amp;amp;src1=wn&amp;amp;amp;amp;sz1=728x90A&amp;amp;amp;amp;callType=script&amp;amp;amp;gt;&amp;amp;amp;lt;/SCR' + 'IPT&amp;amp;amp;gt;'); document.close();}&amp;amp;amp;lt;/SCRIPT&amp;amp;amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate('728x90A', 'wn');</script></center></div><table border="0" bordercolor="#ff0000" cellpadding="0" cellspacing="0" height="100%" width="760"><tbody><tr valign="top"><!--LEFT COLUMN --><td bgcolor="#0b2299" id="col1" rowspan="3" width="130"><table background="Sight%20for%20Sale,%20Pt_%201_files/pxl_trans.gif" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><img border="0" src="Sight%20for%20Sale,%20Pt_%201_files/hdr_branding_130x170.jpg" width="130"/></td></tr><tr><td><img src="Sight%20for%20Sale,%20Pt_%201_files/nav_top.gif" width="130"/></td></tr><tr><td bgcolor="#0b2299" valign="top"><!-- NAVIGATION MENU --><a href="http://www.kvbc.com/Global/category.asp?C=6012&amp;nav=15MU" onmouseout="cold('menumenu1_span1');return true;" onmouseover="hot('menumenu1_span1');return true;"><img border="0" height="19" name="menumenu1_span1" src="Sight%20for%20Sale,%20Pt_%201_files/15536_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=6014&amp;nav=15MV" onmouseout="cold('menumenu1_span2');return true;" onmouseover="hot('menumenu1_span2');return true;"><img border="0" height="19" name="menumenu1_span2" src="Sight%20for%20Sale,%20Pt_%201_files/15538_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=6013&amp;nav=15MX" onmouseout="cold('menumenu1_span3');return true;" onmouseover="hot('menumenu1_span3');return true;"><img border="0" height="19" name="menumenu1_span3" src="Sight%20for%20Sale,%20Pt_%201_files/15543_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=7877&amp;nav=15MW" onmouseout="cold('menumenu1_span4');return true;" onmouseover="hot('menumenu1_span4');return true;"><img border="0" height="19" name="menumenu1_span4" src="Sight%20for%20Sale,%20Pt_%201_files/15540_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=7878&amp;nav=15MY" onmouseout="cold('menumenu1_span5');return true;" onmouseover="hot('menumenu1_span5');return true;"><img border="0" height="19" name="menumenu1_span5" src="Sight%20for%20Sale,%20Pt_%201_files/15545_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=6015&amp;nav=15Mb" onmouseout="cold('menumenu1_span6');return true;" onmouseover="hot('menumenu1_span6');return true;"><img border="0" height="19" name="menumenu1_span6" src="Sight%20for%20Sale,%20Pt_%201_files/15552_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=29506&amp;nav=AL7S" onmouseout="cold('menumenu1_span7');return true;" onmouseover="hot('menumenu1_span7');return true;"><img border="0" height="19" name="menumenu1_span7" src="Sight%20for%20Sale,%20Pt_%201_files/53135_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=29824&amp;nav=MXNa" onmouseout="cold('menumenu1_span8');return true;" onmouseover="hot('menumenu1_span8');return true;"><img border="0" height="19" name="menumenu1_span8" src="Sight%20for%20Sale,%20Pt_%201_files/82180_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=6016&amp;nav=15Md" onmouseout="cold('menumenu1_span9');return true;" onmouseover="hot('menumenu1_span9');return true;"><img border="0" height="19" name="menumenu1_span9" src="Sight%20for%20Sale,%20Pt_%201_files/15556_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=30195&amp;nav=MXNZ" onmouseout="cold('menumenu1_span10');return true;" onmouseover="hot('menumenu1_span10');return true;"><img border="0" height="19" name="menumenu1_span10" src="Sight%20for%20Sale,%20Pt_%201_files/82178_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=10891&amp;nav=MYBH" onmouseout="cold('menumenu1_span11');return true;" onmouseover="hot('menumenu1_span11');return true;"><img border="0" height="19" name="menumenu1_span11" src="Sight%20for%20Sale,%20Pt_%201_files/82182_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=7884&amp;nav=15Me" onmouseout="cold('menumenu1_span12');return true;" onmouseover="hot('menumenu1_span12');return true;"><img border="0" height="19" name="menumenu1_span12" src="Sight%20for%20Sale,%20Pt_%201_files/15558_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=7886&amp;nav=15Mg" onmouseout="cold('menumenu1_span13');return true;" onmouseover="hot('menumenu1_span13');return true;"><img border="0" height="19" name="menumenu1_span13" src="Sight%20for%20Sale,%20Pt_%201_files/15562_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/link.asp?L=9450&amp;nav=MXNs" onmouseout="cold('menumenu1_span14');return true;" onmouseover="hot('menumenu1_span14');return true;"><img border="0" height="19" name="menumenu1_span14" src="Sight%20for%20Sale,%20Pt_%201_files/82184_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=17254&amp;nav=MXNu" onmouseout="cold('menumenu1_span15');return true;" onmouseover="hot('menumenu1_span15');return true;"><img border="0" height="19" name="menumenu1_span15" src="Sight%20for%20Sale,%20Pt_%201_files/82186_G.gif" width="130"/></a><br/><a href="http://www.kvbc.com/Global/category.asp?C=8736&amp;nav=8H3e" onmouseout="cold('menumenu1_span16');return true;" onmouseover="hot('menumenu1_span16');return true;"><img border="0" height="19" name="menumenu1_span16" src="Sight%20for%20Sale,%20Pt_%201_files/47794_G.gif" width="130"/></a><br/></td></tr><tr><td><img src="Sight%20for%20Sale,%20Pt_%201_files/nav_bot.gif" width="130"/></td></tr></tbody></table><!--SEARCH--><table align="center" background="Sight%20for%20Sale,%20Pt_%201_files/pxl_trans.gif" border="0" cellpadding="0" cellspacing="1" width="125"><tbody><tr><td></td></tr><tr><td bgcolor="#ffffff"><table border="0" cellpadding="0" cellspacing="1" width="100%"><tbody><tr><td valign="top" width="100%"><table bgcolor="#0c26ae" border="0" cellpadding="3" cellspacing="0" width="100%"><tbody><tr><form action="https://lasikcomplications.com/Global/SearchResults.asp" method="get" name="SimpleSearchForm"><td><img align="middle" border="0" height="15" src="Sight%20for%20Sale,%20Pt_%201_files/search2.gif" width="80"/><br/><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><input maxlength="30" name="qu" size="12" style="FONT-SIZE: 10px"/></td><td><input border="0" height="20" src="Sight%20for%20Sale,%20Pt_%201_files/btn_go2.gif" type="image" width="26"/></td></tr></tbody></table></td></form></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td></td></tr></tbody></table><!--AD VB120x240A--><!--ADS 120x240A Local--><center><iframe allowtransparency="" border="1" frameborder="0" height="240" id="VB120x240A" marginheight="0" marginwidth="0" name="VB120x240A" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="120">&amp;amp;amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;amp;amp;gt; если (документ.слои) {document.write('&amp;amp;amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=17831871509551&amp;amp;amp;amp;type=single&amp;amp;amp;amp;tg=Promotion%202&amp;amp;amp;amp;src=aff&amp;amp;amp;amp;sz=VB120x240A&amp;amp;amp;amp;callType=script&amp;amp;amp;gt;&amp;amp;amp;lt;/SCR' + 'IPT&amp;amp;amp;gt;'); document.close();}&amp;amp;amp;lt;/SCRIPT&amp;amp;amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate('VB120x240A', 'aff');</script></center><!-- COL 1A POLL --><!-- Subsection Navigation --><!--ADS 120x60--><br/><div align="center"><iframe allowtransparency="" border="1" frameborder="0" height="60" id="Bu120x60A" marginheight="0" marginwidth="0" name="Bu120x60A" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="120">&amp;amp;amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;amp;amp;gt; если (документ.слои) {document.write('&amp;amp;amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=15288344621658&amp;amp;amp;amp;type=single&amp;amp;amp;amp;tg=Promotion%202&amp;amp;amp;amp;src=aff&amp;amp;amp;amp;sz=Bu120x60A&amp;amp;amp;amp;callType=script&amp;amp;amp;gt;&amp;amp;amp;lt;/SCR' + 'IPT&amp;amp;amp;gt;'); document.close();}&amp;amp;amp;lt;/SCRIPT&amp;amp;amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate('Bu120x60A', 'aff');</script></div><br/><div align="center"><iframe allowtransparency="" border="1" frameborder="0" height="60" id="Bu120x60C" marginheight="0" marginwidth="0" name="Bu120x60C" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="120">&amp;amp;amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;amp;amp;gt; если (документ.слои) {document.write('&amp;amp;amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=52746585607528&amp;amp;amp;amp;type=single&amp;amp;amp;amp;tg=Promotion%202&amp;amp;amp;amp;src=aff&amp;amp;amp;amp;sz=Bu120x60C&amp;amp;amp;amp;callType=script&amp;amp;amp;gt;&amp;amp;amp;lt;/SCR' + 'IPT&amp;amp;amp;gt;'); document.close();}&amp;amp;amp;lt;/SCRIPT&amp;amp;amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate('Bu120x60C', 'aff');</script></div></td><!-- END OF LEFT COLUMN --><!-- CENTER COLUMN --><td id="col2/3" valign="top" width="630"><table border="0" bordercolor="#ff0000" cellpadding="0" cellspacing="0" height="100%" width="100%"><tbody><tr><td bgcolor="#010553" colspan="2"><img height="80" id="wn_cat_hdr" name="wn_cat_hdr" src="Sight%20for%20Sale,%20Pt_%201_files/category_hdr.jpg" width="630"/></td><!-- --></tr><tr><!-- NATIONAL CHANNELS --><td bgcolor="#010553" colspan="2"><table border="0" bordercolor="#cc0000" cellpadding="0" cellspacing="1" width="630"><tbody><tr><td bgcolor="#010553" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td valign="top"><table border="0" cellpadding="2" cellspacing="0" width="100%"><tbody><tr><td colspan="0" valign="top" width="90%"><table border="0" cellpadding="2" cellspacing="0" width="100%"><tbody><tr><td><table border="0" cellspacing="0" width="100%"><tbody><tr><td valign="top"><nobr><b><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> ТОРГОВАЯ ПЛОЩАДКА: </font></b></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=41934"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Авто </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=38708"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Работы </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=58268"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline">
 Поиск людей </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=48050"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Личные данные </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=23748"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Путешествовать </font></a><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana"> |</font></nobr></td><td valign="top"><nobr><a href="http://www.kvbc.com/global/category.asp?c=46150"><font style="FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana; TEXT-DECORATION: underline"> Желтый 
                                 Страницы </font></a></nobr></td><td align="right" valign="top" width="90%"><nobr><font style="FONT-SIZE: 10px; COLOR: #ffffff"> 
@@ -1842,12 +1842,12 @@ LVI во второй половине 2001 календарного
 советы по уходу по
 почте.</font><br/></td></tr></tbody></table></center></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><img border="0" height="1" id="col4_px" name="col4_px" src="Sight%20for%20Sale,%20Pt_%201_files/pxl_trans.gif" width="130"/></td></tr></tbody></table></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0" width="760"><tbody><tr><td bgcolor="#010553"><table border="0" bordercolor="#cc0000" cellpadding="1" cellspacing="1" width="100%"><tbody><tr><td align="middle" bgcolor="#ffffff" colspan="2" valign="bottom"><table align="center" border="0" bordercolor="#ff0000" cellpadding="0" cellspacing="5"><tbody><tr><td><a href="http://www.worldnow.com/" target="_blank"><img border="0" height="34" id="bt_px" name="bt_px" src="Sight%20for%20Sale,%20Pt_%201_files/wn_powerby.gif" width="99"/></a></td><td><font style="FONT-SIZE: 10px; COLOR: #000000"> Все содержимое
 защищено авторскими правами 2000 - 2004 WorldNow и KVBC. все права защищены.<br/> Для получения дополнительной информации на этом сайте, пожалуйста, ознакомьтесь
-с нашим <a href="http://www.kvbc.com/global/story.asp?s=18990"> политика конфиденциальности </a> и <a href="http://www.kvbc.com/global/story.asp?s=18991"> условия обслуживания </a>.</font></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><div style="LEFT: 0px; POSITION: absolute; TOP: 0px"><iframe allowtransparency="" border="1" frameborder="0" height="1" id="Popup" marginheight="0" marginwidth="0" name="Popup" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="1"></iframe><script language="JavaScript1.1"> coreAdsCreate('Всплывающее окно', 'aff');</script></div><div style="LEFT: 0px; POSITION: absolute; TOP: 0px"><iframe allowtransparency="" border="1" frameborder="0" height="1" id="RichMedia" marginheight="0" marginwidth="0" name="RichMedia" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="1"></iframe><script language="JavaScript1.1"> coreAdsCreate('RichMedia', 'wn');</script></div><div class="wrapper_160x600A" id="wrapper_160x600A" name="wrapper"></div><div align="center" class="ad_text_160x600A" id="ad_text_160x600A" name="ad_text"><img border="0" height="20" src="Sight%20for%20Sale,%20Pt_%201_files/adtext_horiz.gif" width="160"/></div><div align="center" class="ad_160x600A" id="ad_160x600A" name="ad"><center><iframe allowtransparency="" border="1" frameborder="0" height="600" id="160x600A" marginheight="0" marginwidth="0" name="160x600A" scrolling="no" src="about:blank" style="MARGIN-TOP: 5px; VISIBILITY: hidden" width="160">&amp;amp;amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;amp;amp;gt; если (документ.слои) {document.write('&amp;amp;amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=29982153177261&amp;amp;amp;amp;type=single&amp;amp;amp;amp;tg=Promotion%202&amp;amp;amp;amp;src1=wn&amp;amp;amp;amp;sz1=160x600A&amp;amp;amp;amp;callType=script&amp;amp;amp;gt;&amp;amp;amp;lt;/SCR' + 'IPT&amp;amp;amp;gt;'); document.close();}&amp;amp;amp;lt;/SCRIPT&amp;amp;amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate("160x600A", "wn");</script></center></div><div style="LEFT: 0px; POSITION: absolute; TOP: 0px"><iframe height="0" id="iframeads" name="iframeads" src="Sight%20for%20Sale,%20Pt_%201_files/CA6VSTM3.htm" style="VISIBILITY: hidden" width="0"></iframe></div><script language="JavaScript1.1"> если (bsr != "Netscape" || ns6) {
+с нашим <a href="http://www.kvbc.com/global/story.asp?s=18990"> политика конфиденциальности </a> и <a href="http://www.kvbc.com/global/story.asp?s=18991"> условия обслуживания </a>.</font></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><div style="LEFT: 0px; POSITION: absolute; TOP: 0px"><iframe allowtransparency="" border="1" frameborder="0" height="1" id="Popup" marginheight="0" marginwidth="0" name="Popup" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="1"></iframe><script language="JavaScript1.1"> coreAdsCreate('Всплывающее окно', 'aff');</script></div><div style="LEFT: 0px; POSITION: absolute; TOP: 0px"><iframe allowtransparency="" border="1" frameborder="0" height="1" id="RichMedia" marginheight="0" marginwidth="0" name="RichMedia" scrolling="no" src="about:blank" style="VISIBILITY: hidden" width="1"></iframe><script language="JavaScript1.1"> coreAdsCreate('RichMedia', 'wn');</script></div><div class="wrapper_160x600A" id="wrapper_160x600A" name="wrapper"></div><div align="center" class="ad_text_160x600A" id="ad_text_160x600A" name="ad_text"><img border="0" height="20" src="Sight%20for%20Sale,%20Pt_%201_files/adtext_horiz.gif" width="160"/></div><div align="center" class="ad_160x600A" id="ad_160x600A" name="ad"><center><iframe allowtransparency="" border="1" frameborder="0" height="600" id="160x600A" marginheight="0" marginwidth="0" name="160x600A" scrolling="no" src="about:blank" style="MARGIN-TOP: 5px; VISIBILITY: hidden" width="160">&amp;amp;amp;lt;SCRIPT LANGUAGE='JavaScript1.1'&amp;amp;amp;gt; если (документ.слои) {document.write('&amp;amp;amp;lt;SCR' + 'IPT language=JavaScript1.1 SRC=/Global/ad.asp?rnd=29982153177261&amp;amp;amp;amp;type=single&amp;amp;amp;amp;tg=Promotion%202&amp;amp;amp;amp;src1=wn&amp;amp;amp;amp;sz1=160x600A&amp;amp;amp;amp;callType=script&amp;amp;amp;gt;&amp;amp;amp;lt;/SCR' + 'IPT&amp;amp;amp;gt;'); document.close();}&amp;amp;amp;lt;/SCRIPT&amp;amp;amp;gt;</iframe><script language="JavaScript1.1"> coreAdsCreate("160x600A", "wn");</script></center></div><div style="LEFT: 0px; POSITION: absolute; TOP: 0px"><iframe height="0" id="iframeads" name="iframeads" src="Sight%20for%20Sale,%20Pt_%201_files/CA6VSTM3.htm" style="VISIBILITY: hidden" width="0"></iframe></div><script language="JavaScript1.1"> if (bsr != "Netscape" || ns6) {
 
-	если (bsr != "Netscape") {
-		var coreadsiframe = документ.все.iframeads;
+	if (bsr != "Netscape") {
+		var coreadsiframe = document.все.iframeads;
 	}
-еще {
+else {
 		var coreadsiframe = document.getElementById("iframeads");
 	}
 	
@@ -1859,12 +1859,12 @@ LVI во второй половине 2001 календарного
 complete_cookie_exp.установленный год("1970");
 	
 
-	если (complete_cookie != null && complete_cookie_delete == true) _BOS_
+	if (complete_cookie != null && complete_cookie_delete == true) _BOS_
 							
 		setCookie("завершенные элементы", "0", complete_cookie_exp, "/");
 
 	}
-	если (multiple_entries_cookie_val != null && multiple_entries_update == true) _BOS_
+	if (multiple_entries_cookie_val != null && multiple_entries_update == true) _BOS_
 
 		//множественные входы += "_repeat";
 

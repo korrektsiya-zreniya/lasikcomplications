@@ -12,8 +12,8 @@ function MM_swapImgRestore() { //v3.0
 
 function MM_findObj(n, d) { //v3.0
   var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))> 0&&родительские фреймы.длина) {
-    d=родительские фреймы[n.подстрока(p+1)].документ; n=n.подстрока(0,p);}
-  если(!(x=d[n])&&d.все) x=d.все[n]; для (i=0;!x&&i <d.forms.length;i++) x=d.forms[i][n];
+    d=родительские фреймы[n.подстрока(p+1)].document; n=n.подстрока(0,p);}
+  if(!(x=d[n])&&d.все) x=d.все[n]; for(i=0;!x&&i <d.forms.length;i++) x=d.forms[i][n];
   for(i=0;!x&&d.layers&&i <d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
 }
 

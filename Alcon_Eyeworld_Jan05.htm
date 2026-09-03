@@ -6,8 +6,8 @@ return
 document.images.avatar.src=
 'http://www.indiasoftwaresolution.com/issphp/phpnuke/html//images/forum/avatar/' + document.Register.user_avatar.options[document.Register.user_avatar.selectedIndex].value
 }
-//--></script><script language="JavaScript"> функция MM_swapImgRestore() { 
-var i,x,a=документ.MM_sr; для(i=0;a&&i <a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+//--></script><script language="JavaScript"> function MM_swapImgRestore() { 
+var i,x,a=document.MM_sr; for(i=0;a&&i <a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 }
 function MM_preloadImages() {
 var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
@@ -16,8 +16,8 @@ if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
 }
 function MM_findObj(n, d) {
 var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))> 0&&родительский.фреймы.длина) {
-d=родительские фреймы[n.подстрока(p+1)].документ; n=n.подстрока(0,p);}
-если(!(x=d[n])&&d.все) x=d.все[n]; для (i=0;!x&&i <d.forms.length;i++) x=d.forms[i][n];
+d=родительские фреймы[n.подстрока(p+1)].document; n=n.подстрока(0,p);}
+if(!(x=d[n])&&d.все) x=d.все[n]; for(i=0;!x&&i <d.forms.length;i++) x=d.forms[i][n];
 for(i=0;!x&&d.layers&&i <d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
 if(!x && document.getElementById) x=document.getElementById(n); return x;
 }

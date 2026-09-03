@@ -116,24 +116,24 @@
 значение параметра min_timeout = 1440;
 истек срок действия = document.cookie.indexOf("всплывающее окно");
 var включен = testCookie()
-, если (!включен) {
+, if (!включен) {
 истек срок действия = 0;
 }
-если (истек срок действия == -1) {
+if (истек срок действия == -1) {
 setCookie(min_timeout);
 Всплывающее окно();
 }
-функция setCookie(min_timeout) {
+function setCookie(min_timeout) {
 переменная домена = "";
 var d = новая дата();
 время ожидания var = d.getTime() + (min_timeout * 60 * 1000);
 срок действия var = новая дата();
 истекает установленное время(тайм-аут);
 var stamp = d.valueOf();
-если (document.domain.indexOf(домен) == -1) {
+if (document.domain.indexOf(домен) == -1) {
 домен = "";
 
-}если (domain.length > 0 ) _BOS_
+}if (domain.length > 0 ) _BOS_
 	домен = "домен=." + домен + ";";
 }
 var expires_str = истекает.toGMTString();
@@ -141,11 +141,11 @@ var cookie_str = "всплывающее окно=" + штамп + ";путь=/;
 cookie_str += домен + "истекает срок действия" + expires_str;
 document.cookie = cookie_str;
 }
-функция testCookie() {
+function testCookie() {
 var включена = navigator.cookie включен
-//Netscape: функция cookieEnabled недоступна для Netscape.
+//Netscape: function cookieEnabled недоступна для Netscape.
 //Проверьте, включены ли файлы cookie, установив и получив файл cookie
-, если (включено == null) {
+, if (включено == null) {
 var d = новая дата();
 var timeout = текущее время получения() + (1 * 60 * 1000);
 var expires = новая дата();
@@ -156,19 +156,19 @@ test_str += домен + "истекает срок действия=" + ист�
 document.cookie = test_str;
 включено = document.cookie.indexOf("Тест на приготовление синей рыбы");
 if (включено == -1)
-_BOS_ возвращает 0;
+_BOS_ return 0;
 
 }
 }
 //Проводник: Используйте свойство
 cookieEnabled иначе {
-если (!включено) _BOS_
+if (!включено) _BOS_
 вернуть 0;
 }
 }
 возврат 1;
 }
-функция popUnder()
+function popUnder()
 _BOS_ значение параметра w = 725;
 значение параметра h = 345;
 реквизит = "ширина=" + w + ",";
